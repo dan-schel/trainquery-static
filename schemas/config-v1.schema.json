@@ -1,0 +1,84 @@
+{
+  "type": "object",
+  "properties": {
+    "platforms": {
+      "type": "boolean",
+      "description": "True if stops should list their platforms. Enables platform filtering."
+    },
+    "timezone": {
+      "type": "object",
+      "description": "The timezone the transit system uses.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "e.g. 'Australia/Melbourne'"
+        },
+        "offset": {
+          "type": "number",
+          "description": "e.g. '10' for AEST, or '11' for AEDT"
+        },
+        "offsetCheckHour": {
+          "type": "integer",
+          "description": "Which hour of the day to use when checking the offset, since DST doesn't start at midnight."
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "id",
+            "offsetCheckHour"
+          ]
+        },
+        {
+          "required": [
+            "offset"
+          ]
+        }
+      ]
+    },
+    "serviceTypes": {
+      "type": "array",
+      "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "frontend": {
+      "type": "object",
+      "description": "Customized strings used by the frontend for this transit system.",
+      "properties": {
+        "appName": {
+          "type": "string",
+          "description": "e.g. 'TrainQuery'"
+        },
+        "beta": {
+          "type": "boolean",
+          "description": "True to show 'BETA' next to the app name."
+        },
+        "tagline": {
+          "type": "string",
+          "description": "Used on the homepage, e.g. 'Navigate Melbourne's train network'."
+        },
+        "footer": {
+          "type": "string",
+          "description": "Copyright info and disclaimers visible in the footer."
+        },
+        "metaDescription": {
+          "type": "string",
+          "description": "Used in the SEO description, e.g. 'Navigate Melbourne's train network with TrainQuery'."
+        }
+      },
+      "required": [
+        "appName",
+        "tagline",
+        "footer",
+        "metaDescription"
+      ]
+    }
+  },
+  "required": [
+    "platforms",
+    "timezone",
+    "frontend"
+  ]
+}
