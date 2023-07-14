@@ -1,13 +1,19 @@
 {
   "type": "object",
+  "additionalProperties": false,
   "properties": {
-    "platforms": {
+    "usePlatforms": {
       "type": "boolean",
       "description": "True if stops should list their platforms. Enables platform filtering."
+    },
+    "useMelbLoop": {
+      "type": "boolean",
+      "description": "True if the 'melb-loop' route type is available. Requires melb-loop.yml. Default: false."
     },
     "timezone": {
       "type": "object",
       "description": "The timezone the transit system uses.",
+      "additionalProperties": false,
       "properties": {
         "id": {
           "type": "string",
@@ -38,7 +44,7 @@
     },
     "serviceTypes": {
       "type": "array",
-      "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering.",
+      "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering. Defaults: [normal].",
       "items": {
         "type": "string"
       }
@@ -46,6 +52,7 @@
     "frontend": {
       "type": "object",
       "description": "Customized strings used by the frontend for this transit system.",
+      "additionalProperties": false,
       "properties": {
         "appName": {
           "type": "string",
@@ -53,7 +60,7 @@
         },
         "beta": {
           "type": "boolean",
-          "description": "True to show 'BETA' next to the app name."
+          "description": "True to show 'BETA' next to the app name. Default: false."
         },
         "tagline": {
           "type": "string",
@@ -61,7 +68,7 @@
         },
         "footer": {
           "type": "string",
-          "description": "Copyright info and disclaimers visible in the footer."
+          "description": "Raw HTML string with copyright info and disclaimers visible in the footer."
         },
         "metaDescription": {
           "type": "string",
@@ -77,7 +84,7 @@
     }
   },
   "required": [
-    "platforms",
+    "usePlatforms",
     "timezone",
     "frontend"
   ]

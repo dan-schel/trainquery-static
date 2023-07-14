@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=../schemas/config-v1.schema.json
 
-platforms: true
+usePlatforms: true
+useMelbLoop: true
 
 timezone:
   id: Australia/Melbourne
@@ -9,6 +10,11 @@ timezone:
 serviceTypes:
   - suburban
   - regional
+
+# disruptionSources:
+#   ptvApi:
+#     fetchFrequencyMins: 10
+#     fetchInProdOnly: true
 
 frontend:
   appName: TrainQuery

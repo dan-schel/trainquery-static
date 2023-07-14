@@ -1,0 +1,32 @@
+default:
+  - filter: direction-up
+  - filter: direction-down
+
+exceptions:
+  # Flinders Street
+  - stops:
+      - 104
+    feeds:
+      - filter: "" # Empty filter - show all departures in one feed.
+
+  # Southern Cross
+  - stops:
+      - 253
+    feeds:
+      - filter: service-type-suburban
+      - filter: service-type-regional
+
+  # Flagstaff, Melbourne Central, and Parliament
+  - stops:
+      - 101
+      - 171
+      - 216
+    feeds:
+      - filter: platform-1
+        count: 3
+      - filter: platform-2
+        count: 3
+      - filter: platform-3
+        count: 3
+      - filter: platform-4
+        count: 3

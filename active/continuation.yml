@@ -1,0 +1,49 @@
+continuation:
+  # Cross-city group (Frankston, Werribee, and Williamstown lines)
+  - method: spoke-linear
+    gapMins:
+      min: 2
+      max: 6
+    lines:
+      - 2
+      - 21
+      - 22
+
+  # Clifton-hill loop (Hurstbridge and Mernda lines)
+  - method: melb-loop
+    gapMins:
+      min: 2
+      max: 6
+    lines:
+      - 11
+      - 12
+
+  # Caulfield loop (Cranbourne and Pakenham lines)
+  - method: melb-loop
+    gapMins:
+      min: 2
+      max: 6
+    lines:
+      - 4
+      - 5
+
+  # Northern loop (Craigieburn, Sunbury, and Upfield lines)
+  - method: melb-loop
+    gapMins:
+      min: 2
+      max: 6
+    lines:
+      - 13
+      - 14
+      - 17
+
+  # Burnley loop (Alamein, Belgrave, Glen Waverley, and Lilydale lines)
+  - method: melb-loop
+    gapMins:
+      min: 2
+      max: 6
+    lines:
+      - 7
+      - 8
+      - 9
+      - 10
