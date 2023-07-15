@@ -10,7 +10,8 @@
         "properties": {
           "filter": {
             "type": "string",
-            "description": "Filter string when retrieving departues, e.g. 'direction-up' or '' (show all)."
+            "description": "Filter string when retrieving departues, e.g. 'direction-up' or '' (show all).",
+            "pattern": "^([a-z0-9]+([- ][a-z0-9]+)*)*$"
           },
           "count": {
             "type": "integer",

@@ -46,7 +46,8 @@
       "type": "array",
       "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering. Defaults: [normal].",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
       }
     },
     "frontend": {

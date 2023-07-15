@@ -37,7 +37,8 @@
           },
           "serviceType": {
             "type": "string",
-            "description": "The service type of this line, which should match one of those defined in config.yml. Default: 'normal'."
+            "description": "The service type of this line, which should match one of those defined in config.yml. Default: 'normal'.",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
           },
           "route": {
             "$ref": "lines-v5-route.schema.json"

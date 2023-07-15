@@ -28,7 +28,8 @@
                   "description": "A unique (for this stop) string to identify this platform.",
                   "oneOf": [
                     {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
                     },
                     {
                       "type": "number"
