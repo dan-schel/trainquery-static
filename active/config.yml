@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schemas/config-v1.schema.json
 
 usePlatforms: true
-useMelbLoop: true
 
 timezone:
   id: Australia/Melbourne

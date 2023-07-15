@@ -82,8 +82,7 @@ lines:
     color: cyan
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 69 # Cranbourne
         - stops: 174 # Merinda Park
@@ -107,14 +106,21 @@ lines:
         - stops: 126 # Hawksburn
         - stops: 252 # South Yarra
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 5
     name: Pakenham
     color: cyan
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 214 # Pakenham
         - stops: 48 # Cardinia Road
@@ -142,6 +148,14 @@ lines:
         - stops: 126 # Hawksburn
         - stops: 252 # South Yarra
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 6
     name: Gippsland
@@ -200,8 +214,7 @@ lines:
     color: blue
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 114 # Glen Waverley
         - stops: 266 # Syndal
@@ -218,14 +231,21 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 8
     name: Alamein
     color: blue
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 2 # Alamein
         - stops: 12 # Ashburton
@@ -240,14 +260,21 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 9
     name: Belgrave
     color: blue
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 26 # Belgrave
         - stops: 270 # Tecoma
@@ -275,14 +302,21 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 10
     name: Lilydale
     color: blue
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: richmond
+      type: spoke-loop
       stops:
         - stops: 159 # Lilydale
         - stops: 187 # Mooroolbark
@@ -306,14 +340,21 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 11
     name: Hurstbridge
     color: red
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: jolimont
+      type: spoke-loop
       stops:
         - stops: 139 # Hurstbridge
         - stops: 293 # Wattle Glen
@@ -338,14 +379,21 @@ lines:
         - stops: 205 # North Richmond
         - stops: 298 # West Richmond
         - stops: 143 # Jolimont
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 12
     name: Mernda
     color: red
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: jolimont
+      type: spoke-loop
       stops:
         - stops: 176 # Mernda
         - stops: 127 # Hawkstowe
@@ -371,14 +419,21 @@ lines:
         - stops: 205 # North Richmond
         - stops: 298 # West Richmond
         - stops: 143 # Jolimont
+      viaLoop:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street
 
   - id: 13
     name: Upfield
     color: yellow
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: north-melbourne
+      type: spoke-loop
       stops:
         - stops: 281 # Upfield
         - stops: 120 # Gowrie
@@ -394,14 +449,21 @@ lines:
         - stops: 102 # Flemington Bridge
         - stops: 163 # Macaulay
         - stops: 204 # North Melbourne
+      viaLoop:
+        - stops: 101 # Flagstaff
+        - stops: 171 # Melbourne Central
+        - stops: 216 # Parliament
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
 
   - id: 14
     name: Craigieburn
     color: yellow
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: north-melbourne
+      type: spoke-loop
       stops:
         - stops: 68 # Craigieburn
         - stops: 234 # Roxburgh Park
@@ -419,6 +481,14 @@ lines:
         - stops: 199 # Newmarket
         - stops: 148 # Kensington
         - stops: 204 # North Melbourne
+      viaLoop:
+        - stops: 101 # Flagstaff
+        - stops: 171 # Melbourne Central
+        - stops: 216 # Parliament
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
 
   - id: 15
     name: Seymour
@@ -492,8 +562,7 @@ lines:
     color: yellow
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: north-melbourne
+      type: spoke-loop
       stops:
         - stops: 262 # Sunbury
         - stops: 80 # Diggers Rest
@@ -509,6 +578,14 @@ lines:
         - stops: 105 # Footscray
         - stops: 250 # South Kensington
         - stops: 204 # North Melbourne
+      viaLoop:
+        - stops: 101 # Flagstaff
+        - stops: 171 # Melbourne Central
+        - stops: 216 # Parliament
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
 
   - id: 18
     name: Bendigo
