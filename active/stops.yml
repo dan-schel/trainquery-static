@@ -4,2288 +4,1634 @@ stops:
   - id: 1
     name: Aircraft
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 2
     name: Alamein
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 3
     name: Albion
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 4
     name: Albury
     platforms:
-      - id: "2"
-        name: "2"
+      - id: 2
   - id: 5
     name: Alphington
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 6
     name: Altona
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 7
     name: Anstey
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 8
     name: Ararat
     platforms:
-      - id: "2"
-        name: "2"
+      - id: 2
   - id: 9
     name: Ardeer
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 10
     name: Armadale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 11
     name: Ascot Vale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 12
     name: Ashburton
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 13
     name: Aspendale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 14
     name: Auburn
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 15
     name: Avenel
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 16
     name: Bacchus Marsh
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 17
     name: Bairnsdale
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 18
     name: Balaclava
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 19
     name: Ballan
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 20
     name: Ballarat
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 21
     name: Batman
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 22
     name: Baxter
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 23
     name: Bayswater
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 24
     name: Beaconsfield
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 25
     name: Beaufort
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 26
     name: Belgrave
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 27
     name: Bell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 28
     name: Benalla
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 29
     name: Bendigo
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 30
     name: Bentleigh
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 31
     name: Berwick
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 32
     name: Birregurra
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 33
     name: Bittern
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 34
     name: Blackburn
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 35
     name: Bonbeach
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 36
     name: Boronia
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 37
     name: Box Hill
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 38
     name: Brighton Beach
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 39
     name: Broadford
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 40
     name: Broadmeadows
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 41
     name: Brunswick
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 42
     name: Bunyip
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 43
     name: Burnley
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 44
     name: Burwood
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 45
     name: Camberwell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 46
     name: Camperdown
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 47
     name: Canterbury
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 48
     name: Cardinia Road
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 49
     name: Carnegie
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 50
     name: Caroline Springs
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 51
     name: Carrum
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 52
     name: Castlemaine
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 53
     name: Caulfield
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 54
     name: Chatham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 55
     name: Chelsea
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 56
     name: Cheltenham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 57
     name: Chiltern
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 58
     name: Clarkefield
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 59
     name: Clayton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 60
     name: Clifton Hill
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 61
     name: Clunes
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 62
     name: Cobblebank
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 63
     name: Coburg
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 64
     name: Colac
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 65
     name: Collingwood
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 66
     name: Coolaroo
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 67
     name: Corio
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 68
     name: Craigieburn
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 69
     name: Cranbourne
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 70
     name: Creswick
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 71
     name: Crib Point
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 72
     name: Croxton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 73
     name: Croydon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 74
     name: Dandenong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 75
     name: Darebin
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 76
     name: Darling
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 77
     name: Deer Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 78
     name: Dennis
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 79
     name: Diamond Creek
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 80
     name: Diggers Rest
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 81
     name: Dingee
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 82
     name: Donnybrook
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 83
     name: Drouin
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 84
     name: Eaglehawk
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 85
     name: Eaglemont
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 86
     name: East Camberwell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 87
     name: East Malvern
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 88
     name: East Richmond
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 89
     name: Echuca
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 90
     name: Edithvale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 91
     name: Elmore
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 92
     name: Elsternwick
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 93
     name: Eltham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 94
     name: Epping
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 95
     name: Epsom
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 96
     name: Essendon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 97
     name: Euroa
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 98
     name: Fairfield
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 99
     name: Fawkner
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 100
     name: Ferntree Gully
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 101
     name: Flagstaff
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 102
     name: Flemington Bridge
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 103
     name: Flemington Racecourse
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 104
     name: Flinders Street
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
-      - id: "5"
-        name: "5"
-      - id: "6"
-        name: "6"
-      - id: "7"
-        name: "7"
-      - id: "8"
-        name: "8"
-      - id: "9"
-        name: "9"
-      - id: "10"
-        name: "10"
-      - id: "12"
-        name: "12"
-      - id: "13"
-        name: "13"
-      - id: "14"
-        name: "14"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
+      - id: 5
+      - id: 6
+      - id: 7
+      - id: 8
+      - id: 9
+      - id: 10
+      - id: 12
+      - id: 13
+      - id: 14
   - id: 105
     name: Footscray
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
-      - id: "5"
-        name: "5"
-      - id: "6"
-        name: "6"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
+      - id: 5
+      - id: 6
   - id: 106
     name: Frankston
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 107
     name: Gardenvale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 108
     name: Gardiner
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 109
     name: Garfield
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 110
     name: Geelong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 111
     name: Ginifer
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 112
     name: Gisborne
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 113
     name: Glen Iris
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 114
     name: Glen Waverley
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 115
     name: Glenbervie
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 116
     name: Glenferrie
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 117
     name: Glen Huntly
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 118
     name: Glenroy
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 119
     name: Goornong
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 120
     name: Gowrie
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 121
     name: Greensborough
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 122
     name: Hallam
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 123
     name: Hampton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 124
     name: Hartwell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 125
     name: Hastings
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 126
     name: Hawksburn
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 127
     name: Hawkstowe
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 128
     name: Hawthorn
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 129
     name: Heathcote Junction
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 130
     name: Heatherdale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 131
     name: Heathmont
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 132
     name: Heidelberg
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 133
     name: Heyington
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 134
     name: Highett
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 135
     name: Holmesglen
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 136
     name: Hoppers Crossing
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 137
     name: Hughesdale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 138
     name: Huntingdale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 139
     name: Hurstbridge
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 140
     name: Ivanhoe
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 141
     name: Jacana
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 142
     name: Jewell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 143
     name: Jolimont
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 144
     name: Jordanville
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 145
     name: Kananook
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 146
     name: Kangaroo Flat
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 147
     name: Keilor Plains
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 148
     name: Kensington
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 149
     name: Keon Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 150
     name: Kerang
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 151
     name: Kilmore East
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 152
     name: Kooyong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 153
     name: Kyneton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 154
     name: Laburnum
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 155
     name: Lalor
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 156
     name: Lara
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 157
     name: Laverton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 158
     name: Leawarra
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 159
     name: Lilydale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 160
     name: Little River
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 161
     name: Longwarry
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 162
     name: Lynbrook
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 163
     name: Macaulay
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 164
     name: Macedon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 165
     name: Macleod
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 166
     name: Malmsbury
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 167
     name: Malvern
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 168
     name: Marshall
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 169
     name: Maryborough
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 170
     name: McKinnon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 171
     name: Melbourne Central
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 172
     name: Melton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 173
     name: Mentone
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 174
     name: Merinda Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 175
     name: Merlynston
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 176
     name: Mernda
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 177
     name: Merri
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 178
     name: Middle Brighton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 179
     name: Middle Footscray
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 180
     name: Middle Gorge
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 181
     name: Mitcham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 182
     name: Moe
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 184
     name: Montmorency
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 185
     name: Moonee Ponds
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 186
     name: Moorabbin
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 187
     name: Mooroolbark
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 188
     name: Mooroopna
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 189
     name: Mordialloc
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 190
     name: Moreland
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 191
     name: Morradoo
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 192
     name: Morwell
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 193
     name: Mount Waverley
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 194
     name: Murchison East
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 195
     name: Murrumbeena
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 196
     name: Nagambie
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 197
     name: Nar Nar Goon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 198
     name: Narre Warren
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 199
     name: Newmarket
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 200
     name: Newport
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 201
     name: Noble Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 202
     name: North Brighton
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 203
     name: North Geelong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 204
     name: North Melbourne
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
-      - id: "5"
-        name: "5"
-      - id: "6"
-        name: "6"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
+      - id: 5
+      - id: 6
   - id: 205
     name: North Richmond
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 206
     name: North Shore
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 207
     name: North Williamstown
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 208
     name: Northcote
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 209
     name: Nunawading
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 210
     name: Oak Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 211
     name: Oakleigh
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 212
     name: Officer
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 213
     name: Ormond
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 214
     name: Pakenham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 215
     name: Parkdale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 216
     name: Parliament
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 217
     name: Pascoe Vale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 218
     name: Patterson
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 219
     name: Prahran
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 220
     name: Preston
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 221
     name: Pyramid
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 222
     name: Regent
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 223
     name: Reservoir
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 224
     name: Richmond
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
-      - id: "5"
-        name: "5"
-      - id: "6"
-        name: "6"
-      - id: "7"
-        name: "7"
-      - id: "8"
-        name: "8"
-      - id: "9"
-        name: "9"
-      - id: "10"
-        name: "10"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
+      - id: 5
+      - id: 6
+      - id: 7
+      - id: 8
+      - id: 9
+      - id: 10
   - id: 225
     name: Riddells Creek
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 226
     name: Ringwood
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 227
     name: Ringwood East
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 228
     name: Ripponlea
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 229
     name: Riversdale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 230
     name: Rochester
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 231
     name: Rockbank
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 232
     name: Rosanna
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 233
     name: Rosedale
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 234
     name: Roxburgh Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 235
     name: Royal Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 236
     name: Rushall
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 237
     name: Ruthven
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 238
     name: Sale
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 239
     name: Sandown Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 240
     name: Sandringham
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 241
     name: Seaford
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 242
     name: Seaholme
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 243
     name: Seddon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 244
     name: Seymour
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 245
     name: Shepparton
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 246
     name: Sherwood Park
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 247
     name: Showgrounds
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 248
     name: Somerville
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 249
     name: South Geelong
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 250
     name: South Kensington
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 251
     name: South Morang
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 252
     name: South Yarra
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
-      - id: "5"
-        name: "5"
-      - id: "6"
-        name: "6"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
+      - id: 5
+      - id: 6
   - id: 253
     name: Southern Cross
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2a"
-        name: "2A"
-      - id: "2b"
-        name: "2B"
-      - id: "3a"
-        name: "3A"
-      - id: "3b"
-        name: "3B"
-      - id: "4a"
-        name: "4A"
-      - id: "4b"
-        name: "4B"
-      - id: "5a"
-        name: "5A"
-      - id: "5b"
-        name: "5B"
-      - id: "6a"
-        name: "6A"
-      - id: "6b"
-        name: "6B"
-      - id: "7a"
-        name: "7A"
-      - id: "7b"
-        name: "7B"
-      - id: "8a"
-        name: "8A"
-      - id: "8b"
-        name: "8B"
-      - id: "8s"
-        name: "8S"
-      - id: "9"
-        name: "9"
-      - id: "10"
-        name: "10"
-      - id: "11"
-        name: "11"
-      - id: "12"
-        name: "12"
-      - id: "13"
-        name: "13"
-      - id: "14"
-        name: "14"
-      - id: "15a"
-        name: "15A"
-      - id: "15b"
-        name: "15B"
-      - id: "16a"
-        name: "16A"
-      - id: "16b"
-        name: "16B"
+      - id: 1
+      - id: 2a
+        name: 2A
+      - id: 2b
+        name: 2B
+      - id: 3a
+        name: 3A
+      - id: 3b
+        name: 3B
+      - id: 4a
+        name: 4A
+      - id: 4b
+        name: 4B
+      - id: 5a
+        name: 5A
+      - id: 5b
+        name: 5B
+      - id: 6a
+        name: 6A
+      - id: 6b
+        name: 6B
+      - id: 7a
+        name: 7A
+      - id: 7b
+        name: 7B
+      - id: 8a
+        name: 8A
+      - id: 8b
+        name: 8B
+      - id: 8s
+        name: 8S
+      - id: 9
+      - id: 10
+      - id: 11
+      - id: 12
+      - id: 13
+      - id: 14
+      - id: 15a
+        name: 15A
+      - id: 15b
+        name: 15B
+      - id: 16a
+        name: 16A
+      - id: 16b
+        name: 16B
   - id: 254
     name: Southland
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 255
     name: Spotswood
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 256
     name: Springhurst
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 257
     name: Springvale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 258
     name: St Albans
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 259
     name: Stony Point
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 260
     name: Stratford
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 261
     name: Strathmore
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 262
     name: Sunbury
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 263
     name: Sunshine
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 265
     name: Swan Hill
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 266
     name: Syndal
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 267
     name: Talbot
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 268
     name: Tallarook
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 269
     name: Tarneit
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 270
     name: Tecoma
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 271
     name: Terang
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 272
     name: Thomastown
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 273
     name: Thornbury
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 274
     name: Toorak
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
-      - id: "4"
-        name: "4"
+      - id: 1
+      - id: 2
+      - id: 3
+      - id: 4
   - id: 275
     name: Tooronga
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 276
     name: Tottenham
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 277
     name: Trafalgar
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 278
     name: Traralgon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 279
     name: Tyabb
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 280
     name: Tynong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 281
     name: Upfield
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 282
     name: Upper Ferntree Gully
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 283
     name: Upwey
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 284
     name: Victoria Park
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 285
     name: Violet Town
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 286
     name: Wallan
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 287
     name: Wandong
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 288
     name: Wangaratta
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 289
     name: Warragul
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 290
     name: Warrnambool
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 291
     name: Watergardens
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 292
     name: Watsonia
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 293
     name: Wattle Glen
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 294
     name: Waurn Ponds
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 295
     name: Wendouree
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 296
     name: Werribee
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 297
     name: West Footscray
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 298
     name: West Richmond
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 299
     name: Westall
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
   - id: 300
     name: Westgarth
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 301
     name: Westona
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 302
     name: Williams Landing
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 303
     name: Williamstown
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 304
     name: Williamstown Beach
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 305
     name: Willison
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 306
     name: Winchelsea
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 307
     name: Windsor
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 308
     name: Wodonga
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 309
     name: Woodend
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 310
     name: Wyndham Vale
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 311
     name: Yarragon
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 312
     name: Yarraman
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 313
     name: Yarraville
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
+      - id: 1
+      - id: 2
   - id: 314
     name: Huntly
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 315
     name: Raywood
     platforms:
-      - id: "1"
-        name: "1"
+      - id: 1
   - id: 316
     name: Union
     platforms:
-      - id: "1"
-        name: "1"
-      - id: "2"
-        name: "2"
-      - id: "3"
-        name: "3"
+      - id: 1
+      - id: 2
+      - id: 3
