@@ -25,8 +25,15 @@
                 "description": "Services continue from the shared terminus of multiple linear lines. Inbound services from 'Side A' form outbound services on 'Side B' and vice-versa."
               },
               "layoverMins": {
-                "type": "string",
-                "description": "Required time range (in minutes) between ending one service and beginning the next in 'min..max' notation, e.g. '2..6'."
+                "description": "Required time range (in minutes) between ending one service and beginning the next. E.g. '3' or '2..6'.",
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
               },
               "sideA": {
                 "type": "array",
@@ -44,7 +51,9 @@
               }
             },
             "required": [
-              "layoverMins"
+              "layoverMins",
+              "sideA",
+              "sideB"
             ]
           },
           {
@@ -55,8 +64,15 @@
                 "description": "Services continue from the terminus inside the loop formed by the hook. Inbound 'hooked' services form direct outbound services and vice-versa."
               },
               "layoverMins": {
-                "type": "string",
-                "description": "Required time range (in minutes) between ending one service and beginning the next in 'min..max' notation, e.g. '2..6'."
+                "description": "Required time range (in minutes) between ending one service and beginning the next. E.g. '3' or '2..6'.",
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
               },
               "lines": {
                 "type": "array",
@@ -67,7 +83,8 @@
               }
             },
             "required": [
-              "layoverMins"
+              "layoverMins",
+              "lines"
             ]
           }
         ],
