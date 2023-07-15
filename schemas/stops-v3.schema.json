@@ -25,17 +25,30 @@
               "additionalProperties": false,
               "properties": {
                 "id": {
-                  "type": "string",
-                  "description": "A unique (for this stop) string to identify this platform."
+                  "description": "A unique (for this stop) string to identify this platform.",
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ]
                 },
                 "name": {
-                  "type": "string",
-                  "description": "e.g. '1' or '15A'"
+                  "description": "The platform name (if it differs from the ID), e.g. '1' or '15A'",
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ]
                 }
               },
               "required": [
-                "id",
-                "name"
+                "id"
               ]
             }
           }

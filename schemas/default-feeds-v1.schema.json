@@ -1,19 +1,20 @@
 {
-  "type": "object",
-  "additionalProperties": false,
   "definitions": {
     "feeds": {
       "type": "array",
+      "description": "Which departure feeds to show on the stop's page.",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
           "filter": {
-            "type": "string"
+            "type": "string",
+            "description": "Filter string when retrieving departues, e.g. 'direction-up' or '' (show all)."
           },
           "count": {
-            "type": "integer"
+            "type": "integer",
+            "description": "How many departures to show. Default: 5."
           }
         },
         "required": [
@@ -22,21 +23,27 @@
       }
     }
   },
+  "type": "object",
+  "additionalProperties": false,
   "properties": {
     "default": {
-      "$ref": "#/definitions/feeds"
+      "$ref": "#/definitions/feeds",
+      "description": "The default departure feeds to show on each stop's page."
     },
     "exceptions": {
       "type": "array",
+      "description": "Rules for stops which don't use the default rules.",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
           "stops": {
             "type": "array",
+            "description": "The IDs of the stops which use these rules instead.",
             "minItems": 1,
             "items": {
-              "type": "number"
+              "type": "number",
+              "description": "The stop ID."
             }
           },
           "feeds": {

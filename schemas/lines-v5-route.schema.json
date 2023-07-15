@@ -1,6 +1,4 @@
 {
-  "type": "object",
-  "description": "Describes the stops and route this line takes.",
   "definitions": {
     "stopArray": {
       "type": "array",
@@ -68,6 +66,8 @@
       }
     }
   },
+  "type": "object",
+  "description": "Describes the stops and route this line takes.",
   "properties": {
     "type": {
       "type": "string",
