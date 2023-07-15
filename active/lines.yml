@@ -6,7 +6,11 @@ lines:
     color: pink
     serviceType: suburban
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 240 # Sandringham
         - stops: 123 # Hampton
@@ -28,7 +32,11 @@ lines:
     color: green
     serviceType: suburban
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 106 # Frankston
         - stops: 145 # Kananook
@@ -64,7 +72,11 @@ lines:
     color: green
     serviceType: suburban
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 259 # Stony Point
         - stops: 71 # Crib Point
@@ -162,7 +174,11 @@ lines:
     color: purple
     serviceType: regional
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 17 # Bairnsdale
         - stops: 260 # Stratford
@@ -548,14 +564,21 @@ lines:
     specialEventsOnly: true
     serviceType: suburban
     route:
-      type: melb-loop
-      portal: north-melbourne
+      type: spoke-loop
       stops:
         - stops: 103 # Flemington Racecourse
         - stops: 247 # Showgrounds
         - stops: 199 # Newmarket
         - stops: 148 # Kensington
         - stops: 204 # North Melbourne
+      viaLoop:
+        - stops: 101 # Flagstaff
+        - stops: 171 # Melbourne Central
+        - stops: 216 # Parliament
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
 
   - id: 17
     name: Sunbury
@@ -681,7 +704,11 @@ lines:
     color: purple
     serviceType: regional
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 290 # Warrnambool
         - stops: 246 # Sherwood Park
@@ -717,7 +744,11 @@ lines:
     color: green
     serviceType: suburban
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 296 # Werribee
         - stops: 136 # Hoppers Crossing
@@ -742,7 +773,11 @@ lines:
     color: green
     serviceType: suburban
     route:
-      type: spoke-linear
+      type: linear
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 303 # Williamstown
         - stops: 304 # Williamstown Beach
