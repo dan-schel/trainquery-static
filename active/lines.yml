@@ -94,7 +94,11 @@ lines:
     color: cyan
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 69 # Cranbourne
         - stops: 174 # Merinda Park
@@ -118,7 +122,7 @@ lines:
         - stops: 126 # Hawksburn
         - stops: 252 # South Yarra
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -132,7 +136,11 @@ lines:
     color: cyan
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 214 # Pakenham
         - stops: 48 # Cardinia Road
@@ -160,7 +168,7 @@ lines:
         - stops: 126 # Hawksburn
         - stops: 252 # South Yarra
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -230,7 +238,11 @@ lines:
     color: blue
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 114 # Glen Waverley
         - stops: 266 # Syndal
@@ -247,7 +259,7 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -261,7 +273,11 @@ lines:
     color: blue
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 2 # Alamein
         - stops: 12 # Ashburton
@@ -276,7 +292,7 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -290,7 +306,11 @@ lines:
     color: blue
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 26 # Belgrave
         - stops: 270 # Tecoma
@@ -318,7 +338,7 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -332,7 +352,11 @@ lines:
     color: blue
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 159 # Lilydale
         - stops: 187 # Mooroolbark
@@ -356,7 +380,7 @@ lines:
         - stops: 43 # Burnley
         - stops: 88 # East Richmond
         - stops: 224 # Richmond
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -370,7 +394,11 @@ lines:
     color: red
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 139 # Hurstbridge
         - stops: 293 # Wattle Glen
@@ -395,7 +423,7 @@ lines:
         - stops: 205 # North Richmond
         - stops: 298 # West Richmond
         - stops: 143 # Jolimont
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -409,7 +437,11 @@ lines:
     color: red
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 176 # Mernda
         - stops: 127 # Hawkstowe
@@ -435,7 +467,7 @@ lines:
         - stops: 205 # North Richmond
         - stops: 298 # West Richmond
         - stops: 143 # Jolimont
-      viaLoop:
+      hooked:
         - stops: 216 # Parliament
         - stops: 171 # Melbourne Central
         - stops: 101 # Flagstaff
@@ -449,7 +481,11 @@ lines:
     color: yellow
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 281 # Upfield
         - stops: 120 # Gowrie
@@ -465,7 +501,7 @@ lines:
         - stops: 102 # Flemington Bridge
         - stops: 163 # Macaulay
         - stops: 204 # North Melbourne
-      viaLoop:
+      hooked:
         - stops: 101 # Flagstaff
         - stops: 171 # Melbourne Central
         - stops: 216 # Parliament
@@ -479,7 +515,11 @@ lines:
     color: yellow
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 68 # Craigieburn
         - stops: 234 # Roxburgh Park
@@ -497,7 +537,7 @@ lines:
         - stops: 199 # Newmarket
         - stops: 148 # Kensington
         - stops: 204 # North Melbourne
-      viaLoop:
+      hooked:
         - stops: 101 # Flagstaff
         - stops: 171 # Melbourne Central
         - stops: 216 # Parliament
@@ -511,7 +551,11 @@ lines:
     color: purple
     serviceType: regional
     route:
-      type: spoke-branch
+      type: y-branch
+      forward:
+        id: up
+      backward:
+        id: down
       branchA:
         id: albury
         stops:
@@ -564,14 +608,18 @@ lines:
     specialEventsOnly: true
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 103 # Flemington Racecourse
         - stops: 247 # Showgrounds
         - stops: 199 # Newmarket
         - stops: 148 # Kensington
         - stops: 204 # North Melbourne
-      viaLoop:
+      hooked:
         - stops: 101 # Flagstaff
         - stops: 171 # Melbourne Central
         - stops: 216 # Parliament
@@ -585,7 +633,11 @@ lines:
     color: yellow
     serviceType: suburban
     route:
-      type: spoke-loop
+      type: hook
+      forward:
+        id: up
+      backward:
+        id: down
       stops:
         - stops: 262 # Sunbury
         - stops: 80 # Diggers Rest
@@ -601,7 +653,7 @@ lines:
         - stops: 105 # Footscray
         - stops: 250 # South Kensington
         - stops: 204 # North Melbourne
-      viaLoop:
+      hooked:
         - stops: 101 # Flagstaff
         - stops: 171 # Melbourne Central
         - stops: 216 # Parliament
@@ -615,7 +667,11 @@ lines:
     color: purple
     serviceType: regional
     route:
-      type: spoke-branch
+      type: y-branch
+      forward:
+        id: up
+      backward:
+        id: down
       branchA:
         id: echuca
         stops:
@@ -666,7 +722,11 @@ lines:
     color: purple
     serviceType: regional
     route:
-      type: spoke-branch
+      type: y-branch
+      forward:
+        id: up
+      backward:
+        id: down
       branchA:
         id: maryborough
         stops:
