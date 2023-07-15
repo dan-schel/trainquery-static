@@ -1,0 +1,83 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "rules": {
+      "type": "array",
+      "description": "The continuation rules for lines in the transit system.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "method": {
+            "description": "Either 'linear' or 'hook'.",
+            "enum": [
+              "linear",
+              "hook"
+            ]
+          }
+        },
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "method": {
+                "const": "linear",
+                "description": "Services continue from the shared terminus of multiple linear lines. Inbound services from 'Side A' form outbound services on 'Side B' and vice-versa."
+              },
+              "layoverMins": {
+                "type": "string",
+                "description": "Required time range (in minutes) between ending one service and beginning the next in 'min..max' notation, e.g. '2..6'."
+              },
+              "sideA": {
+                "type": "array",
+                "description": "List of lines on which inbound services from 'Side B' form an outbound service.",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "sideB": {
+                "type": "array",
+                "description": "List of lines on which inbound services from 'Side A' form an outbound service.",
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "required": [
+              "layoverMins"
+            ]
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "method": {
+                "const": "hook",
+                "description": "Services continue from the terminus inside the loop formed by the hook. Inbound 'hooked' services form direct outbound services and vice-versa."
+              },
+              "layoverMins": {
+                "type": "string",
+                "description": "Required time range (in minutes) between ending one service and beginning the next in 'min..max' notation, e.g. '2..6'."
+              },
+              "lines": {
+                "type": "array",
+                "description": "The lines to consider when selecting the appropriate next service.",
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "required": [
+              "layoverMins"
+            ]
+          }
+        ],
+        "required": [
+          "method"
+        ]
+      }
+    }
+  },
+  "required": [
+    "rules"
+  ]
+}

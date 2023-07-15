@@ -9,7 +9,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 240 # Sandringham
@@ -35,7 +35,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 106 # Frankston
@@ -75,7 +75,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 259 # Stony Point
@@ -97,7 +97,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 69 # Cranbourne
@@ -139,7 +139,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 214 # Pakenham
@@ -185,7 +185,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 17 # Bairnsdale
@@ -209,43 +209,43 @@ lines:
         - via: 212 # Officer
         - via: 24 # Beaconsfield
         - stops: 31 # Berwick
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 198 # Narre Warren
         - via: 122 # Hallam
         - stops: 74 # Dandenong
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 312 # Yarraman
         - via: 201 # Noble Park
         - via: 239 # Sandown Park
         - via: 257 # Springvale
         - via: 299 # Westall
         - stops: 59 # Clayton
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 138 # Huntingdale
         - via: 211 # Oakleigh
         - via: 137 # Hughesdale
         - via: 195 # Murrumbeena
         - via: 49 # Carnegie
         - stops: 53 # Caulfield
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 167 # Malvern
         - via: 10 # Armadale
         - via: 274 # Toorak
         - via: 126 # Hawksburn
         - via: 252 # South Yarra
         - stops: 224 # Richmond
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - stops: 104 # Flinders Street
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - stops: 253 # Southern Cross
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
 
   - id: 7
     name: Glen Waverley
@@ -255,7 +255,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 114 # Glen Waverley
@@ -290,7 +290,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 2 # Alamein
@@ -323,7 +323,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 26 # Belgrave
@@ -369,7 +369,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 159 # Lilydale
@@ -411,7 +411,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 139 # Hurstbridge
@@ -454,7 +454,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 176 # Mernda
@@ -498,7 +498,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 281 # Upfield
@@ -532,7 +532,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 68 # Craigieburn
@@ -568,9 +568,9 @@ lines:
       type: y-branch
       forward:
         id: up
-      backward:
+      reverse:
         id: down
-      branchA:
+      firstBranch:
         id: albury
         stops:
           - stops: 4 # Albury
@@ -582,14 +582,14 @@ lines:
           - stops: 285 # Violet Town
           - stops: 97 # Euroa
           - stops: 15 # Avenel
-      branchB:
+      secondBranch:
         id: shepparton
         stops:
           - stops: 245 # Shepparton
           - stops: 188 # Mooroopna
           - stops: 194 # Murchison East
           - stops: 196 # Nagambie
-      core:
+      shared:
         - stops: 244 # Seymour
         - stops: 268 # Tallarook
         - stops: 39 # Broadford
@@ -599,13 +599,13 @@ lines:
         - stops: 286 # Wallan
         - stops: 82 # Donnybrook
         - stops: 68 # Craigieburn
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 234 # Roxburgh Park
         - via: 66 # Coolaroo
         - stops: 40 # Broadmeadows
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 141 # Jacana
         - via: 118 # Glenroy
         - via: 210 # Oak Park
@@ -613,18 +613,18 @@ lines:
         - via: 261 # Strathmore
         - via: 115 # Glenbervie
         - stops: 96 # Essendon
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 185 # Moonee Ponds
         - via: 11 # Ascot Vale
         - via: 199 # Newmarket
         - via: 148 # Kensington
         - stops: 204 # North Melbourne
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - stops: 253 # Southern Cross
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
 
   - id: 16
     name: Flemington Racecourse
@@ -635,7 +635,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 103 # Flemington Racecourse
@@ -660,7 +660,7 @@ lines:
       type: hook
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 262 # Sunbury
@@ -694,9 +694,9 @@ lines:
       type: y-branch
       forward:
         id: up
-      backward:
+      reverse:
         id: down
-      branchA:
+      firstBranch:
         id: echuca
         stops:
           - stops: 89 # Echuca
@@ -705,7 +705,7 @@ lines:
           - stops: 119 # Goornong
           - stops: 314 # Huntly
           - stops: 95 # Epsom
-      branchB:
+      secondBranch:
         id: swan-hill
         stops:
           - stops: 265 # Swan Hill
@@ -714,7 +714,7 @@ lines:
           - stops: 81 # Dingee
           - stops: 315 # Raywood
           - stops: 84 # Eaglehawk
-      core:
+      shared:
         - stops: 29 # Bendigo
         - stops: 146 # Kangaroo Flat
         - stops: 52 # Castlemaine
@@ -728,26 +728,26 @@ lines:
         - stops: 262 # Sunbury
         - via: 80 # Diggers Rest
         - stops: 291 # Watergardens
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 147 # Keilor Plains
         - via: 258 # St Albans
         - via: 111 # Ginifer
         - via: 3 # Albion
         - stops: 263 # Sunshine
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 276 # Tottenham
         - via: 297 # West Footscray
         - via: 179 # Middle Footscray
         - stops: 105 # Footscray
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 250 # South Kensington
         - via: 204 # North Melbourne
         - stops: 253 # Southern Cross
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
 
   - id: 19
     name: Ballarat
@@ -757,22 +757,22 @@ lines:
       type: y-branch
       forward:
         id: up
-      backward:
+      reverse:
         id: down
-      branchA:
+      firstBranch:
         id: maryborough
         stops:
           - stops: 169 # Maryborough
           - stops: 267 # Talbot
           - stops: 61 # Clunes
           - stops: 70 # Creswick
-      branchB:
+      secondBranch:
         id: ararat
         stops:
           - stops: 8 # Ararat
           - stops: 25 # Beaufort
           - stops: 295 # Wendouree
-      core:
+      shared:
         - stops: 20 # Ballarat
         - stops: 19 # Ballan
         - stops: 16 # Bacchus Marsh
@@ -783,19 +783,19 @@ lines:
         - stops: 77 # Deer Park
         - stops: 9 # Ardeer
         - stops: 263 # Sunshine
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 276 # Tottenham
         - via: 297 # West Footscray
         - via: 179 # Middle Footscray
         - stops: 105 # Footscray
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 250 # South Kensington
         - via: 204 # North Melbourne
         - stops: 253 # Southern Cross
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
 
   - id: 20
     name: Geelong
@@ -805,7 +805,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 290 # Warrnambool
@@ -829,19 +829,19 @@ lines:
         - stops: 77 # Deer Park
         - stops: 9 # Ardeer
         - stops: 263 # Sunshine
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 276 # Tottenham
         - via: 297 # West Footscray
         - via: 179 # Middle Footscray
         - stops: 105 # Footscray
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
         - via: 250 # South Kensington
         - via: 204 # North Melbourne
         - stops: 253 # Southern Cross
-          setDownOnly: direction-up
-          pickUpOnly: direction-down
+          setsDown: direction-up
+          picksUp: direction-down
 
   - id: 21
     name: Werribee
@@ -851,7 +851,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 296 # Werribee
@@ -880,7 +880,7 @@ lines:
       type: linear
       forward:
         id: up
-      backward:
+      reverse:
         id: down
       stops:
         - stops: 303 # Williamstown

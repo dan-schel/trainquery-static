@@ -1,49 +1,37 @@
-continuation:
-  # Cross-city group (Frankston, Werribee, and Williamstown lines)
-  - method: spoke-linear
-    gapMins:
-      min: 2
-      max: 6
-    lines:
-      - 2
-      - 21
-      - 22
+# yaml-language-server: $schema=../schemas/continuation-v1.schema.json
 
-  # Clifton-hill loop (Hurstbridge and Mernda lines)
-  - method: melb-loop
-    gapMins:
-      min: 2
-      max: 6
-    lines:
-      - 11
-      - 12
+rules:
+  - method: linear
+    layoverMins: 2..6
+    sideA:
+      - 2 # Frankston
+    sideB:
+      - 21 # Werribee
+      - 22 # Williamstown
 
-  # Caulfield loop (Cranbourne and Pakenham lines)
-  - method: melb-loop
-    gapMins:
-      min: 2
-      max: 6
+  - method: hook
+    layoverMins: 2..6
     lines:
-      - 4
-      - 5
+      - 11 # Hurstbridge
+      - 12 # Mernda
 
-  # Northern loop (Craigieburn, Sunbury, and Upfield lines)
-  - method: melb-loop
-    gapMins:
-      min: 2
-      max: 6
+  - method: hook
+    layoverMins: 2..6
     lines:
-      - 13
-      - 14
-      - 17
+      - 4 # Cranbourne
+      - 5 # Pakenham
 
-  # Burnley loop (Alamein, Belgrave, Glen Waverley, and Lilydale lines)
-  - method: melb-loop
-    gapMins:
-      min: 2
-      max: 6
+  - method: hook
+    layoverMins: 2..6
     lines:
-      - 7
-      - 8
-      - 9
-      - 10
+      - 13 # Upfield
+      - 14 # Craigieburn
+      - 17 # Sunbury
+
+  - method: hook
+    layoverMins: 2..6
+    lines:
+      - 7 # Glen Waverley
+      - 8 # Alamein
+      - 9 # Belgrave
+      - 10 # Lilydale
