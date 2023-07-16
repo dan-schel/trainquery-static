@@ -19,7 +19,7 @@
           },
           "platforms": {
             "type": "array",
-            "description": "Data about the platforms at this stop.",
+            "description": "Data about the platforms at this stop. Default: [].",
             "items": {
               "type": "object",
               "additionalProperties": false,
