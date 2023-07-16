@@ -6,10 +6,6 @@
       "type": "boolean",
       "description": "True if stops should list their platforms. Enables platform filtering."
     },
-    "useMelbLoop": {
-      "type": "boolean",
-      "description": "True if the 'melb-loop' route type is available. Requires melb-loop.yml. Default: false."
-    },
     "timezone": {
       "type": "object",
       "description": "The timezone the transit system uses.",

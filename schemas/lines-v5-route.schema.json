@@ -137,7 +137,8 @@
               "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
             },
             "stops": {
-              "$ref": "#/definitions/stopArray"
+              "$ref": "#/definitions/stopArray",
+              "description": "Stops, ordered from the end of the branch to the stop before the shared section begins."
             }
           }
         },
@@ -152,7 +153,8 @@
               "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
             },
             "stops": {
-              "$ref": "#/definitions/stopArray"
+              "$ref": "#/definitions/stopArray",
+              "description": "Stops, ordered from the end of the branch to the stop before the shared section begins."
             }
           }
         },
