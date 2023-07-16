@@ -15,7 +15,7 @@
           },
           "name": {
             "type": "string",
-            "description": "e.g. 'Pakenham' or 'Gippsland'"
+            "description": "E.g. 'Pakenham' or 'Gippsland'."
           },
           "color": {
             "type": "string",

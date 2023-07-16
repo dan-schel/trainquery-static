@@ -17,11 +17,11 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "e.g. 'Australia/Melbourne'"
+          "description": "E.g. 'Australia/Melbourne'."
         },
         "offset": {
           "type": "number",
-          "description": "e.g. '10' for AEST, or '11' for AEDT"
+          "description": "E.g. '10' for AEST, or '11' for AEDT."
         },
         "offsetCheckHour": {
           "type": "integer",
@@ -57,7 +57,7 @@
       "properties": {
         "appName": {
           "type": "string",
-          "description": "e.g. 'TrainQuery'"
+          "description": "E.g. 'TrainQuery'."
         },
         "beta": {
           "type": "boolean",
