@@ -2,53 +2,85 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "usePlatforms": {
-      "type": "boolean",
-      "description": "True if stops should list their platforms. Enables platform filtering."
-    },
-    "timezone": {
+    "shared": {
       "type": "object",
-      "description": "The timezone the transit system uses.",
       "additionalProperties": false,
       "properties": {
-        "id": {
+        "stops": {
           "type": "string",
-          "description": "E.g. 'Australia/Melbourne'."
+          "description": "The path to the .yml config file for stops."
         },
-        "offset": {
-          "type": "number",
-          "description": "E.g. '10' for AEST, or '11' for AEDT."
+        "lines": {
+          "type": "string",
+          "description": "The path to the .yml config file for lines."
         },
-        "offsetCheckHour": {
-          "type": "integer",
-          "description": "Which hour of the day to use when checking the offset, since DST doesn't start at midnight."
+        "usePlatforms": {
+          "type": "boolean",
+          "description": "True if stops should list their platforms. Enables platform filtering."
+        },
+        "timezone": {
+          "type": "object",
+          "description": "The timezone the transit system uses.",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "E.g. 'Australia/Melbourne'."
+            },
+            "offset": {
+              "type": "number",
+              "description": "E.g. '10' for AEST, or '11' for AEDT."
+            },
+            "offsetCheckHour": {
+              "type": "integer",
+              "description": "Which hour of the day to use when checking the offset, since DST doesn't start at midnight."
+            }
+          },
+          "oneOf": [
+            {
+              "required": [
+                "id",
+                "offsetCheckHour"
+              ]
+            },
+            {
+              "required": [
+                "offset"
+              ]
+            }
+          ]
+        },
+        "serviceTypes": {
+          "type": "array",
+          "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering. Defaults: [normal].",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
         }
       },
-      "oneOf": [
-        {
-          "required": [
-            "id",
-            "offsetCheckHour"
-          ]
-        },
-        {
-          "required": [
-            "offset"
-          ]
-        }
+      "required": [
+        "stops",
+        "lines",
+        "usePlatforms",
+        "timezone"
       ]
     },
-    "serviceTypes": {
-      "type": "array",
-      "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering. Defaults: [normal].",
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-      }
+    "server": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "continuation": {
+          "type": "string",
+          "description": "The path to the .yml config file for continunation."
+        }
+      },
+      "required": [
+        "continuation"
+      ]
     },
     "frontend": {
       "type": "object",
-      "description": "Customized strings used by the frontend for this transit system.",
       "additionalProperties": false,
       "properties": {
         "appName": {
@@ -70,19 +102,24 @@
         "metaDescription": {
           "type": "string",
           "description": "Used in the SEO description, e.g. 'Navigate Melbourne's train network with TrainQuery'."
+        },
+        "departureFeeds": {
+          "type": "string",
+          "description": "The path to the .yml config file for departure feeds."
         }
       },
       "required": [
         "appName",
         "tagline",
         "footer",
-        "metaDescription"
+        "metaDescription",
+        "departureFeeds"
       ]
     }
   },
   "required": [
-    "usePlatforms",
-    "timezone",
+    "shared",
+    "server",
     "frontend"
   ]
 }

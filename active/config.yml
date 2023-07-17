@@ -1,19 +1,28 @@
 # yaml-language-server: $schema=../schemas/config-v1.schema.json
 
-usePlatforms: true
+shared:
+  stops: ./stops.yml
+  lines: ./lines.yml
 
-timezone:
-  id: Australia/Melbourne
-  offsetCheckHour: 12
+  usePlatforms: true
 
-serviceTypes:
-  - suburban
-  - regional
+  timezone:
+    id: Australia/Melbourne
+    offsetCheckHour: 12
 
-# disruptionSources:
-#   ptvApi:
-#     fetchFrequencyMins: 10
-#     fetchInProdOnly: true
+  serviceTypes:
+    - suburban
+    - regional
+
+server:
+  continuation: ./continuation.yml
+
+  # disruptionSources:
+  #   ptvApi:
+  #     fetchFrequencyMins: 10
+  #     fetchInProdOnly: true
+  #
+  # ...
 
 frontend:
   appName: TrainQuery
@@ -21,3 +30,4 @@ frontend:
   tagline: Navigate Melbourne's train network
   footer: '© Dan Schellekens 2023 &mdash; Not affiliated with PTV, Metro Trains Melbourne, or V/Line. Data accuracy cannot be guaranteed. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
   metaDescription: Navigate Melbourne's train network with TrainQuery.
+  departureFeeds: ./departure-feeds.yml
