@@ -20,7 +20,7 @@
         },
         "timezone": {
           "type": "object",
-          "description": "The timezone the transit system uses.",
+          "description": "The timezone the transit system's timetables use.",
           "additionalProperties": false,
           "properties": {
             "id": {

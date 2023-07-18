@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schemas/default-feeds-v1.schema.json
+# yaml-language-server: $schema=../schemas/departure-feeds-v1.schema.json
 
 default:
   - filter: direction-up
