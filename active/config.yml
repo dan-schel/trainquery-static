@@ -3,6 +3,7 @@
 shared:
   stops: ./stops.yml
   lines: ./lines.yml
+  urlNames: ./url-names.yml
 
   usePlatforms: true
 

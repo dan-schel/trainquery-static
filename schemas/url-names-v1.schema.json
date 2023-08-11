@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "stops": {
+      "type": "object",
+      "description": "Maps stop IDs to urls, e.g. 214 to '/stops/pakenham'.",
+      "propertyNames": {
+        "type": "integer"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "description": "The url, e.g. 'upperferntreegully'."
+      }
+    },
+    "lines": {
+      "type": "object",
+      "description": "Maps line IDs to urls, e.g. 6 to '/lines/gippsland'.",
+      "propertyNames": {
+        "type": "integer"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "description": "The url, e.g. 'gippsland'."
+      }
+    }
+  },
+  "required": [
+    "stops",
+    "lines"
+  ]
+}

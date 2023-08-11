@@ -14,6 +14,10 @@
           "type": "string",
           "description": "The path to the .yml config file for lines."
         },
+        "urlNames": {
+          "type": "string",
+          "description": "The path to the .yml config file for url names."
+        },
         "usePlatforms": {
           "type": "boolean",
           "description": "True if stops should list their platforms. Enables platform filtering."
@@ -62,6 +66,7 @@
       "required": [
         "stops",
         "lines",
+        "urlNames",
         "usePlatforms",
         "timezone"
       ]
