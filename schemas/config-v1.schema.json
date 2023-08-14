@@ -78,10 +78,15 @@
         "continuation": {
           "type": "string",
           "description": "The path to the .yml config file for continunation."
+        },
+        "linter": {
+          "type": "string",
+          "description": "The path to the .yml config file for linter rules."
         }
       },
       "required": [
-        "continuation"
+        "continuation",
+        "linter"
       ]
     },
     "frontend": {

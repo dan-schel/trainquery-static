@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "stopNameRegex": {
+      "type": "string",
+      "description": "Stop names that don't follow this convention will cause a warning, e.g. '^([A-Z][a-z]* )*([A-Z][a-z]*)$'"
+    },
+    "lineNameRegex": {
+      "type": "string",
+      "description": "Line names that don't follow this convention will cause a warning, e.g. '^([A-Z][a-z]* )*([A-Z][a-z]*)$'"
+    }
+  },
+  "required": [
+    "stopNameRegex",
+    "lineNameRegex"
+  ]
+}

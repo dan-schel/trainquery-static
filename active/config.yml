@@ -17,6 +17,7 @@ shared:
 
 server:
   continuation: ./continuation.yml
+  linter: ./linter.yml
 
   # disruptionSources:
   #   ptvApi:

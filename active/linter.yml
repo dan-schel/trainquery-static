@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../schemas/linter-v1.schema.json
+
+stopNameRegex: "^([A-Z][a-z]* )*([A-Z][a-z]*)$"
+lineNameRegex: "^([A-Z][a-z]* )*([A-Z][a-z]*)$"
