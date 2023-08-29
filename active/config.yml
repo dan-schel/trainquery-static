@@ -12,8 +12,10 @@ shared:
     offsetCheckHour: 12
 
   serviceTypes:
-    - suburban
-    - regional
+    - id: suburban
+      mode: suburban-train
+    - id: regional
+      mode: regional-train
 
 server:
   continuation: ./continuation.yml

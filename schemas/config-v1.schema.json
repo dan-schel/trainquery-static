@@ -56,10 +56,27 @@
         },
         "serviceTypes": {
           "type": "array",
-          "description": "Array of all possible service types, e.g. [suburban, regional]. Enables service type filtering. Defaults: [normal].",
+          "description": "Array of all possible service types, e.g. [suburban, regional].",
           "items": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              },
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "regional-train",
+                  "suburban-train"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "mode"
+            ]
           }
         }
       },
@@ -68,7 +85,8 @@
         "lines",
         "urlNames",
         "usePlatforms",
-        "timezone"
+        "timezone",
+        "serviceTypes"
       ]
     },
     "server": {
