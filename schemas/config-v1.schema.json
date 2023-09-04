@@ -93,6 +93,10 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
+        "timetables": {
+          "type": "string",
+          "description": "The path/glob to the .ttbl files to use as static timetables."
+        },
         "continuation": {
           "type": "string",
           "description": "The path to the .yml config file for continunation."
@@ -103,6 +107,7 @@
         }
       },
       "required": [
+        "timetables",
         "continuation",
         "linter"
       ]

@@ -18,6 +18,7 @@ shared:
       mode: regional-train
 
 server:
+  timetables: ./timetables/*.ttbl
   continuation: ./continuation.yml
   linter: ./linter.yml
 
