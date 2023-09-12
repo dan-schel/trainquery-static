@@ -153,7 +153,7 @@
               },
               "stops": {
                 "type": "array",
-                "description": "Which stops must be stopped at in the stopping pattern for the associated text to display.",
+                "description": "Which stops must be stopped at in the stopping pattern for the associated text to display. If multiple stops are listed, the service has to stop at all of them.",
                 "items": {
                   "type": "number",
                   "description": "The stop ID."
