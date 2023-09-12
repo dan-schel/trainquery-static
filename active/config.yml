@@ -36,3 +36,16 @@ frontend:
   footer: '© Dan Schellekens 2023 &mdash; Not affiliated with PTV, Metro Trains Melbourne, or V/Line. Data accuracy cannot be guaranteed. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
+  via:
+    - text: via Flinders Street
+      stops:
+        - 104 # Flinders Street
+
+      # Prevent citybound Gippsland line services needlessly being shown as "via Flinders Street".
+      onlyIfContinuing: true
+
+    - text: via City Loop
+      stops:
+        - 101 # Flagstaff
+        - 171 # Melbourne Central
+        - 216 # Parliament

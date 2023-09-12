@@ -139,6 +139,36 @@
         "departureFeeds": {
           "type": "string",
           "description": "The path to the .yml config file for departure feeds."
+        },
+        "via": {
+          "type": "array",
+          "description": "Rules describing when to show 'via ___' on a departure.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "The text to show, e.g. 'via City Loop'."
+              },
+              "stops": {
+                "type": "array",
+                "description": "Which stops must be stopped at in the stopping pattern for the associated text to display.",
+                "items": {
+                  "type": "number",
+                  "description": "The stop ID."
+                }
+              },
+              "onlyIfContinuing": {
+                "type": "boolean",
+                "description": "If true, 'via ___' won't be shown unless this service has a continuation. Default: false."
+              }
+            },
+            "required": [
+              "text",
+              "stops"
+            ]
+          }
         }
       },
       "required": [
