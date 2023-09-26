@@ -49,3 +49,10 @@ frontend:
         - 101 # Flagstaff
         - 171 # Melbourne Central
         - 216 # Parliament
+  directionNames:
+    up:
+      regular: citybound
+      capital: Citybound
+    down:
+      regular: outbound
+      capital: Outbound

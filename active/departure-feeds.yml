@@ -13,8 +13,8 @@ exceptions:
   - stops:
       - 253 # Southern Cross
     feeds:
-      - filter: service-type-suburban
       - filter: service-type-regional
+      - filter: service-type-suburban
 
   - stops:
       - 101 # Flagstaff

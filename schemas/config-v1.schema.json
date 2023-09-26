@@ -169,6 +169,33 @@
               "stops"
             ]
           }
+        },
+        "directionNames": {
+          "type": "object",
+          "description": "Strings to use on the frontend, e.g. 'citybound' for up.",
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Strings to use on the frontend, e.g. 'citybound' for up.",
+            "properties": {
+              "regular": {
+                "type": "string",
+                "description": "E.g. 'citybound'"
+              },
+              "capital": {
+                "type": "string",
+                "description": "E.g. 'Citybound'"
+              }
+            },
+            "required": [
+              "regular",
+              "capital"
+            ]
+          }
         }
       },
       "required": [
@@ -176,7 +203,8 @@
         "tagline",
         "footer",
         "metaDescription",
-        "departureFeeds"
+        "departureFeeds",
+        "directionNames"
       ]
     }
   },
