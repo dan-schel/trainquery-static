@@ -101,6 +101,10 @@
           "type": "string",
           "description": "The path to the .yml config file for continunation."
         },
+        "platformRules": {
+          "type": "string",
+          "description": "The path to the .yml config file for platform guessing rules."
+        },
         "linter": {
           "type": "string",
           "description": "The path to the .yml config file for linter rules."
@@ -109,6 +113,7 @@
       "required": [
         "timetables",
         "continuation",
+        "platformRules",
         "linter"
       ]
     },

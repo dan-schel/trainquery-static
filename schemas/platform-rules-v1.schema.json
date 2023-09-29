@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "propertyNames": {
+    "type": "integer"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "description": "The rules for which trains use which platforms at this stop.",
+    "additionalProperties": false,
+    "properties": {
+      "confidence": {
+        "type": "string",
+        "description": "How accurate these rules are likely to be (controls whether a '?' is shown)."
+      },
+      "rules": {
+        "type": "object",
+        "description": "The rules for which trains use this platform.",
+        "propertyNames": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "additionalProperties": {
+          "type": "string",
+          "description": "The rule, e.g. 'direction-down line-10, direction-down line-9' which would match any train on line 9 or 10 going in a 'down' direction."
+        }
+      }
+    },
+    "required": [
+      "confidence",
+      "rules"
+    ]
+  }
+}

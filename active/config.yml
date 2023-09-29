@@ -20,6 +20,7 @@ shared:
 server:
   timetables: ./timetables/*.ttbl
   continuation: ./continuation.yml
+  platformRules: ./platform-rules.yml
   linter: ./linter.yml
 
   # disruptionSources:

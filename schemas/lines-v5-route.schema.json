@@ -14,28 +14,14 @@
                 "description": "The stop ID of a stop this line stops at."
               },
               "setsDown": {
-                "description": "Can passengers alight at this station? Either true, false, or a direction rule (e.g. 'direction-up'). Default: true.",
-                "oneOf": [
-                  {
-                    "type": "boolean"
-                  },
-                  {
-                    "type": "string",
-                    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-                  }
-                ]
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                "description": "A filter string describing when passengers can alight at this station, e.g. 'direction-up' if only up trains set down passengers here. Default to an empty string (all trains set down)."
               },
               "picksUp": {
-                "description": "Can passengers board at this station? Either true, false, or a direction rule (e.g. 'direction-up'). Default: true.",
-                "oneOf": [
-                  {
-                    "type": "boolean"
-                  },
-                  {
-                    "type": "string",
-                    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-                  }
-                ]
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                "description": "A filter string describing when passengers can board at this station, e.g. 'direction-up' if only up trains pick up passengers here. Default to an empty string (all trains pick up)."
               }
             },
             "required": [

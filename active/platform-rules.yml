@@ -1,0 +1,1152 @@
+# yaml-language-server: $schema=../schemas/platform-rules-v1.schema.json
+
+1: # Aircraft
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+3: # Albion
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+5: # Alphington
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+7: # Anstey
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+9: # Ardeer
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+10: # Armadale
+  confidence: medium
+  rules:
+    1: direction-up color-green
+    2: direction-down color-green
+    3: direction-up color-cyan
+    4: direction-down color-cyan
+11: # Ascot Vale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+13: # Aspendale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+14: # Auburn
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down line-10, direction-down line-9
+    3: direction-down weekday
+15: # Avenel
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+16: # Bacchus Marsh
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+18: # Balaclava
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+20: # Ballarat
+  confidence: medium
+  rules:
+    2: direction-down
+21: # Batman
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+23: # Bayswater
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+24: # Beaconsfield
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+27: # Bell
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+30: # Bentleigh
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+31: # Berwick
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+34: # Blackburn
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down weekday
+35: # Bonbeach
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+36: # Boronia
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+37: # Box Hill
+  confidence: medium
+  rules:
+    1: none
+    2: direction-up
+    4: direction-down weekday
+38: # Brighton Beach
+  confidence: medium
+  rules:
+    1: none
+    2: direction-up
+    3: direction-down
+39: # Broadford
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+40: # Broadmeadows
+  confidence: medium
+  rules:
+    1: direction-up !route-variant-albury
+    2: direction-down !route-variant-albury
+    3: route-variant-albury
+41: # Brunswick
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+43: # Burnley
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-up
+    3: direction-down
+    4: direction-down
+44: # Burwood
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+45: # Camberwell
+  confidence: medium
+  rules:
+    1: direction-up !line-8, line-8 !terminates-at-45
+    2: line-9, line-10, line-8 terminates-at-45
+    3: direction-down
+47: # Canterbury
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+    3: direction-down weekday
+48: # Cardinia Road
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+49: # Carnegie
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+50: # Caroline Springs
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+51: # Carrum
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+53: # Caulfield
+  confidence: medium
+  rules:
+    1: direction-up color-green
+    2: direction-down color-green
+    3: direction-up color-cyan, direction-up color-purple
+    4: direction-down color-cyan, direction-down color-purple
+54: # Chatham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+    3: direction-down weekday
+55: # Chelsea
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+56: # Cheltenham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-up
+    3: direction-down
+57: # Chiltern
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+59: # Clayton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+60: # Clifton Hill
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+62: # Cobblebank
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+63: # Coburg
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+65: # Collingwood
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+66: # Coolaroo
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+67: # Corio
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+68: # Craigieburn
+  confidence: medium
+  rules:
+    1: color-yellow, color-purple
+    2: direction-down color-purple, color-yellow
+72: # Croxton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+73: # Croydon
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+75: # Darebin
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+76: # Darling
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+77: # Deer Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+78: # Dennis
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+80: # Diggers Rest
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+82: # Donnybrook
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+85: # Eaglemont
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+86: # East Camberwell
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+    3: direction-down weekday
+87: # East Malvern
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+88: # East Richmond
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+90: # Edithvale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+92: # Elsternwick
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+94: # Epping
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+96: # Essendon
+  confidence: medium
+  rules:
+    1: none
+    2: direction-up
+    3: direction-down
+97: # Euroa
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+98: # Fairfield
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+99: # Fawkner
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+100: # Ferntree Gully
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+101: # Flagstaff
+  confidence: medium
+  rules:
+    1: color-red
+    2: color-cyan
+    3: color-yellow
+    4: color-blue
+102: # Flemington Bridge
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+105: # Footscray
+  confidence: medium
+  rules:
+    1: direction-up color-yellow
+    2: direction-down color-yellow
+    3: direction-up color-purple
+    4: direction-down color-purple
+    5: direction-up color-green
+    6: direction-down color-green
+106: # Frankston
+  confidence: medium
+  rules:
+    1: line-2
+    2: line-2
+    3: line-3
+107: # Gardenvale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+108: # Gardiner
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+111: # Ginifer
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+113: # Glen Iris
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+115: # Glenbervie
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+116: # Glenferrie
+  confidence: medium
+  rules:
+    1: direction-up
+    2: line-10 direction-down weekend, line-9 direction-down weekend, line-10 direction-up weekday, line-9 direction-up weekday
+    3: direction-down weekday
+117: # Glenhuntly
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+118: # Glenroy
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+120: # Gowrie
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+122: # Hallam
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+123: # Hampton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+124: # Hartwell
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+126: # Hawksburn
+  confidence: medium
+  rules:
+    1: direction-up color-green
+    2: direction-down color-green
+    3: direction-up color-cyan
+    4: direction-down color-cyan
+127: # Hawkstowe
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+128: # Hawthorn
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down line-10, direction-down line-9
+    3: direction-down line-8, direction-down line-10 weekday, direction-down line-9 weekday
+129: # Heathcote Junction
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+130: # Heatherdale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+131: # Heathmont
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+132: # Heidelberg
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+133: # Heyington
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+134: # Highett
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+135: # Holmesglen
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+136: # Hoppers Crossing
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+137: # Hughesdale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+138: # Huntingdale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+140: # Ivanhoe
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+141: # Jacana
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+142: # Jewell
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+143: # Jolimont
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+144: # Jordanville
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+145: # Kananook
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+147: # Keilor Plains
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+148: # Kensington
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+149: # Keon Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+151: # Kilmore East
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+152: # Kooyong
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+154: # Laburnum
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+155: # Lalor
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+156: # Lara
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+157: # Laverton
+  confidence: medium
+  rules:
+    1: direction-up !originates-at-157
+    2: direction-down !terminates-at-157
+    3: originates-at-157, terminates-at-157, direction-down stops-at-6
+160: # Little River
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+162: # Lynbrook
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+163: # Macaulay
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+165: # Macleod
+  confidence: medium
+  rules:
+    1: direction-up !originates-at-165
+    2: direction-down !terminates-at-165
+    3: terminates-at-165 originates-at-165
+167: # Malvern
+  confidence: medium
+  rules:
+    1: direction-up color-green
+    2: direction-down color-green
+    3: direction-up color-cyan
+    4: direction-down color-cyan
+170: # McKinnon
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+171: # Melbourne Central
+  confidence: medium
+  rules:
+    1: color-red
+    2: color-cyan
+    3: color-yellow
+    4: color-blue
+172: # Melton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+173: # Mentone
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+174: # Merinda Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+175: # Merlynston
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+177: # Merri
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+178: # Middle Brighton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+179: # Middle Footscray
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+180: # Middle Gorge
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+181: # Mitcham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+183: # Mont Albert
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+    3: direction-down weekday
+185: # Moonee Ponds
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+186: # Moorabbin
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+187: # Mooroolbark
+  confidence: medium
+  rules:
+    2: direction-down
+189: # Mordialloc
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+190: # Moreland
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+193: # Mount Waverley
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+195: # Murrumbeena
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+198: # Narre Warren
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+199: # Newmarket
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+200: # Newport
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+201: # Noble Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+202: # North Brighton
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+203: # North Geelong
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+204: # North Melbourne
+  confidence: medium
+  rules:
+    1: direction-up line-14, direction-up line-13
+    2: direction-down line-14, direction-down line-13
+    3: direction-up line-17
+    4: direction-down line-17
+    5: direction-up line-14, direction-up color-green
+    6: direction-down line-14, direction-down color-green
+205: # North Richmond
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+206: # North Shore
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+207: # North Williamstown
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+208: # Northcote
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+209: # Nunawading
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+210: # Oak Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+211: # Oakleigh
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+212: # Officer
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+213: # Ormond
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+215: # Parkdale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+216: # Parliament
+  confidence: medium
+  rules:
+    1: color-red
+    2: color-cyan
+    3: color-yellow
+    4: color-blue
+217: # Pascoe Vale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+218: # Patterson
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+219: # Prahran
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+220: # Preston
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+222: # Regent
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+223: # Reservoir
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+224: # Richmond
+  confidence: medium
+  rules:
+    1: direction-up color-pink
+    2: direction-down color-pink
+    3: direction-up color-green
+    4: direction-down color-green
+    5: direction-up color-cyan, direction-up color-purple
+    6: direction-down color-cyan, direction-down color-purple
+    7: direction-up-direct color-blue
+    8: direction-up color-blue
+    9: direction-down color-blue
+    10: direction-down-direct color-blue
+226: # Ringwood
+  confidence: medium
+  rules:
+    3: direction-down
+227: # Ringwood East
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+228: # Ripponlea
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+229: # Riversdale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+231: # Rockbank
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+232: # Rosanna
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+234: # Roxburgh Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+235: # Royal Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+236: # Rushall
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+237: # Ruthven
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+239: # Sandirection-down Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+241: # Seaford
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+243: # Seddon
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+250: # South Kensington
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+251: # South Morang
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+252: # South Yarra
+  confidence: medium
+  rules:
+    1: direction-up color-pink
+    2: direction-down color-pink
+    3: direction-up color-green
+    4: direction-down color-green
+    5: direction-up color-cyan
+    6: direction-down color-cyan
+253: # Southern Cross
+  confidence: medium
+  rules:
+    1: color-purple
+    2a: color-purple
+    2b: color-purple
+    3a: color-purple
+    3b: color-purple
+    4a: color-purple
+    4b: color-purple
+    5a: color-purple
+    5b: color-purple
+    6a: color-purple
+    6b: color-purple
+    7a: color-purple
+    7b: color-purple
+    8a: color-purple
+    8b: color-purple
+    8s: color-purple
+    9: color-red
+    10: color-blue
+    11: color-yellow
+    12: color-cyan
+    13: direction-up color-green
+    14: direction-down color-green
+    15a: color-purple
+    15b: color-purple
+    16a: color-purple
+    16b: color-purple
+254: # Southland
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+255: # Spotswood
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+256: # Springhurst
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+257: # Springvale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+258: # St Albans
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+261: # Strathmore
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+263: # Sunshine
+  confidence: medium
+  rules:
+    1: direction-up color-yellow
+    2: direction-down color-yellow
+    3: direction-up color-purple
+    4: direction-down color-purple
+264: # Surrey Hills
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+    3: direction-down weekday
+266: # Syndal
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+268: # Tallarook
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+269: # Tarneit
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+272: # Thomastown
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+273: # Thornbury
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+274: # Toorak
+  confidence: medium
+  rules:
+    1: direction-up color-green
+    2: direction-down color-green
+    3: direction-up color-cyan
+    4: direction-down color-cyan
+275: # Tooronga
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+276: # Tottenham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+282: # Upper Ferntree Gully
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+283: # Upwey
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+284: # Victoria Park
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+285: # Violet Town
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+286: # Wallan
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+287: # Wandong
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+291: # Watergardens
+  confidence: medium
+  rules:
+    1: color-yellow terminates-at-291, direction-up
+    2: color-yellow terminates-at-291, color-yellow direction-up
+    3: color-yellow direction-down !terminates-at-291, color-purple direction-down
+292: # Watsonia
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+297: # West Footscray
+  confidence: medium
+  rules:
+    1: direction-up
+    2: none
+    3: direction-down
+298: # West Richmond
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+299: # Westall
+  confidence: medium
+  rules:
+    1: direction-up
+    3: direction-down
+300: # Westgarth
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+301: # Westona
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+302: # Williams Landing
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+304: # Williamstown Beach
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+305: # Willison
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+307: # Windsor
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+310: # Wyndham Vale
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+312: # Yarraman
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+313: # Yarraville
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
