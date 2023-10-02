@@ -2,9 +2,8 @@
 version: 3
 created: 2022-12-05
 line: 19
-index: 1
 type: main
-begins: 2022-12-04
+begins: *
 ends: *
 
 [ararat-up, MTWTF__]

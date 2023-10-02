@@ -2,7 +2,6 @@
 version: 3
 created: 2022-08-16
 line: 17
-index: 0
 type: main
 begins: *
 ends: *

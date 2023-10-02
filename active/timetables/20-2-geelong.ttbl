@@ -2,9 +2,8 @@
 version: 3
 created: 2023-05-27
 line: 20
-index: 2
 type: main
-begins: 2023-05-28
+begins: *
 ends: *
 
 [up, MTWTF__]

@@ -2,9 +2,8 @@
 version: 3
 created: 2023-05-27
 line: 15
-index: 3
 type: main
-begins: 2023-05-28
+begins: *
 ends: *
 
 [shepparton-up, MTWT___]
