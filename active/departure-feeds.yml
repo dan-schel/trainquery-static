@@ -9,6 +9,7 @@ exceptions:
       - 104 # Flinders Street
     feeds:
       - filter: "" # Empty filter - show all departures in one feed.
+        count: 10
 
   - stops:
       - 253 # Southern Cross
