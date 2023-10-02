@@ -1,10 +1,10 @@
 [timetable]
 version: 3
-created: 2023-05-27
 line: 20
 type: main
 begins: *
 ends: *
+created: 2023-10-02
 
 [up, MTWTF__]
 0290 warrnambool    -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      06:12  -      -      -      -      -      -      -      -      -      09:28  -      -      -      -      -      -      -      -      -      12:23  -      -      -      -      -      -      -      -      -      15:13  -      -      -      -      -      -      17:36  -      -      -      -      -

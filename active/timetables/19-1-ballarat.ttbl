@@ -1,10 +1,10 @@
 [timetable]
 version: 3
-created: 2022-12-05
 line: 19
 type: main
 begins: *
 ends: *
+created: 2023-10-02
 
 [ararat-up, MTWTF__]
 0008 ararat           -      -      -      -      -      -      -      -      -      -      -      -      -      06:16  -      -      -      -      07:13  -      -      -      -      -      -      -      -      -      -      -      -      11:48  -      -      -      -      -      -      -      14:28  -      -      -      -      -      17:17  -      -      -      -      -      -      -      -

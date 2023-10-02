@@ -1,10 +1,10 @@
 [timetable]
 version: 3
-created: 2022-07-20
 line: 6
 type: main
 begins: *
 ends: *
+created: 2023-10-02
 
 [up, MTWTF__]
 0017 bairnsdale      -      -      -      -      -      06:14  -      -      -      -      -      -      12:54  -      -      -      -      -      18:06  -

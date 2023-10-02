@@ -1,10 +1,10 @@
 [timetable]
 version: 3
-created: 2022-08-22
 line: 3
 type: main
 begins: *
 ends: *
+created: 2023-10-02
 
 [up, MTWT___]
 0259 stony-point 05:37  06:15  07:58  09:48  11:23  12:09  13:49  15:29  17:20  19:38
