@@ -8,7 +8,7 @@ TrainQuery is an unofficial guide to help you navigate Melbourne's train network
 
 At the moment, this site is powered purely by static timetables made available by [Metro Trains Melbourne](https://www.metrotrains.com.au/timetables) and [V/Line](https://www.vline.com.au/Timetables/Additional-pages/train-coach-timetable-list) which I have to enter manually...ish. So as soon as there's any disruption to the regular timetable — planned or unplanned — chances are this site won't reflect that.
 
-PTV does actually publish an API of live timetable data, so I do intend to make use of that in future to enhance the quality and timeliness of what gets shown here, but I've made a conscious choice to prioritize loading the static timetables first because the quality of data you get from the PTV API leaves a lot to be desired at times.
+PTV does actually publish an API of live timetable data, so I do intend to make use of that in the future to enhance the quality and timeliness of what gets shown here, but I've made a conscious choice to prioritize loading the static timetables first because the quality of data you get from the PTV API leaves a lot to be desired at times.
 
 ## Lol, then why bother?
 
