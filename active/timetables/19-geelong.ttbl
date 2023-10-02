@@ -1,5 +1,6 @@
 [timetable]
-version: 3
+version: 3.5
+id: 19
 line: 20
 type: main
 begins: *
