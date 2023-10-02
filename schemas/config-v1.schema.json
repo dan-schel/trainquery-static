@@ -108,13 +108,18 @@
         "linter": {
           "type": "string",
           "description": "The path to the .yml config file for linter rules."
+        },
+        "about": {
+          "type": "string",
+          "description": "The path to the .md file for the about page content."
         }
       },
       "required": [
         "timetables",
         "continuation",
         "platformRules",
-        "linter"
+        "linter",
+        "about"
       ]
     },
     "frontend": {

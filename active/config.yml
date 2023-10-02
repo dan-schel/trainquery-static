@@ -23,6 +23,9 @@ server:
   platformRules: ./platform-rules.yml
   linter: ./linter.yml
 
+  # Don't send the about page markup to the client until they request it.
+  about: ./about.md
+
   # disruptionSources:
   #   ptvApi:
   #     fetchFrequencyMins: 10
@@ -37,6 +40,7 @@ frontend:
   footer: '© Dan Schellekens 2023 &mdash; Not affiliated with PTV, Metro Trains Melbourne, or V/Line. Data accuracy cannot be guaranteed. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
+
   via:
     - text: via Flinders Street
       stops:
