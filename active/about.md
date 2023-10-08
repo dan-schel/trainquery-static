@@ -12,6 +12,6 @@ PTV [does actually publish](https://www.ptv.vic.gov.au/footer/data-and-reporting
 
 ## Lol, then why bother?
 
-Well it's all just a bit of fun. I'm a uni student exercising my web dev skills! Besides, if you just want to check the timetables with the above caveats in mind, then this site is a great way to do that 😉.
+Well it's all just a bit of fun. I'm a uni student exercising my web dev skills! Besides, if you just want to check the timetables with that huge caveat in mind, then this site is a great way to do that 😉.
 
 Thanks for checking it out!
