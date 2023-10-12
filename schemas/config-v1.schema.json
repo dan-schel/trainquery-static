@@ -161,22 +161,14 @@
                 "type": "string",
                 "description": "The text to show, e.g. 'via City Loop'."
               },
-              "stops": {
-                "type": "array",
-                "description": "Which stops must be stopped at in the stopping pattern for the associated text to display. If multiple stops are listed, the service has to stop at all of them.",
-                "items": {
-                  "type": "number",
-                  "description": "The stop ID."
-                }
-              },
-              "onlyIfContinuing": {
-                "type": "boolean",
-                "description": "If true, 'via ___' won't be shown unless this service has a continuation. Default: false."
+              "rules": {
+                "type": "string",
+                "description": "The rule, e.g. 'direction-down line-10, direction-down line-9' which would match any train on line 9 or 10 going in a 'down' direction."
               }
             },
             "required": [
               "text",
-              "stops"
+              "rules"
             ]
           }
         },

@@ -43,17 +43,36 @@ frontend:
 
   via:
     - text: via Flinders Street
-      stops:
-        - 104 # Flinders Street
-
-      # Prevent citybound Gippsland line services needlessly being shown as "via Flinders Street".
-      onlyIfContinuing: true
+      # Prevent Gippsland line services needlessly being shown as "via Flinders Street".
+      # 104 = Flinders Street
+      rules: will-stop-at-104 continues
 
     - text: via City Loop
-      stops:
-        - 101 # Flagstaff
-        - 171 # Melbourne Central
-        - 216 # Parliament
+      # Must stop at all three (otherwise use commas).
+      # 101 = Flagstaff
+      # 171 = Melbourne Central
+      # 216 = Parliament
+      rules: will-stop-at-101 will-stop-at-171 will-stop-at-216
+
+    - text: via Traralgon
+      # 278 = Traralgon
+      rules: direction-down will-stop-at-278
+
+    - text: via Seymour
+      # 244 = Seymour
+      rules: direction-down will-stop-at-244
+
+    - text: via Bendigo
+      # 29 = Bendigo
+      rules: direction-down will-stop-at-29
+
+    - text: via Ballarat
+      # 20 = Ballarat
+      rules: direction-down will-stop-at-20
+
+    - text: via Geelong
+      # 110 = Geelong
+      rules: direction-down will-stop-at-110
   directionNames:
     up:
       regular: citybound

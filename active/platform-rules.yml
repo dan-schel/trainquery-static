@@ -847,10 +847,10 @@
     4: direction-down color-green
     5: direction-up color-cyan, direction-up color-purple
     6: direction-down color-cyan, direction-down color-purple
-    7: direction-up-direct color-blue
+    7: direction-up route-variant-direct color-blue
     8: direction-up color-blue
     9: direction-down color-blue
-    10: direction-down-direct color-blue
+    10: direction-down route-variant-direct color-blue
 226: # Ringwood
   confidence: medium
   rules:
