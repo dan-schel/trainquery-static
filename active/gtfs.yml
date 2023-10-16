@@ -1,0 +1,361 @@
+# yaml-language-server: $schema=../schemas/gtfs-v1.schema.json
+
+staticUrl: http://data.ptv.vic.gov.au/downloads/gtfs.zip
+
+subfeeds:
+  - name: regional
+    path: 1/google_transit.zip
+  - name: suburban
+    path: 2/google_transit.zip
+
+persist:
+  mongoUrl: db.trainquery.com
+  refresh: when-stale # Switch to 'production' later
+  refreshSeconds: 86400 # Every 24 hours
+
+# Note: We have no IDs for Flemington Racecourse (103) or Showgrounds (247).
+stops:
+  1: 19924 # Aircraft
+  2: 19847 # Alamein
+  3: 20004 # Albion
+  4: 20287 # Albury
+  5: 19931 # Alphington
+  6: 19926 # Altona
+  7: 19967 # Anstey
+  8: 20288 # Ararat
+  9: 20020 # Ardeer
+  10: 19945 # Armadale
+  11: 20039 # Ascot Vale
+  12: 19848 # Ashburton
+  13: 19862 # Aspendale
+  14: 19903 # Auburn
+  15: 20289 # Avenel
+  16: 20290 # Bacchus Marsh
+  17: 20291 # Bairnsdale
+  18: 19956 # Balaclava
+  19: 20292 # Ballan
+  20: 20293 # Ballarat
+  21: 19964 # Batman
+  22: 19834 # Baxter
+  23: 19870 # Bayswater
+  24: 19882 # Beaconsfield
+  25: 20294 # Beaufort
+  26: 19844 # Belgrave
+  27: 20013 # Bell
+  28: 20295 # Benalla
+  29: 20296 # Bendigo
+  30: 19939 # Bentleigh
+  31: # Berwick
+    regional: 22251
+    suburban: 19883
+  32: 20297 # Birregurra
+  33: 19830 # Bittern
+  34: 19898 # Blackburn
+  35: 19859 # Bonbeach
+  36: 19869 # Boronia
+  37: 20042 # Box Hill
+  38: 19950 # Brighton Beach
+  39: 20298 # Broadford
+  40: # Broadmeadows
+    regional: 22254
+    suburban: 20030
+  41: 19968 # Brunswick
+  42: 20299 # Bunyip
+  43: 19906 # Burnley
+  44: 19849 # Burwood
+  45: 19853 # Camberwell
+  46: 20300 # Camperdown
+  47: 19893 # Canterbury
+  48: 45794 # Cardinia Road
+  49: 19920 # Carnegie
+  50: 52011 # Caroline Springs
+  51: 19858 # Carrum
+  52: 20301 # Castlemaine
+  53: # Caulfield
+    regional: 22248
+    suburban: 19943
+  54: 19894 # Chatham
+  55: 19860 # Chelsea
+  56: 19866 # Cheltenham
+  57: 20302 # Chiltern
+  58: 20303 # Clarkefield
+  59: # Clayton
+    regional: 22249
+    suburban: 19915
+  60: 19974 # Clifton Hill
+  61: 44952 # Clunes
+  62: 48804 # Cobblebank
+  63: 19965 # Coburg
+  64: 20304 # Colac
+  65: 19976 # Collingwood
+  66: 44817 # Coolaroo
+  67: 20305 # Corio
+  68: # Craigieburn
+    regional: 20029
+    suburban: 40221
+  69: 19886 # Cranbourne
+  70: 44951 # Creswick
+  71: 19828 # Crib Point
+  72: 20015 # Croxton
+  73: 19878 # Croydon
+  74: # Dandenong
+    regional: 22250
+    suburban: 19888
+  75: 19932 # Darebin
+  76: 19837 # Darling
+  77: 19982 # Deer Park
+  78: 19929 # Dennis
+  79: 19988 # Diamond Creek
+  80: 15353 # Diggers Rest
+  81: 20306 # Dingee
+  82: 20307 # Donnybrook
+  83: 20308 # Drouin
+  84: 20309 # Eaglehawk
+  85: 19934 # Eaglemont
+  86: 19892 # East Camberwell
+  87: 19838 # East Malvern
+  88: 19907 # East Richmond
+  89: 20310 # Echuca
+  90: 19861 # Edithvale
+  91: 20311 # Elmore
+  92: 19954 # Elsternwick
+  93: 19987 # Eltham
+  94: 20005 # Epping
+  95: 47642 # Epsom
+  96: # Essendon
+    regional: 22253
+    suburban: 20037
+  97: 20312 # Euroa
+  98: 19930 # Fairfield
+  99: 19962 # Fawkner
+  100: 19868 # Ferntree Gully
+  101: 19841 # Flagstaff
+  102: 19971 # Flemington Bridge
+  104: # Flinders Street
+    regional: 22238
+    suburban: 19854
+  105: # Footscray
+    regional: 22240
+    suburban: 20025
+  106: 19855 # Frankston
+  107: 19953 # Gardenvale
+  108: 19912 # Gardiner
+  109: 20313 # Garfield
+  110: 20314 # Geelong
+  111: 20003 # Ginifer
+  112: 20315 # Gisborne
+  113: 19835 # Glen Iris
+  114: 19873 # Glen Waverley
+  115: 20036 # Glenbervie
+  116: 19904 # Glenferrie
+  117: 19942 # Glen Huntly
+  118: 20032 # Glenroy
+  119: 51809 # Goornong
+  120: 19961 # Gowrie
+  121: 19985 # Greensborough
+  122: 19885 # Hallam
+  123: 19949 # Hampton
+  124: 19850 # Hartwell
+  125: 19831 # Hastings
+  126: 19947 # Hawksburn
+  127: 52160 # Hawkstowe
+  128: 19905 # Hawthorn
+  129: 20316 # Heathcote Junction
+  130: 19901 # Heatherdale
+  131: 19871 # Heathmont
+  132: 19935 # Heidelberg
+  133: 19909 # Heyington
+  134: 19872 # Highett
+  135: 19839 # Holmesglen
+  136: 19922 # Hoppers Crossing
+  137: 19918 # Hughesdale
+  138: 19916 # Huntingdale
+  139: 19990 # Hurstbridge
+  140: 19933 # Ivanhoe
+  141: 20031 # Jacana
+  142: 19969 # Jewell
+  143: 19979 # Jolimont
+  144: 19840 # Jordanville
+  145: 19856 # Kananook
+  146: 20317 # Kangaroo Flat
+  147: 20001 # Keilor Plains
+  148: 20041 # Kensington
+  149: 20008 # Keon Park
+  150: 20318 # Kerang
+  151: 20319 # Kilmore East
+  152: 19910 # Kooyong
+  153: 20320 # Kyneton
+  154: 19897 # Laburnum
+  155: 20006 # Lalor
+  156: 20321 # Lara
+  157: 19923 # Laverton
+  158: 19836 # Leawarra
+  159: 19876 # Lilydale
+  160: 20323 # Little River
+  161: 20324 # Longwarry
+  162: 45793 # Lynbrook
+  163: 19972 # Macaulay
+  164: 20325 # Macedon
+  165: 19983 # Macleod
+  166: 20326 # Malmsbury
+  167: 19944 # Malvern
+  168: 20327 # Marshall
+  169: 44953 # Maryborough
+  170: 19940 # McKinnon
+  171: 19842 # Melbourne Central
+  172: 19980 # Melton
+  173: 19865 # Mentone
+  174: 19887 # Merinda Park
+  175: 19963 # Merlynston
+  176: 52161 # Mernda
+  177: 20017 # Merri
+  178: 19951 # Middle Brighton
+  179: 20024 # Middle Footscray
+  180: 52159 # Middle Gorge
+  181: 19900 # Mitcham
+  182: 20328 # Moe
+  184: 19986 # Montmorency
+  185: 20038 # Moonee Ponds
+  186: 19937 # Moorabbin
+  187: 19877 # Mooroolbark
+  188: 20329 # Mooroopna
+  189: 19863 # Mordialloc
+  190: 19966 # Moreland
+  191: 19829 # Morradoo
+  192: 20330 # Morwell
+  193: 19875 # Mount Waverley
+  194: 20331 # Murchison East
+  195: 19919 # Murrumbeena
+  196: 20332 # Nagambie
+  197: 20333 # Nar Nar Goon
+  198: 19884 # Narre Warren
+  199: 20040 # Newmarket
+  200: 19994 # Newport
+  201: 19890 # Noble Park
+  202: 19952 # North Brighton
+  203: 20334 # North Geelong
+  204: # North Melbourne
+    regional: 22239
+    suburban: 19973
+  205: 19977 # North Richmond
+  206: 20335 # North Shore
+  207: 19993 # North Williamstown
+  208: 20016 # Northcote
+  209: 19899 # Nunawading
+  210: 20033 # Oak Park
+  211: 19917 # Oakleigh
+  212: 19881 # Officer
+  213: 19941 # Ormond
+  214: # Pakenham
+    regional: 22252
+    suburban: 19880
+  215: 19864 # Parkdale
+  216: 19843 # Parliament
+  217: 20034 # Pascoe Vale
+  218: 19938 # Patterson
+  219: 19958 # Prahran
+  220: 20012 # Preston
+  221: 20336 # Pyramid
+  222: 20011 # Regent
+  223: 20010 # Reservoir
+  224: # Richmond
+    regional: 22247
+    suburban: 19908
+  225: 20337 # Riddells Creek
+  226: 19902 # Ringwood
+  227: 19879 # Ringwood East
+  228: 19955 # Ripponlea
+  229: 19852 # Riversdale
+  230: 20338 # Rochester
+  231: 19981 # Rockbank
+  232: 19936 # Rosanna
+  233: 20339 # Rosedale
+  234: 40220 # Roxburgh Park
+  235: 19970 # Royal Park
+  236: 20019 # Rushall
+  237: 20009 # Ruthven
+  238: 20341 # Sale
+  239: 19891 # Sandown Park
+  240: 19948 # Sandringham
+  241: 19857 # Seaford
+  242: 19927 # Seaholme
+  243: 19997 # Seddon
+  244: 20342 # Seymour
+  245: 20343 # Shepparton
+  246: 22257 # Sherwood Park
+  248: 19833 # Somerville
+  249: 20344 # South Geelong
+  250: 20026 # South Kensington
+  251: 45795 # South Morang
+  252: 19959 # South Yarra
+  253: # Southern Cross
+    regional: 20043
+    suburban: 22180
+  254: 52095 # Southland
+  255: 19995 # Spotswood
+  256: 20345 # Springhurst
+  257: 19913 # Springvale
+  258: 20002 # St Albans
+  259: 19827 # Stony Point
+  260: 20346 # Stratford
+  261: 20035 # Strathmore
+  262: # Sunbury
+    regional: 19998
+    suburban: 15351
+  263: # Sunshine
+    regional: 22241
+    suburban: 20021
+  265: 20347 # Swan Hill
+  266: 19874 # Syndal
+  267: 47482 # Talbot
+  268: 20348 # Tallarook
+  269: 47648 # Tarneit
+  270: 19845 # Tecoma
+  271: 20349 # Terang
+  272: 20007 # Thomastown
+  273: 20014 # Thornbury
+  274: 19946 # Toorak
+  275: 19911 # Tooronga
+  276: 20022 # Tottenham
+  277: 20350 # Trafalgar
+  278: 20351 # Traralgon
+  279: 19832 # Tyabb
+  280: 20352 # Tynong
+  281: 19960 # Upfield
+  282: 19867 # Upper Ferntree Gully
+  283: 19846 # Upwey
+  284: 19975 # Victoria Park
+  285: 20353 # Violet Town
+  286: 17204 # Wallan
+  287: 20355 # Wandong
+  288: 20356 # Wangaratta
+  289: 20357 # Warragul
+  290: 20358 # Warrnambool
+  291: # Watergardens
+    regional: 22244
+    suburban: 20000
+  292: 19984 # Watsonia
+  293: 19989 # Wattle Glen
+  294: 47641 # Waurn Ponds
+  295: 43469 # Wendouree
+  296: 19921 # Werribee
+  297: 20023 # West Footscray
+  298: 19978 # West Richmond
+  299: 19914 # Westall
+  300: 19928 # Westgarth
+  301: 19925 # Westona
+  302: 46468 # Williams Landing
+  303: 19991 # Williamstown
+  304: 19992 # Williamstown Beach
+  305: 19851 # Willison
+  306: 20359 # Winchelsea
+  307: 19957 # Windsor
+  308: 20360 # Wodonga
+  309: 20361 # Woodend
+  310: 47647 # Wyndham Vale
+  311: 20362 # Yarragon
+  312: 19889 # Yarraman
+  313: 19996 # Yarraville
+  314: 49296 # Huntly
+  315: 49295 # Raywood
+  316: 49343 # Union
