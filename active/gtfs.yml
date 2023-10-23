@@ -2,10 +2,9 @@
 
 staticUrl: http://data.ptv.vic.gov.au/downloads/gtfs.zip
 
-persist:
-  mongoUrl: db.trainquery.com
-  refresh: when-stale # Switch to 'production' later
-  refreshSeconds: 86400 # Every 24 hours
+refreshSeconds: 86400 # Every 24 hours
+
+persist: true
 
 subfeeds:
   - name: regional
