@@ -2,36 +2,37 @@
 
 rules:
   - method: linear
-    layoverMins: 2..6
+    from: 104 # Flinders Street
     sideA:
       - 2 # Frankston
     sideB:
       - 21 # Werribee
       - 22 # Williamstown
+    layoverMins: 2..6
 
   - method: hook
-    layoverMins: 2..6
     lines:
       - 11 # Hurstbridge
       - 12 # Mernda
+    layoverMins: 2..6
 
   - method: hook
-    layoverMins: 2..6
     lines:
       - 4 # Cranbourne
       - 5 # Pakenham
+    layoverMins: 2..6
 
   - method: hook
-    layoverMins: 2..6
     lines:
       - 13 # Upfield
       - 14 # Craigieburn
       - 17 # Sunbury
+    layoverMins: 2..6
 
   - method: hook
-    layoverMins: 2..6
     lines:
       - 7 # Glen Waverley
       - 8 # Alamein
       - 9 # Belgrave
       - 10 # Lilydale
+    layoverMins: 2..6

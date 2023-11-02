@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schemas/gtfs-v1.schema.json
 
-staticUrl: http://data.ptv.vic.gov.au/downloads/gtfs.zip
+staticData: http://data.ptv.vic.gov.au/downloads/gtfs.zip
 
 refreshSeconds: 86400 # Every 24 hours
 

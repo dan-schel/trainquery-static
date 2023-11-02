@@ -4,6 +4,7 @@ shared:
   stops: ./stops.yml
   lines: ./lines.yml
   urlNames: ./url-names.yml
+  continuation: ./continuation.yml
 
   usePlatforms: true
 
@@ -19,7 +20,6 @@ shared:
 
 server:
   timetables: ./timetables/*.ttbl
-  continuation: ./continuation.yml
   platformRules: ./platform-rules.yml
   gtfs: ./gtfs.yml
   linter: ./linter.yml

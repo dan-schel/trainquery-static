@@ -18,6 +18,10 @@
           "type": "string",
           "description": "The path to the .yml config file for url names."
         },
+        "continuation": {
+          "type": "string",
+          "description": "The path to the .yml config file for continunation."
+        },
         "usePlatforms": {
           "type": "boolean",
           "description": "True if stops should list their platforms. Enables platform filtering."
@@ -42,15 +46,10 @@
           },
           "oneOf": [
             {
-              "required": [
-                "id",
-                "offsetCheckHour"
-              ]
+              "required": ["id", "offsetCheckHour"]
             },
             {
-              "required": [
-                "offset"
-              ]
+              "required": ["offset"]
             }
           ]
         },
@@ -67,16 +66,10 @@
               },
               "mode": {
                 "type": "string",
-                "enum": [
-                  "regional-train",
-                  "suburban-train"
-                ]
+                "enum": ["regional-train", "suburban-train"]
               }
             },
-            "required": [
-              "id",
-              "mode"
-            ]
+            "required": ["id", "mode"]
           }
         }
       },
@@ -97,13 +90,13 @@
           "type": "string",
           "description": "The path/glob to the .ttbl files to use as static timetables."
         },
-        "continuation": {
-          "type": "string",
-          "description": "The path to the .yml config file for continunation."
-        },
         "platformRules": {
           "type": "string",
           "description": "The path to the .yml config file for platform guessing rules."
+        },
+        "gtfs": {
+          "type": "string",
+          "description": "The path to the .yml config file for GTFS setup."
         },
         "linter": {
           "type": "string",
@@ -114,13 +107,7 @@
           "description": "The path to the .md file for the about page content."
         }
       },
-      "required": [
-        "timetables",
-        "continuation",
-        "platformRules",
-        "linter",
-        "about"
-      ]
+      "required": ["timetables", "platformRules", "linter", "about"]
     },
     "frontend": {
       "type": "object",
@@ -166,10 +153,7 @@
                 "description": "The rule, e.g. 'direction-down line-10, direction-down line-9' which would match any train on line 9 or 10 going in a 'down' direction."
               }
             },
-            "required": [
-              "text",
-              "rules"
-            ]
+            "required": ["text", "rules"]
           }
         },
         "directionNames": {
@@ -193,10 +177,7 @@
                 "description": "E.g. 'Citybound'"
               }
             },
-            "required": [
-              "regular",
-              "capital"
-            ]
+            "required": ["regular", "capital"]
           }
         }
       },
@@ -210,9 +191,5 @@
       ]
     }
   },
-  "required": [
-    "shared",
-    "server",
-    "frontend"
-  ]
+  "required": ["shared", "server", "frontend"]
 }

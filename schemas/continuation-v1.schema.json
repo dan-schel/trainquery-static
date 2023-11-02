@@ -10,10 +10,7 @@
         "properties": {
           "method": {
             "description": "Either 'linear' or 'hook'.",
-            "enum": [
-              "linear",
-              "hook"
-            ]
+            "enum": ["linear", "hook"]
           }
         },
         "oneOf": [
@@ -24,17 +21,9 @@
                 "const": "linear",
                 "description": "Services continue from the shared terminus of multiple linear lines. Inbound services from 'Side A' form outbound services on 'Side B' and vice-versa."
               },
-              "layoverMins": {
-                "description": "Required time range (in minutes) between ending one service and beginning the next. E.g. '3' or '2..6'.",
-                "oneOf": [
-                  {
-                    "type": "string",
-                    "pattern": "^[0-9]+..[0-9]+$"
-                  },
-                  {
-                    "type": "integer"
-                  }
-                ]
+              "from": {
+                "type": "number",
+                "description": "The stop where services are joined from being the original service to the continuation."
               },
               "sideA": {
                 "type": "array",
@@ -49,20 +38,6 @@
                 "items": {
                   "type": "number"
                 }
-              }
-            },
-            "required": [
-              "layoverMins",
-              "sideA",
-              "sideB"
-            ]
-          },
-          {
-            "additionalProperties": false,
-            "properties": {
-              "method": {
-                "const": "hook",
-                "description": "Services continue from the terminus inside the loop formed by the hook. Inbound 'hooked' services form direct outbound services and vice-versa."
               },
               "layoverMins": {
                 "description": "Required time range (in minutes) between ending one service and beginning the next. E.g. '3' or '2..6'.",
@@ -75,6 +50,16 @@
                     "type": "integer"
                   }
                 ]
+              }
+            },
+            "required": ["from", "sideA", "sideB", "layoverMins"]
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "method": {
+                "const": "hook",
+                "description": "Services continue from the terminus inside the loop formed by the hook. Inbound 'hooked' services form direct outbound services and vice-versa."
               },
               "lines": {
                 "type": "array",
@@ -82,21 +67,26 @@
                 "items": {
                   "type": "number"
                 }
+              },
+              "layoverMins": {
+                "description": "Required time range (in minutes) between ending one service and beginning the next. E.g. '3' or '2..6'.",
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9]+..[0-9]+$"
+                  },
+                  {
+                    "type": "integer"
+                  }
+                ]
               }
             },
-            "required": [
-              "layoverMins",
-              "lines"
-            ]
+            "required": ["lines", "layoverMins"]
           }
         ],
-        "required": [
-          "method"
-        ]
+        "required": ["method"]
       }
     }
   },
-  "required": [
-    "rules"
-  ]
+  "required": ["rules"]
 }
