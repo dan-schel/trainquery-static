@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schemas/gtfs-v1.schema.json
 
-staticData: http://data.ptv.vic.gov.au/downloads/gtfs.zip
+staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
 
 refreshSeconds: 86400 # Every 24 hours
 
@@ -123,7 +123,6 @@ subfeeds:
   - name: suburban
     path: 2/google_transit.zip
 
-    # Note: We have no IDs for Flemington Racecourse (103) or Showgrounds (247).
     stops:
       19924: 1 # Aircraft
       19847: 2 # Alamein
@@ -194,6 +193,7 @@ subfeeds:
       19868: 100 # Ferntree Gully
       19841: 101 # Flagstaff
       19971: 102 # Flemington Bridge
+      20027: 103 # Flemington Racecourse
       19854: 104 # Flinders Street
       20025: 105 # Footscray
       19855: 106 # Frankston
@@ -302,6 +302,7 @@ subfeeds:
       19857: 241 # Seaford
       19927: 242 # Seaholme
       19997: 243 # Seddon
+      20028: 247 # Showgrounds (I think it's 20028?)
       19833: 248 # Somerville
       20026: 250 # South Kensington
       45795: 251 # South Morang
