@@ -4,14 +4,14 @@ TrainQuery is an unofficial guide to help you navigate Melbourne's train network
 
 ## Can you trust this site?
 
-{ERROR}**Not really.**{/ERROR}
+**Well... somewhat.**
 
-At the moment, this site is powered purely by static timetables made available by [Metro Trains Melbourne](https://www.metrotrains.com.au/timetables) and [V/Line](https://www.vline.com.au/Timetables/Additional-pages/train-coach-timetable-list) which I have to enter manually...ish. So as soon as there's any disruption to the regular timetable — planned or unplanned — chances are this site won't reflect that.
+At the moment, this site pulls its timetables from the Department of Transport's [GTFS data feed](https://discover.data.vic.gov.au/dataset/timetable-and-geographic-information-gtfs), however I'm still working on integrating the [realtime feed](https://discover.data.vic.gov.au/dataset/gtfsr-metro-trains-vehicle-positions). That means you'll see the services correctly as scheduled, but the site won't react to unplanned disruptions or have live departure times just yet.
 
-PTV [does actually publish](https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/ptv-timetable-api/) an API of live timetable data, so I do intend to make use of that in the future to enhance the quality and timeliness of what gets shown here, but I've made a conscious choice to prioritise loading the static timetables first because the quality of data you get from the PTV API leaves a lot to be desired at times.
+Besides that, in future I also plan to use the [PTV API](https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/ptv-timetable-api/) to make disruption messages available on the site, as well as to enhance the quality of what gets shown here by providing a "second opinion". Hopefully I'll have that finished soon!
 
-## Lol, then why bother?
+## Hmm ok, why bother lol?
 
-Well it's all just a bit of fun. I'm a uni student exercising my web dev skills! Besides, if you just want to check the timetables with that huge caveat in mind, then this site is a great way to do that 😉.
+Well it's all just a bit of fun. I'm a uni student exercising my web dev skills! Besides, if you just want to check the timetables keeping all that in mind, then this site is a great way to do that 😉.
 
 Thanks for checking it out!

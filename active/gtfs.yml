@@ -2,7 +2,8 @@
 
 staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
 
-refreshSeconds: 86400 # Every 24 hours
+refreshSeconds: 86400 # Every 24 hours (TODO: remove this when no longer used).
+refreshHourUtc: 16 # 2am AEST or 3am AEDT.
 
 persist: true
 

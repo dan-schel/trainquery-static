@@ -38,7 +38,7 @@ frontend:
   appName: TrainQuery
   beta: true
   tagline: Navigate Melbourne's train network
-  footer: '© Dan Schellekens 2023 &mdash; Not affiliated with PTV, Metro Trains Melbourne, or V/Line. Data accuracy cannot be guaranteed. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
+  footer: '© Dan Schellekens 2023 &mdash; Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
 
