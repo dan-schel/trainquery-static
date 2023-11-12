@@ -1,10 +1,12 @@
 # yaml-language-server: $schema=../schemas/gtfs-v1.schema.json
 
+# staticData: offline-gtfs/gtfs.zip
 staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
 
 refreshSeconds: 86400 # Every 24 hours (TODO: remove this when no longer used).
 refreshHourUtc: 16 # 2am AEST or 3am AEDT.
 
+# persist: false
 persist: true
 
 subfeeds:

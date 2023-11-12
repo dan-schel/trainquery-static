@@ -1,5 +1,29 @@
 # yaml-language-server: $schema=../schemas/url-names-v1.schema.json
 
+lines:
+  1: sandringham
+  2: frankston
+  3: stonypoint
+  4: cranbourne
+  5: pakenham
+  6: gippsland
+  7: glenwaverley
+  8: alamein
+  9: belgrave
+  10: lilydale
+  11: hurstbridge
+  12: mernda
+  13: upfield
+  14: craigieburn
+  15: seymour
+  16: flemingtonracecourse
+  17: sunbury
+  18: bendigo
+  19: ballarat
+  20: geelong
+  21: werribee
+  22: williamstown
+
 stops:
   1: aircraft
   2: alamein
@@ -315,27 +339,3 @@ stops:
   314: huntly
   315: raywood
   316: union
-
-lines:
-  1: sandringham
-  2: frankston
-  3: stonypoint
-  4: cranbourne
-  5: pakenham
-  6: gippsland
-  7: glenwaverley
-  8: alamein
-  9: belgrave
-  10: lilydale
-  11: hurstbridge
-  12: mernda
-  13: upfield
-  14: craigieburn
-  15: seymour
-  16: flemingtonracecourse
-  17: sunbury
-  18: bendigo
-  19: ballarat
-  20: geelong
-  21: werribee
-  22: williamstown
