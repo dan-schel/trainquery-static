@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schemas/url-names-v1.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/url-names-v1.schema.json
 
 lines:
   1: sandringham

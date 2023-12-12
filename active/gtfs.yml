@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=../schemas/gtfs-v1.schema.json
-
 # staticData: offline-gtfs/gtfs.zip
 staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
 

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schemas/stops-v3.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/stops-v3.schema.json
 
 stops:
   - id: 1
