@@ -1,4 +1,4 @@
-# staticData: offline-gtfs/gtfs.zip
+# staticData: offline/gtfs.zip
 staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
 
 # persist: false
@@ -9,6 +9,40 @@ refreshHourUtc: 16 # 2am AEST or 3am AEDT.
 subfeeds:
   - name: regional
     path: 1/google_transit.zip
+    parsing:
+      # Gippsland Line
+      6:
+        routeIDRegex:
+          - "1-V08" # Melbourne - Bairnsdale Via Sale & Traralgon
+          - "1-V48" # Traralgon - Melbourne Via Pakenham, Moe & Morwell
+
+      # Seymour Line
+      15:
+        routeIDRegex:
+          - "1-Sht" # Shepparton - Melbourne Via Seymour
+          - "1-V01" # Melbourne - Albury Via Seymour
+          - "1-V40" # Melbourne - Seymour Via Broadmeadows
+
+      # Bendigo Line
+      18:
+        routeIDRegex:
+          - "1-Ech" # Melbourne - Echuca/Moama Via Bendigo or Heathcote
+          - "1-V12" # Melbourne - Bendigo Via Sunbury
+          - "1-V45" # Melbourne - Swan Hill Via Bendigo
+
+      # Ballarat Line
+      19:
+        routeIDRegex:
+          - "1-my1" # Melbourne - Maryborough Via Ballarat
+          - "1-V04" # Ararat - Melbourne Via Ballarat
+          - "1-V05" # Ballarat - Melbourne Via Melton
+
+      # Geelong Line
+      20:
+        routeIDRegex:
+          - "1-V23" # Geelong - Melbourne Via Geelong
+          - "1-V51" # Warrnambool - Melbourne Via Geelong & Colac
+
     stops:
       20287: 4 # Albury
       20288: 8 # Ararat
@@ -122,6 +156,103 @@ subfeeds:
 
   - name: suburban
     path: 2/google_transit.zip
+
+    parsing:
+      # Sandringham Line
+      1:
+        routeIDRegex:
+          - "2-SDM"
+        ignoreStops:
+          - 253 # Southern Cross
+
+      # Frankston Line
+      2:
+        routeIDRegex:
+          - "2-FKN"
+
+      # Stony Point Line
+      3:
+        routeIDRegex:
+          - "2-SPT"
+
+      # Cranbourne Line
+      4:
+        routeIDRegex:
+          - "2-CRB"
+        ignoreStops:
+          - 43 # Burnley
+
+      # Pakenham Line
+      5:
+        routeIDRegex:
+          - "2-PKM"
+        ignoreStops:
+          - 43 # Burnley
+
+      # Glen Waverley Line
+      7:
+        routeIDRegex:
+          - "2-GLW"
+
+      # Alamein Line
+      8:
+        routeIDRegex:
+          - "2-ALM"
+
+      # Belgrave Line
+      9:
+        routeIDRegex:
+          - "2-BEL"
+
+      # Lilydale Line
+      10:
+        routeIDRegex:
+          - "2-LIL"
+
+      # Hurstbridge Line
+      11:
+        routeIDRegex:
+          - "2-HBG"
+
+      # Mernda Line
+      12:
+        routeIDRegex:
+          - "2-MER"
+
+      # Upfield Line
+      13:
+        routeIDRegex:
+          - "2-UFD"
+
+      # Craigieburn Line
+      14:
+        routeIDRegex:
+          - "2-B31"
+
+      # Flemington Racecourse Line
+      16:
+        routeIDRegex:
+          - "2-ain"
+
+      # Sunbury Line
+      17:
+        routeIDRegex:
+          - "2-SYM"
+
+      # Werribee Line
+      21:
+        routeIDRegex:
+          - "2-WBE"
+
+      # Williamstown Line
+      22:
+        routeIDRegex:
+          - "2-WMN"
+
+      # # City Circle Line
+      # 23:
+      #   routeIDRegex:
+      #     - "2-ccl"
 
     stops:
       19924: 1 # Aircraft
