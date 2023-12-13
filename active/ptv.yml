@@ -1,34 +1,36 @@
+# yaml-language-server: $schema=https://schemas.trainquery.com/v1/ptv.schema.json
+
 lines:
-  12: 1     # Sandringham
-  6: 2      # Frankston
-  13: 3     # Stony Point
-  4: 4      # Cranbourne
-  11: 5     # Pakenham
-  1824: 6   # Gippsland ("Traralgon - Melbourne via Morwell & Moe & Pakenham")
-  1823: 6   # Gippsland ("Bairnsdale - Melbourne via Sale & Traralgon")
-  7: 7      # Glen Waverley
-  1: 8      # Alamein
-  2: 9      # Belgrave
-  9: 10     # Lilydale
-  8: 11     # Hurstbridge
-  5: 12     # Mernda
-  15: 13    # Upfield
-  3: 14     # Craigieburn
-  1706: 15  # Seymour ("Albury - Melbourne via Seymour")
-  1710: 15  # Seymour ("Seymour - Melbourne via Broadmeadows")
-  1908: 15  # Seymour ("Shepparton - Melbourne via Seymour")
-  1482: 16  # Flemington Racecourse
-  14: 17    # Sunbury
-  1740: 18  # Bendigo ("Bendigo - Melbourne via Gisborne")
-  1848: 18  # Bendigo ("Swan Hill - Melbourne via Bendigo")
-  1849: 18  # Bendigo ("Echuca-Moama - Melbourne via Bendigo or Heathcote")
-  1728: 19  # Ballarat ("Ballarat-Wendouree - Melbourne via Melton")
-  1837: 19  # Ballarat ("Ararat - Melbourne via Ballarat")
-  4871: 19  # Ballarat ("Maryborough - Melbourne via  Ballarat")
-  1745: 20  # Geelong ("Geelong - Melbourne")
-  1853: 20  # Geelong ("Warrnambool - Melbourne via Colac & Geelong")
-  16: 21    # Werribee
-  17: 22    # Williamstown
+  12: 1 # Sandringham
+  6: 2 # Frankston
+  13: 3 # Stony Point
+  4: 4 # Cranbourne
+  11: 5 # Pakenham
+  1824: 6 # Gippsland ("Traralgon - Melbourne via Morwell & Moe & Pakenham")
+  1823: 6 # Gippsland ("Bairnsdale - Melbourne via Sale & Traralgon")
+  7: 7 # Glen Waverley
+  1: 8 # Alamein
+  2: 9 # Belgrave
+  9: 10 # Lilydale
+  8: 11 # Hurstbridge
+  5: 12 # Mernda
+  15: 13 # Upfield
+  3: 14 # Craigieburn
+  1706: 15 # Seymour ("Albury - Melbourne via Seymour")
+  1710: 15 # Seymour ("Seymour - Melbourne via Broadmeadows")
+  1908: 15 # Seymour ("Shepparton - Melbourne via Seymour")
+  1482: 16 # Flemington Racecourse
+  14: 17 # Sunbury
+  1740: 18 # Bendigo ("Bendigo - Melbourne via Gisborne")
+  1848: 18 # Bendigo ("Swan Hill - Melbourne via Bendigo")
+  1849: 18 # Bendigo ("Echuca-Moama - Melbourne via Bendigo or Heathcote")
+  1728: 19 # Ballarat ("Ballarat-Wendouree - Melbourne via Melton")
+  1837: 19 # Ballarat ("Ararat - Melbourne via Ballarat")
+  4871: 19 # Ballarat ("Maryborough - Melbourne via  Ballarat")
+  1745: 20 # Geelong ("Geelong - Melbourne")
+  1853: 20 # Geelong ("Warrnambool - Melbourne via Colac & Geelong")
+  16: 21 # Werribee
+  17: 22 # Williamstown
 
 stops:
   1220: 1 # Aircraft

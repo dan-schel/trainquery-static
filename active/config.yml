@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/config-v1.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v1/config.schema.json
 
 shared:
   stops: ./stops.yml

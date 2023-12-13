@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/lines-v5.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v1/lines.schema.json
 
 lines:
   - id: 1

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/departure-feeds-v1.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v1/departure-feeds.schema.json
 
 default:
   - filter: direction-up
