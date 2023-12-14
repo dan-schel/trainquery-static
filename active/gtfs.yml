@@ -196,7 +196,7 @@ subfeeds:
         ignoreStops:
           - 43 # Burnley
         canDedupeWith:
-          - 6 # Cranbourne Line
+          - 4 # Cranbourne Line
 
       # Glen Waverley Line
       7:
