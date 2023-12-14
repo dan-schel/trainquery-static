@@ -171,6 +171,9 @@ subfeeds:
       2:
         routeIDRegex:
           - "2-FKN"
+        canDedupeWith:
+          - 21 # Werribee Line
+          - 22 # Williamstown Line
 
       # Stony Point Line
       3:
@@ -183,6 +186,8 @@ subfeeds:
           - "2-CRB"
         ignoreStops:
           - 43 # Burnley
+        canDedupeWith:
+          - 5 # Pakenham Line
 
       # Pakenham Line
       5:
@@ -190,46 +195,74 @@ subfeeds:
           - "2-PKM"
         ignoreStops:
           - 43 # Burnley
+        canDedupeWith:
+          - 6 # Cranbourne Line
 
       # Glen Waverley Line
       7:
         routeIDRegex:
           - "2-GLW"
+        canDedupeWith:
+          - 8 # Alamein Line
+          - 9 # Belgrave Line
+          - 10 # Lilydale Line
 
       # Alamein Line
       8:
         routeIDRegex:
           - "2-ALM"
+        canDedupeWith:
+          - 7 # Glen Waverley Line
+          - 9 # Belgrave Line
+          - 10 # Lilydale Line
 
       # Belgrave Line
       9:
         routeIDRegex:
           - "2-BEL"
+        canDedupeWith:
+          - 7 # Glen Waverley Line
+          - 8 # Alamein Line
+          - 10 # Lilydale Line
 
       # Lilydale Line
       10:
         routeIDRegex:
           - "2-LIL"
+        canDedupeWith:
+          - 7 # Glen Waverley Line
+          - 8 # Alamein Line
+          - 9 # Belgrave Line
 
       # Hurstbridge Line
       11:
         routeIDRegex:
           - "2-HBG"
+        canDedupeWith:
+          - 12 # Mernda Line
 
       # Mernda Line
       12:
         routeIDRegex:
           - "2-MER"
+        canDedupeWith:
+          - 11 # Hurstbridge Line
 
       # Upfield Line
       13:
         routeIDRegex:
           - "2-UFD"
+        canDedupeWith:
+          - 14 # Craigieburn Line
+          - 17 # Sunbury Line
 
       # Craigieburn Line
       14:
         routeIDRegex:
           - "2-B31"
+        canDedupeWith:
+          - 13 # Upfield Line
+          - 17 # Sunbury Line
 
       # Flemington Racecourse Line
       16:
@@ -240,19 +273,28 @@ subfeeds:
       17:
         routeIDRegex:
           - "2-SYM"
+        canDedupeWith:
+          - 13 # Upfield Line
+          - 14 # Craigieburn Line
 
       # Werribee Line
       21:
         routeIDRegex:
           - "2-WBE"
+        canDedupeWith:
+          - 2 # Frankston Line
+          - 22 # Williamstown Line
 
       # Williamstown Line
       22:
         routeIDRegex:
           - "2-WMN"
+        canDedupeWith:
+          - 2 # Frankston Line
+          - 21 # Werribee Line
 
       # # City Circle Line
-      # 23:
+      # 100:
       #   routeIDRegex:
       #     - "2-ccl"
 
