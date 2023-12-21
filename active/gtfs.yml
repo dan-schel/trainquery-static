@@ -281,6 +281,7 @@ subfeeds:
       21:
         routeIDRegex:
           - "2-WBE"
+          - "2-FKN" # Some "Frankston" trains start from Southern Cross.
         canDedupeWith:
           - 2 # Frankston Line
           - 22 # Williamstown Line
@@ -289,6 +290,7 @@ subfeeds:
       22:
         routeIDRegex:
           - "2-WMN"
+          - "2-FKN" # Some "Frankston" trains start from Southern Cross.
         canDedupeWith:
           - 2 # Frankston Line
           - 21 # Werribee Line
