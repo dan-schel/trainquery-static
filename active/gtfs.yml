@@ -158,6 +158,12 @@ subfeeds:
 
   - name: suburban
     path: 2/google_transit.zip
+    realtime:
+      # Refresh realtime data every 20 seconds for 2 minutes upon activity.
+      # Always discard realtime data that is over 60 seconds old.
+      refreshInterval: 20
+      inactivityTimeout: 120
+      staleAfter: 60
 
     parsing:
       # Sandringham Line
