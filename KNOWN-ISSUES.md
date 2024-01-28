@@ -10,13 +10,13 @@ TrainQuery incorrectly believes the following routes are "invalid", and therefor
 
 - **Trains which travel only around the loop (completing a full lap rather than making their way out to the suburbs), known as "City Circle" trains.** These trains rarely run, and only during disruptions.
 
-- **Trains that have replacement bus timetables merged onto them.** An example of this is when buses replace trains between Caulfield and Richmond, and buses are shuttling passengers to Burnley from Caulfield instead of direct to Richmond. Sometimes when this has occurred in the past, train timetables on the Pakenham,Cranbourne, and Frankston lines will show an extra stop at Burnley with the time the bus is scheduled for. TrainQuery knows these trains shouldn't be stopping at Burnley and unfortunately rejects the whole service.
+- **Trains that have replacement bus timetables merged onto them.** An example of this is when buses replace trains between Caulfield and Richmond, and buses are shuttling passengers to Burnley from Caulfield instead of direct to Richmond. Sometimes when this has occurred in the past, train timetables on the Pakenham, Cranbourne, and Frankston lines will show an extra stop at Burnley with the time the bus is scheduled for. TrainQuery knows these trains shouldn't be stopping at Burnley and unfortunately rejects the whole service.
 
 ## Missing disruption messages
 
 Some disruptions are ignored or not handled appropriately by TrainQuery:
 
-- **Any disruption beginning with "... Station:" is currently hidden.** This is a temporary measure to filter out so many trival disruptions that only affect a single station, such as a car park closure, escalator/lift outage, or changes to pedestrian access.
+- **Any disruption beginning with "... Station:" is currently hidden.** The PTV API serves up so many trival disruptions that only affect a single station, such as a car park closure, escalator/lift outage, or changes to pedestrian access. All these disruptions need to be shown, but they aren't the same severity as something like a full line closure, so right now they're completely hidden. Hiding them also has the unfortunate side effect of hiding things like station closures, which actually are relatively high severity.
 
 - **Cancelled trains are not handled well yet.** Currently, a train will only show as being cancelled when a disruption message is provided by the PTV API. These messages may take up to 5 mins to show up from when the cancellation is posted by PTV, and will be shown on every train on the line.
 
