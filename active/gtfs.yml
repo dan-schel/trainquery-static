@@ -159,6 +159,13 @@ subfeeds:
   - name: suburban
     path: 2/google_transit.zip
     realtime:
+      api:
+        - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-tripupdates
+        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-servicealerts
+        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-vehicleposition-updates
+
+      apiAuth: melbourne
+
       # Refresh realtime data every 20 seconds for 2 minutes upon activity.
       # Always discard realtime data that is over 60 seconds old.
       refreshInterval: 20
