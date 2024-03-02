@@ -23,6 +23,7 @@ server:
   platformRules: ./platform-rules.yml
   gtfs: ./gtfs.yml
   ptv: ./ptv.yml
+  banners: ./banners.yml
   linter: ./linter.yml
 
   # Don't send the about page markup to the client until they request it.
