@@ -42,6 +42,7 @@ frontend:
   beta: true
   tagline: Navigate Melbourne's train network
   footer: '© 2023-present Dan Schellekens &mdash; Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport and Planning. For official timetables visit <a href="https://www.ptv.vic.gov.au" class="link">ptv.vic.gov.au</a>.'
+  footerMarkdown: "© 2023-present Dan Schellekens — Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport and Planning. For official timetables visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au)."
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
 
