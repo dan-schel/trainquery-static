@@ -28,6 +28,7 @@ server:
 
   # Don't send the about page markup to the client until they request it.
   about: ./about.md
+  legal: ./legal.yml
 
   # disruptionSources:
   #   ptvApi:
