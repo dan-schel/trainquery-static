@@ -41,7 +41,7 @@ frontend:
   appName: TrainQuery
   beta: true
   tagline: Navigate Melbourne's train network
-  footerMarkdown: "© 2023-present Dan Schellekens — Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport and Planning. For official timetables visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au)."
+  footerMarkdown: '© 2023-present Dan Schellekens — Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport and Planning. For official timetables visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au).'
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
 
@@ -77,10 +77,20 @@ frontend:
     - text: via Geelong
       # 110 = Geelong
       rules: direction-down will-stop-at-110
+
   directionNames:
     up:
       regular: citybound
       capital: Citybound
+
     down:
       regular: outbound
       capital: Outbound
+
+    clockwise:
+      regular: clockwise
+      capital: Clockwise
+      
+    anticlockwise:
+      regular: anti-clockwise
+      capital: Anti-clockwise

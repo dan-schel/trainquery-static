@@ -11,6 +11,7 @@ refreshHourUtc: 16 # 2am AEST or 3am AEDT.
 subfeeds:
   - name: regional
     path: 1/google_transit.zip
+
     parsing:
       # Gippsland Line
       6:
@@ -158,6 +159,7 @@ subfeeds:
 
   - name: suburban
     path: 2/google_transit.zip
+
     realtime:
       api:
         - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-tripupdates
@@ -308,10 +310,10 @@ subfeeds:
           - 2 # Frankston Line
           - 21 # Werribee Line
 
-      # # City Circle Line
-      # 100:
-      #   routeIDRegex:
-      #     - "2-ccl"
+      # City Circle Line
+      101:
+        routeIDRegex:
+          - "2-ccl"
 
     stops:
       19924: 1 # Aircraft

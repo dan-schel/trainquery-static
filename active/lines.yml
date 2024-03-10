@@ -629,7 +629,7 @@ lines:
   - id: 16
     name: Flemington Racecourse
     color: none
-    specialEventsOnly: true
+    visibility: special-events-only
     serviceType: suburban
     route:
       type: hook
@@ -894,4 +894,23 @@ lines:
         - stops: 250 # South Kensington
         - stops: 204 # North Melbourne
         - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+
+  - id: 101
+    name: City Circle
+    color: red
+    visibility: hidden
+    serviceType: suburban
+    route:
+      type: linear
+      forward:
+        id: clockwise
+      reverse:
+        id: anticlockwise
+      stops:
+        - stops: 104 # Flinders Street
+        - stops: 253 # Southern Cross
+        - stops: 101 # Flagstaff
+        - stops: 171 # Melbourne Central
+        - stops: 216 # Parliament
         - stops: 104 # Flinders Street

@@ -10,12 +10,14 @@ exceptions:
     feeds:
       - filter: "" # Empty filter - show all departures in one feed.
         count: 10
+    disableDirectionFiltering: true
 
   - stops:
       - 253 # Southern Cross
     feeds:
       - filter: service-type-regional
       - filter: service-type-suburban
+    disableDirectionFiltering: true
 
   - stops:
       - 101 # Flagstaff
@@ -30,3 +32,4 @@ exceptions:
         count: 3
       - filter: platform-4
         count: 3
+    disableDirectionFiltering: true

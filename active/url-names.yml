@@ -23,6 +23,7 @@ lines:
   20: geelong
   21: werribee
   22: williamstown
+  101: citycircle
 
 stops:
   1: aircraft
