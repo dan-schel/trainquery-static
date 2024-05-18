@@ -1635,3 +1635,8 @@ stops:
       - id: 1
       - id: 2
       - id: 3
+  - id: 317
+    name: East Pakenham
+    platforms:
+      - id: 1
+      - id: 2

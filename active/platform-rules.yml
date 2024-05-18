@@ -796,6 +796,11 @@
   rules:
     1: direction-up
     3: direction-down
+214: # Pakenham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
 215: # Parkdale
   confidence: medium
   rules:
