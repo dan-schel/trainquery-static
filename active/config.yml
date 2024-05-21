@@ -5,6 +5,7 @@ shared:
   lines: ./lines.yml
   urlNames: ./url-names.yml
   continuation: ./continuation.yml
+  locations: ./locations.yml
 
   usePlatforms: true
 
