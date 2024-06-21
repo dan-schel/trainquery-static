@@ -42,7 +42,7 @@ else
   cp -r $working_directory $working_directory-old
 
   echo "Cloning script outside of offline directory..."
-  rm refresh.sh
+  rm -f refresh.sh
   cp $working_directory/refresh.sh refresh.sh
 
   ./refresh.sh run
