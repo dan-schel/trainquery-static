@@ -1,5 +1,4 @@
 #!/bin/bash
-set -euo pipefail
 
 # Usage: offline/refresh.sh
 #
@@ -8,11 +7,13 @@ set -euo pipefail
 # directory to use the latest data from "github.com/dan-schel/trainquery-static"
 # and the Department of Transport and Planning's GTFS data feed.
 
+set -euo pipefail
 working_directory="offline"
 manifest_url="https://static.trainquery.com/data.yml"
 gtfs_url="https://data.ptv.vic.gov.au/downloads/gtfs.zip"
 
 if [ "${1-}" = "run" ]; then
+  echo "---"
   echo "Clearing the $working_directory directory..."
   rm -rf $working_directory
   mkdir $working_directory
@@ -45,6 +46,6 @@ else
   rm -f refresh.sh
   cp $working_directory/refresh.sh refresh.sh
 
+  echo "Running cloned script..."
   ./refresh.sh run
 fi
-
