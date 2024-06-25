@@ -168,11 +168,11 @@ subfeeds:
 
       apiAuth: melbourne
 
-      # Refresh realtime data every 20 seconds for 2 minutes upon activity.
-      # Always discard realtime data that is over 60 seconds old.
+      # Refresh realtime data every 20 seconds for 40 seconds upon activity.
+      # Always discard realtime data that is over 40 seconds old.
       refreshInterval: 20
-      inactivityTimeout: 120
-      staleAfter: 60
+      inactivityTimeout: 40
+      staleAfter: 40
 
     parsing:
       # Sandringham Line
