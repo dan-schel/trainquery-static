@@ -1,0 +1,21 @@
+# Stops and platforms
+stops: ./stops.yml
+locations: ./locations.yml
+platformRules: ./platform-rules.yml
+
+# Lines
+lines: ./lines.yml
+continuation: ./continuation.yml
+
+# Frontend
+urlNames: ./url-names.yml
+via: ./via.yml
+departureFeeds: ./departure-feeds.yml
+directionNames: ./direction-names.yml # TODO: directions.yml?
+
+# Timetables
+timetables: ./timetables/*.ttbl
+
+# External API mapping
+ptvIDs: ./ptv-ids.yml
+gtfsIDs: ./gtfs-ids.yml

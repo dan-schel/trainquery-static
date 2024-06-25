@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=https://schemas.trainquery.com/v1/ptv.schema.json
 
+# TODO: Update name of JSON schema.
+
 lines:
   12: 1 # Sandringham
   6: 2 # Frankston

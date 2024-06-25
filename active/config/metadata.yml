@@ -1,0 +1,17 @@
+# TODO: Add JSON schema.
+
+appName: TrainQuery
+tagline: Navigate Melbourne's train network
+description: Navigate Melbourne's train network with TrainQuery.
+beta: true
+
+assets:
+  favicon:
+    svg: ./assets/favicon.svg
+    ico: ./assets/favicon.ico
+    circle192: ./assets/favicon-circle-192.png
+    circle512: ./assets/favicon-circle-512.png
+    maskable192: ./assets/favicon-maskable-192.png
+    maskable512: ./assets/favicon-maskable-512.png
+    appleTouchIcon: ./assets/apple-touch-icon.png
+  ogImage: ./assets/og-image.png

@@ -1,0 +1,17 @@
+# Metadata and basic config
+metadata: ./metadata.yml
+timezone: ./timezone.yml
+serviceTypes: ./service-types.yml
+
+# External API config
+gfts: ./gtfs.yml
+ptv: ./ptv.yml
+
+# Static instance-specfic content
+welcome: ./welcome.md
+footer: ./footer.md
+about: ./about.md
+legal: ./legal.yml
+
+# Linter config
+linter: ./linter.yml

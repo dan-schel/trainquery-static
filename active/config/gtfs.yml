@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://schemas.trainquery.com/v1/gtfs.schema.json
+
+# staticData: offline/gtfs.zip
+staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
+
+# persist: false
+persist: true
+
+refreshHourUtc: 16 # 2am AEST or 3am AEDT.
+
+# TODO: Instead of allowing fields on two levels, if no subfeed, use "default"?
+
+subfeeds:
+  - name: regional
+    path: 1/google_transit.zip
+
+  - name: suburban
+    path: 2/google_transit.zip
+
+    realtime:
+      api:
+        - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-tripupdates
+        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-servicealerts
+        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-vehicleposition-updates
+
+      apiAuth: melbourne
+
+      # Refresh realtime data every 20 seconds for 2 minutes upon activity.
+      # Always discard realtime data that is over 60 seconds old.
+      refreshInterval: 20
+      inactivityTimeout: 120
+      staleAfter: 60

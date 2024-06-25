@@ -1,0 +1,178 @@
+# TODO: Add JSON schema.
+
+# TODO: If no subfeed, use "default"?
+
+regional:
+  # Gippsland Line
+  6:
+    routeIDRegex:
+      - "1-V08" # Melbourne - Bairnsdale Via Sale & Traralgon
+      - "1-V48" # Traralgon - Melbourne Via Pakenham, Moe & Morwell
+
+  # Seymour Line
+  15:
+    routeIDRegex:
+      - "1-Sht" # Shepparton - Melbourne Via Seymour
+      - "1-V01" # Melbourne - Albury Via Seymour
+      - "1-V40" # Melbourne - Seymour Via Broadmeadows
+
+  # Bendigo Line
+  18:
+    routeIDRegex:
+      - "1-Ech" # Melbourne - Echuca/Moama Via Bendigo or Heathcote
+      - "1-V12" # Melbourne - Bendigo Via Sunbury
+      - "1-V45" # Melbourne - Swan Hill Via Bendigo
+
+  # Ballarat Line
+  19:
+    routeIDRegex:
+      - "1-my1" # Melbourne - Maryborough Via Ballarat
+      - "1-V04" # Ararat - Melbourne Via Ballarat
+      - "1-V05" # Ballarat - Melbourne Via Melton
+
+  # Geelong Line
+  20:
+    routeIDRegex:
+      - "1-V23" # Geelong - Melbourne Via Geelong
+      - "1-V51" # Warrnambool - Melbourne Via Geelong & Colac
+
+suburban:
+  # Sandringham Line
+  1:
+    routeIDRegex:
+      - "2-SDM"
+    ignoreStops:
+      - 253 # Southern Cross
+
+  # Frankston Line
+  2:
+    routeIDRegex:
+      - "2-FKN"
+    canDedupeWith:
+      - 21 # Werribee Line
+      - 22 # Williamstown Line
+
+  # Stony Point Line
+  3:
+    routeIDRegex:
+      - "2-SPT"
+
+  # Cranbourne Line
+  4:
+    routeIDRegex:
+      - "2-CRB"
+    ignoreStops:
+      - 43 # Burnley
+    canDedupeWith:
+      - 5 # Pakenham Line
+
+  # Pakenham Line
+  5:
+    routeIDRegex:
+      - "2-PKM"
+    ignoreStops:
+      - 43 # Burnley
+    canDedupeWith:
+      - 4 # Cranbourne Line
+
+  # Glen Waverley Line
+  7:
+    routeIDRegex:
+      - "2-GLW"
+    canDedupeWith:
+      - 8 # Alamein Line
+      - 9 # Belgrave Line
+      - 10 # Lilydale Line
+
+  # Alamein Line
+  8:
+    routeIDRegex:
+      - "2-ALM"
+    canDedupeWith:
+      - 7 # Glen Waverley Line
+      - 9 # Belgrave Line
+      - 10 # Lilydale Line
+
+  # Belgrave Line
+  9:
+    routeIDRegex:
+      - "2-BEL"
+    canDedupeWith:
+      - 7 # Glen Waverley Line
+      - 8 # Alamein Line
+      - 10 # Lilydale Line
+
+  # Lilydale Line
+  10:
+    routeIDRegex:
+      - "2-LIL"
+    canDedupeWith:
+      - 7 # Glen Waverley Line
+      - 8 # Alamein Line
+      - 9 # Belgrave Line
+
+  # Hurstbridge Line
+  11:
+    routeIDRegex:
+      - "2-HBG"
+    canDedupeWith:
+      - 12 # Mernda Line
+
+  # Mernda Line
+  12:
+    routeIDRegex:
+      - "2-MER"
+    canDedupeWith:
+      - 11 # Hurstbridge Line
+
+  # Upfield Line
+  13:
+    routeIDRegex:
+      - "2-UFD"
+    canDedupeWith:
+      - 14 # Craigieburn Line
+      - 17 # Sunbury Line
+
+  # Craigieburn Line
+  14:
+    routeIDRegex:
+      - "2-B31"
+    canDedupeWith:
+      - 13 # Upfield Line
+      - 17 # Sunbury Line
+
+  # Flemington Racecourse Line
+  16:
+    routeIDRegex:
+      - "2-ain"
+
+  # Sunbury Line
+  17:
+    routeIDRegex:
+      - "2-SYM"
+    canDedupeWith:
+      - 13 # Upfield Line
+      - 14 # Craigieburn Line
+
+  # Werribee Line
+  21:
+    routeIDRegex:
+      - "2-WBE"
+      - "2-FKN" # Some "Frankston" trains start from Southern Cross.
+    canDedupeWith:
+      - 2 # Frankston Line
+      - 22 # Williamstown Line
+
+  # Williamstown Line
+  22:
+    routeIDRegex:
+      - "2-WMN"
+      - "2-FKN" # Some "Frankston" trains start from Southern Cross.
+    canDedupeWith:
+      - 2 # Frankston Line
+      - 21 # Werribee Line
+
+  # City Circle Line
+  101:
+    routeIDRegex:
+      - "2-ccl"

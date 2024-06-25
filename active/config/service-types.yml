@@ -1,0 +1,11 @@
+# TODO: Add JSON schema.
+
+suburban:
+  # name: Metro trains
+  mode: suburban-train
+  # operator: Metro Trains Melbourne
+
+regional:
+  # name: V/Line trains
+  mode: regional-train
+  # operator: V/Line

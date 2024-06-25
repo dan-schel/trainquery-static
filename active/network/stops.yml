@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://schemas.trainquery.com/v1/stops.schema.json
 
+# TODO: There's no need for the top level "stops" field, just map the stops by
+# their id directly, like how platform-rules.yml does it.
+
 stops:
   - id: 1
     name: Aircraft

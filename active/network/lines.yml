@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://schemas.trainquery.com/v1/lines.schema.json
 
+# TODO: There's no need for the top level "lines" field, just map the lines by
+# their id directly, like how platform-rules.yml does it.
+
 lines:
   - id: 1
     name: Sandringham

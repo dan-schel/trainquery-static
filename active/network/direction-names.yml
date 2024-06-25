@@ -1,0 +1,17 @@
+# TODO: Add JSON schema.
+
+up:
+  regular: citybound
+  capital: Citybound
+
+down:
+  regular: outbound
+  capital: Outbound
+
+clockwise:
+  regular: clockwise
+  capital: Clockwise
+
+anticlockwise:
+  regular: anti-clockwise
+  capital: Anti-clockwise
