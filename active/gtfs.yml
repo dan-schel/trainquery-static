@@ -168,11 +168,12 @@ subfeeds:
 
       apiAuth: melbourne
 
-      # Refresh realtime data every 20 seconds for 40 seconds upon activity.
-      # Always discard realtime data that is over 40 seconds old.
-      refreshInterval: 20
-      inactivityTimeout: 40
-      staleAfter: 40
+      # Cache realtime data for 60 seconds. Do not continue polling upon site
+      # activity (set next poll for 999 seconds in the future but cancel after 1
+      # second lol).
+      refreshInterval: 999
+      inactivityTimeout: 1
+      staleAfter: 60
 
     parsing:
       # Sandringham Line
