@@ -205,7 +205,7 @@ lines:
         - stops: 109 # Garfield
         - stops: 280 # Tynong
         - stops: 197 # Nar Nar Goon
-        - via: 317 # East Pakenham
+        - stops: 317 # East Pakenham
         - stops: 214 # Pakenham
         - via: 48 # Cardinia Road
         - via: 212 # Officer

@@ -17,7 +17,6 @@ exceptions:
     feeds:
       - filter: service-type-regional
       - filter: service-type-suburban
-    disableDirectionFiltering: true
 
   - stops:
       - 101 # Flagstaff

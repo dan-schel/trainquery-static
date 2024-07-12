@@ -156,6 +156,7 @@ subfeeds:
       20362: 311 # Yarragon
       49296: 314 # Huntly
       49295: 315 # Raywood
+      49848: 317 # East Pakenham
 
   - name: suburban
     path: 2/google_transit.zip
