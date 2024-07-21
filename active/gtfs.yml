@@ -18,6 +18,12 @@ subfeeds:
         routeIDRegex:
           - "1-V08" # Melbourne - Bairnsdale Via Sale & Traralgon
           - "1-V48" # Traralgon - Melbourne Via Pakenham, Moe & Morwell
+        ignoreStops:
+          - stop: 317 # East Pakenham
+            ifPresent:
+              - 253 # Southern Cross
+              - 289 # Warragul
+              # Note Pakenham is NOT included in this list, due to the couple trains that skip Pakenham.
 
       # Seymour Line
       15:
