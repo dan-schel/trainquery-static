@@ -187,6 +187,7 @@ subfeeds:
       1:
         routeIDRegex:
           - "2-SDM"
+          - "2-SHM"
         ignoreStops:
           - 253 # Southern Cross
 
@@ -202,11 +203,13 @@ subfeeds:
       3:
         routeIDRegex:
           - "2-SPT"
+          - "2-STY"
 
       # Cranbourne Line
       4:
         routeIDRegex:
           - "2-CRB"
+          - "2-CBE"
         ignoreStops:
           - 43 # Burnley
         canDedupeWith:
@@ -225,6 +228,7 @@ subfeeds:
       7:
         routeIDRegex:
           - "2-GLW"
+          - "2-GWY"
         canDedupeWith:
           - 8 # Alamein Line
           - 9 # Belgrave Line
@@ -243,6 +247,7 @@ subfeeds:
       9:
         routeIDRegex:
           - "2-BEL"
+          - "2-BEG"
         canDedupeWith:
           - 7 # Glen Waverley Line
           - 8 # Alamein Line
@@ -261,6 +266,7 @@ subfeeds:
       11:
         routeIDRegex:
           - "2-HBG"
+          - "2-HBE"
         canDedupeWith:
           - 12 # Mernda Line
 
@@ -268,6 +274,7 @@ subfeeds:
       12:
         routeIDRegex:
           - "2-MER"
+          - "2-MDD"
         canDedupeWith:
           - 11 # Hurstbridge Line
 
@@ -283,6 +290,7 @@ subfeeds:
       14:
         routeIDRegex:
           - "2-B31"
+          - "2-CGB"
         canDedupeWith:
           - 13 # Upfield Line
           - 17 # Sunbury Line
@@ -291,11 +299,13 @@ subfeeds:
       16:
         routeIDRegex:
           - "2-ain"
+          - "2-RCE"
 
       # Sunbury Line
       17:
         routeIDRegex:
           - "2-SYM"
+          - "2-SUY"
         canDedupeWith:
           - 13 # Upfield Line
           - 14 # Craigieburn Line
@@ -305,6 +315,7 @@ subfeeds:
         routeIDRegex:
           - "2-WBE"
           - "2-FKN" # Some "Frankston" trains start from Southern Cross.
+          - "2-WER"
         canDedupeWith:
           - 2 # Frankston Line
           - 22 # Williamstown Line
@@ -314,6 +325,7 @@ subfeeds:
         routeIDRegex:
           - "2-WMN"
           - "2-FKN" # Some "Frankston" trains start from Southern Cross.
+          - "2-WIL"
         canDedupeWith:
           - 2 # Frankston Line
           - 21 # Werribee Line
