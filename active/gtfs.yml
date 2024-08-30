@@ -334,6 +334,7 @@ subfeeds:
       101:
         routeIDRegex:
           - "2-ccl"
+          - "2-CCL"
 
     stops:
       19924: 1 # Aircraft
