@@ -17,7 +17,9 @@ subfeeds:
       6:
         routeIDRegex:
           - "1-V08" # Melbourne - Bairnsdale Via Sale & Traralgon
+          - "1-BDE" # Melbourne - Bairnsdale Via Sale & Traralgon
           - "1-V48" # Traralgon - Melbourne Via Pakenham, Moe & Morwell
+          - "1-TRN" # Traralgon - Melbourne Via Pakenham, Moe & Morwell
         ignoreStops:
           - stop: 317 # East Pakenham
             ifPresent:
@@ -29,28 +31,39 @@ subfeeds:
       15:
         routeIDRegex:
           - "1-Sht" # Shepparton - Melbourne Via Seymour
+          - "1-SNH" # Shepparton - Melbourne Via Seymour
           - "1-V01" # Melbourne - Albury Via Seymour
+          - "1-ABY" # Melbourne - Albury Via Seymour
           - "1-V40" # Melbourne - Seymour Via Broadmeadows
+          - "1-SER" # Melbourne - Seymour Via Broadmeadows
 
       # Bendigo Line
       18:
         routeIDRegex:
           - "1-Ech" # Melbourne - Echuca/Moama Via Bendigo or Heathcote
+          - "1-ECH" # Melbourne - Echuca/Moama Via Bendigo or Heathcote
           - "1-V12" # Melbourne - Bendigo Via Sunbury
+          - "1-BGO" # Melbourne - Bendigo Via Sunbury
           - "1-V45" # Melbourne - Swan Hill Via Bendigo
+          - "1-SWL" # Melbourne - Swan Hill Via Bendigo
 
       # Ballarat Line
       19:
         routeIDRegex:
           - "1-my1" # Melbourne - Maryborough Via Ballarat
+          - "1-MBY" # Melbourne - Maryborough Via Ballarat
           - "1-V04" # Ararat - Melbourne Via Ballarat
+          - "1-ART" # Ararat - Melbourne Via Ballarat
           - "1-V05" # Ballarat - Melbourne Via Melton
+          - "1-BAT" # Ballarat - Melbourne Via Melton
 
       # Geelong Line
       20:
         routeIDRegex:
           - "1-V23" # Geelong - Melbourne Via Geelong
+          - "1-GEL" # Geelong - Melbourne Via Geelong
           - "1-V51" # Warrnambool - Melbourne Via Geelong & Colac
+          - "1-WBL" # Warrnambool - Melbourne Via Geelong & Colac
 
     stops:
       20287: 4 # Albury
