@@ -861,6 +861,7 @@ stops:
     name: Marshall
     platforms:
       - id: 1
+      - id: 2
   - id: 169
     name: Maryborough
     platforms:
@@ -1265,6 +1266,7 @@ stops:
     name: South Geelong
     platforms:
       - id: 1
+      - id: 2
   - id: 250
     name: South Kensington
     platforms:
