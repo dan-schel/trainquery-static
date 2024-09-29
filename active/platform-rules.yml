@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/platform-rules.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/platform-rules.schema.json
 
 1: # Aircraft
   confidence: medium

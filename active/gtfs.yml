@@ -1,7 +1,11 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/gtfs.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/gtfs.schema.json
 
-# staticData: offline/gtfs.zip
-staticData: https://data.ptv.vic.gov.au/downloads/gtfs.zip
+# staticData:
+#   method: local
+#   path: offline/gtfs.zip
+staticData:
+  method: relay
+  url: https://vtar.trainquery.com/gtfs.zip
 
 # persist: false
 persist: true

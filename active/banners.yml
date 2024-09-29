@@ -1,10 +1,9 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/banners.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/banners.schema.json
 
 staleDisruptions:
   # dismissable: each-day
   dismissable: false
-  message: 'TrainQuery is currently having issues accessing the PTV API. Visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au/) to check if your train line is impacted by a disruption.'
-
+  message: "TrainQuery is currently having issues accessing the PTV API. Visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au/) to check if your train line is impacted by a disruption."
 # custom:
 #   - id: 7415e52d-2a8f-4ed3-8f17-f614809eee41
 #     dismissable: false

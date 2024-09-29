@@ -1,13 +1,13 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/legal.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/legal.schema.json
 
 timetableData:
   - title: GTFS
-    message: 'Source: Licensed from the Department of Transport and Planning under a Creative Commons Attribution 4.0 International Licence.'
+    message: "Source: Licensed from the Department of Transport and Planning under a Creative Commons Attribution 4.0 International Licence."
     links:
       - text: Website
-        url: 'https://discover.data.vic.gov.au/dataset/timetable-and-geographic-information-gtfs'
+        url: "https://discover.data.vic.gov.au/dataset/timetable-and-geographic-information-gtfs"
   - title: PTV API
-    message: 'Source: Licensed from Public Transport Victoria under a Creative Commons Attribution 4.0 International Licence.'
+    message: "Source: Licensed from Public Transport Victoria under a Creative Commons Attribution 4.0 International Licence."
     links:
       - text: Website
-        url: 'https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/ptv-timetable-api/'
+        url: "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/ptv-timetable-api/"

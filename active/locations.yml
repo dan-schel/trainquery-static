@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/locations.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/locations.schema.json
 
 1: # Aircraft
   latitude: -37.8666059463047

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/linter.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/linter.schema.json
 
 stopNameRegex: "^([A-Z][a-z]* )*([A-Z][a-z]*)$"
 lineNameRegex: "^([A-Z][a-z]* )*([A-Z][a-z]*)$"

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/continuation.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/continuation.schema.json
 
 rules:
   - method: linear

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.trainquery.com/v1/ptv.schema.json
+# yaml-language-server: $schema=https://schemas.trainquery.com/v2/ptv.schema.json
 
 lines:
   12: 1 # Sandringham
