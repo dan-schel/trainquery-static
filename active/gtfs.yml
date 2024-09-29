@@ -186,11 +186,9 @@ subfeeds:
 
     realtime:
       api:
-        - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-tripupdates
-        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-servicealerts
-        # - https://data-exchange-api.vicroads.vic.gov.au/opendata/v1/gtfsr/metrotrain-vehicleposition-updates
+        - https://vtar.trainquery.com/gtfs-realtime.json
 
-      apiAuth: melbourne
+      apiAuth: relay
 
       # Cache realtime data for 60 seconds. Do not continue polling upon site
       # activity (set next poll for 999 seconds in the future but cancel after 1
