@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=https://schemas.trainquery.com/v2/ptv.schema.json
 
+disruptionsRelayUrl: https://vtar.trainquery.com/ptv-disruptions.json
+
 lines:
   12: 1 # Sandringham
   6: 2 # Frankston
