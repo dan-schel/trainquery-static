@@ -17,4 +17,4 @@ zip -r "../data/$(date +"%F").zip" *
 cd ../
 
 # Create a new data.yml file that points to the new zip file.
-printf "# yaml-language-server: \$schema=https://schemas.trainquery.com/data.schema.json\n\nv1:\n  latest: \"https://static.trainquery.com/data/$(date +"%F").zip\"\n" >> data.yml
+printf "# yaml-language-server: \$schema=https://schemas.trainquery.com/data.schema.json\n\nv2:\n  latest: \"https://static.trainquery.com/data/$(date +"%F").zip\"\n" >> data.yml
