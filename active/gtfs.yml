@@ -14,7 +14,7 @@ refreshHourUtc: 16 # 2am AEST or 3am AEDT.
 
 subfeeds:
   - name: regional
-    path: 1/google_transit.zip
+    path: regional.zip
 
     parsing:
       # Gippsland Line
@@ -182,7 +182,7 @@ subfeeds:
       49848: 317 # East Pakenham
 
   - name: suburban
-    path: 2/google_transit.zip
+    path: suburban.zip
 
     realtime:
       api:
