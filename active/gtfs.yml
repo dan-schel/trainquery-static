@@ -190,11 +190,10 @@ subfeeds:
 
       apiAuth: relay
 
-      # Cache realtime data for 60 seconds. Do not continue polling upon site
-      # activity (set next poll for 999 seconds in the future but cancel after 1
-      # second lol).
-      refreshInterval: 999
-      inactivityTimeout: 1
+      # There's no real need for the inactivity timeout since it's fetching from
+      # VTAR, so just make it crazy high.
+      refreshInterval: 10
+      inactivityTimeout: 999999
       staleAfter: 60
 
     parsing:
