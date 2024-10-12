@@ -42,12 +42,6 @@
   rules:
     1: direction-up
     2: direction-down
-14: # Auburn
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down line-10, direction-down line-9
-    3: direction-down weekday
 15: # Avenel
   confidence: medium
   rules:
@@ -112,12 +106,6 @@
   rules:
     1: direction-up
     2: direction-down
-37: # Box Hill
-  confidence: medium
-  rules:
-    1: none
-    2: direction-up
-    4: direction-down weekday
 38: # Brighton Beach
   confidence: medium
   rules:
@@ -152,12 +140,6 @@
   rules:
     1: direction-up
     2: direction-down
-45: # Camberwell
-  confidence: medium
-  rules:
-    1: direction-up !line-8, line-8 !terminates-at-45
-    2: line-9, line-10, line-8 terminates-at-45
-    3: direction-down
 47: # Canterbury
   confidence: medium
   rules:
@@ -191,23 +173,11 @@
     2: direction-down color-green
     3: direction-up color-cyan, direction-up color-purple
     4: direction-down color-cyan, direction-down color-purple
-54: # Chatham
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down
-    3: direction-down weekday
 55: # Chelsea
   confidence: medium
   rules:
     1: direction-up
     2: direction-down
-56: # Cheltenham
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-up
-    3: direction-down
 57: # Chiltern
   confidence: medium
   rules:
@@ -298,12 +268,6 @@
   rules:
     1: direction-up
     2: direction-down
-86: # East Camberwell
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down
-    3: direction-down weekday
 87: # East Malvern
   confidence: medium
   rules:
@@ -455,12 +419,6 @@
   rules:
     1: direction-up
     2: direction-down
-128: # Hawthorn
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down line-10, direction-down line-9
-    3: direction-down line-8, direction-down line-10 weekday, direction-down line-9 weekday
 129: # Heathcote Junction
   confidence: medium
   rules:
@@ -691,6 +649,7 @@
 187: # Mooroolbark
   confidence: medium
   rules:
+    1: direction-up
     2: direction-down
 189: # Mordialloc
   confidence: medium
@@ -856,10 +815,6 @@
     8: direction-up color-blue
     9: direction-down color-blue
     10: direction-down route-variant-direct color-blue
-226: # Ringwood
-  confidence: medium
-  rules:
-    3: direction-down
 227: # Ringwood East
   confidence: medium
   rules:
@@ -1083,12 +1038,6 @@
   rules:
     1: direction-up
     2: direction-down
-291: # Watergardens
-  confidence: medium
-  rules:
-    1: color-yellow terminates-at-291, direction-up
-    2: color-yellow terminates-at-291, color-yellow direction-up
-    3: color-yellow direction-down !terminates-at-291, color-purple direction-down
 292: # Watsonia
   confidence: medium
   rules:
