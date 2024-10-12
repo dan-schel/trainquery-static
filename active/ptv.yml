@@ -2,6 +2,10 @@
 
 disruptionsRelayUrl: https://vtar.trainquery.com/ptv-disruptions.json
 
+platformsApi:
+  type: relay
+  url: https://vtar.trainquery.com/ptv-platforms.json
+
 lines:
   12: 1 # Sandringham
   6: 2 # Frankston
