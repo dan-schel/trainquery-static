@@ -81,21 +81,11 @@
   rules:
     1: direction-up
     2: direction-down
-30: # Bentleigh
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 31: # Berwick
   confidence: medium
   rules:
     1: direction-up
     2: direction-down
-34: # Blackburn
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down weekday
 35: # Bonbeach
   confidence: medium
   rules:
@@ -128,24 +118,11 @@
   rules:
     1: direction-up
     2: direction-down
-43: # Burnley
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-up
-    3: direction-down
-    4: direction-down
 44: # Burwood
   confidence: medium
   rules:
     1: direction-up
     2: direction-down
-47: # Canterbury
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down
-    3: direction-down weekday
 48: # Cardinia Road
   confidence: medium
   rules:
@@ -340,12 +317,6 @@
     4: direction-down color-purple
     5: direction-up color-green
     6: direction-down color-green
-106: # Frankston
-  confidence: medium
-  rules:
-    1: line-2
-    2: line-2
-    3: line-3
 107: # Gardenvale
   confidence: medium
   rules:
@@ -371,17 +342,6 @@
   rules:
     1: direction-up
     2: direction-down
-116: # Glenferrie
-  confidence: medium
-  rules:
-    1: direction-up
-    2: line-10 direction-down weekend, line-9 direction-down weekend, line-10 direction-up weekday, line-9 direction-up weekday
-    3: direction-down weekday
-117: # Glenhuntly
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 118: # Glenroy
   confidence: medium
   rules:
@@ -539,12 +499,6 @@
   rules:
     1: direction-up
     2: direction-down
-157: # Laverton
-  confidence: medium
-  rules:
-    1: direction-up !originates-at-157
-    2: direction-down !terminates-at-157
-    3: originates-at-157, terminates-at-157, direction-down stops-at-6
 160: # Little River
   confidence: medium
   rules:
@@ -560,12 +514,6 @@
   rules:
     1: direction-up
     2: direction-down
-165: # Macleod
-  confidence: medium
-  rules:
-    1: direction-up !originates-at-165
-    2: direction-down !terminates-at-165
-    3: terminates-at-165 originates-at-165
 167: # Malvern
   confidence: medium
   rules:
@@ -573,11 +521,6 @@
     2: direction-down color-green
     3: direction-up color-cyan
     4: direction-down color-cyan
-170: # McKinnon
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 171: # Melbourne Central
   confidence: medium
   rules:
@@ -630,22 +573,11 @@
   rules:
     1: direction-up
     2: direction-down
-183: # Mont Albert
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down
-    3: direction-down weekday
 185: # Moonee Ponds
   confidence: medium
   rules:
     1: direction-up
     2: direction-down
-186: # Moorabbin
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 187: # Mooroolbark
   confidence: medium
   rules:
@@ -750,11 +682,6 @@
   rules:
     1: direction-up
     2: direction-down
-213: # Ormond
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 214: # Pakenham
   confidence: medium
   rules:
@@ -777,11 +704,6 @@
   rules:
     1: direction-up
     2: direction-down
-218: # Patterson
-  confidence: medium
-  rules:
-    1: direction-up
-    3: direction-down
 219: # Prahran
   confidence: medium
   rules:
@@ -960,12 +882,6 @@
     2: direction-down color-yellow
     3: direction-up color-purple
     4: direction-down color-purple
-264: # Surrey Hills
-  confidence: medium
-  rules:
-    1: direction-up
-    2: direction-down
-    3: direction-down weekday
 266: # Syndal
   confidence: medium
   rules:
@@ -1043,12 +959,6 @@
   rules:
     1: direction-up
     2: direction-down
-297: # West Footscray
-  confidence: medium
-  rules:
-    1: direction-up
-    2: none
-    3: direction-down
 298: # West Richmond
   confidence: medium
   rules:
