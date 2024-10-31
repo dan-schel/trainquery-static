@@ -118,6 +118,11 @@
   rules:
     1: direction-up
     2: direction-down
+42: # Bunyip
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
 44: # Burwood
   confidence: medium
   rules:
@@ -323,6 +328,11 @@
     1: direction-up
     2: direction-down
 108: # Gardiner
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+109: # Garfield
   confidence: medium
   rules:
     1: direction-up
@@ -599,6 +609,11 @@
     1: direction-up
     2: direction-down
 195: # Murrumbeena
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+197: # Nar Nar Goon
   confidence: medium
   rules:
     1: direction-up
@@ -920,6 +935,11 @@
     1: direction-up
     2: direction-down
 276: # Tottenham
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+280: # Tynong
   confidence: medium
   rules:
     1: direction-up
