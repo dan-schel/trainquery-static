@@ -6,9 +6,9 @@ This is list of all the data processing issues I'm aware of in TrainQuery right 
 
 Some disruptions are ignored or not handled appropriately by TrainQuery:
 
-- **Any disruption beginning with "... Station:" is currently hidden.** The PTV API serves up so many trival disruptions that only affect a single station, such as a car park closure, escalator/lift outage, or changes to pedestrian access. All these disruptions should be surfaced to the relevant users somehow, but they aren't the same severity as something like a partial line closure, so right now they're completely hidden. Hiding them also has the unfortunate side effect of hiding things like station closures, which are actually relatively high severity.
+- **Any disruption beginning with "... Station:" is currently hidden.** Victoria's timetable API serves up so many trival disruptions that only affect a single station, such as a car park closure, escalator/lift outage, or changes to pedestrian access. All these disruptions should be surfaced to the relevant users somehow, but they aren't the same severity as something like a partial line closure, so right now they're completely hidden. Hiding them also has the unfortunate side effect of hiding things like station closures, which are actually relatively high severity.
 
-- **Cancelled trains are not handled well yet.** Currently, a train will only show as being cancelled when a disruption message is provided by the PTV API. These messages may take up to 5 minutes to show up from when the cancellation is posted by PTV, and will be shown on every train on the line.
+- **Cancelled trains are not handled well yet.** Currently, a train will only show as being cancelled when a disruption message is provided by Victoria's timetable API. These messages may take up to 5 minutes to show up from when the cancellation is posted to the API, and will be shown on every train on the line.
 
 ## Buses in disguise
 

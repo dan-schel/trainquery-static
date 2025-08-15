@@ -43,7 +43,7 @@ frontend:
   beta: true
   tagline: Navigate Melbourne's train network
   welcomeMarkdown: "TrainQuery is an unofficial guide to help you navigate Melbourne's train network. You can search for any suburban or regional train station to view upcoming departures, and adjust the departure time or filter to further refine the results.\n\nGet started using the search bar above."
-  footerMarkdown: "© 2023-present Dan Schellekens — Not affiliated with PTV, Metro Trains Melbourne, V/Line, or the Department of Transport and Planning. For official timetables visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au)."
+  footerMarkdown: "© 2023-present Dan Schellekens — Not affiliated with PTV, Metro, V/Line, Transport Victoria, etc. For official timetables visit [transport.vic.gov.au](https://transport.vic.gov.au/)."
   metaDescription: Navigate Melbourne's train network with TrainQuery.
   departureFeeds: ./departure-feeds.yml
 

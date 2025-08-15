@@ -3,7 +3,7 @@
 staleDisruptions:
   # dismissable: each-day
   dismissable: false
-  message: "TrainQuery is currently having issues accessing the PTV API. Visit [ptv.vic.gov.au](https://www.ptv.vic.gov.au/) to check if your train line is impacted by a disruption."
+  message: "TrainQuery is currently having issues accessing Victoria's timetable API. Visit [transport.vic.gov.au](https://transport.vic.gov.au/) to check if your train line is impacted by a disruption."
 # custom:
 #   - id: 7415e52d-2a8f-4ed3-8f17-f614809eee41
 #     dismissable: false

@@ -5,9 +5,9 @@ timetableData:
     message: "Source: Licensed from the Department of Transport and Planning under a Creative Commons Attribution 4.0 International Licence."
     links:
       - text: Website
-        url: "https://discover.data.vic.gov.au/dataset/timetable-and-geographic-information-gtfs"
-  - title: PTV API
+        url: "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule"
+  - title: Victoria's public transport timetable API
     message: "Source: Licensed from Public Transport Victoria under a Creative Commons Attribution 4.0 International Licence."
     links:
       - text: Website
-        url: "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/ptv-timetable-api/"
+        url: "https://www.vic.gov.au/public-transport-timetable-api"
