@@ -16,6 +16,18 @@ subfeeds:
   - name: regional
     path: regional.zip
 
+    realtime:
+      api:
+        - https://vtar.trainquery.com/gtfs-realtime.json
+
+      apiAuth: relay
+
+      # There's no real need for the inactivity timeout since it's fetching from
+      # VTAR, so just make it crazy high.
+      refreshInterval: 10
+      inactivityTimeout: 999999
+      staleAfter: 60
+
     parsing:
       # Gippsland Line
       6:
