@@ -362,6 +362,23 @@ subfeeds:
           - "2-ccl"
           - "2-CCL"
 
+      # Cranbourne via Metro Tunnel Line
+      102:
+        routeIDRegex:
+          - "2-CRB"
+          - "2-CBE"
+
+      # Pakenham via Metro Tunnel Line
+      103:
+        routeIDRegex:
+          - "2-PKM"
+
+      # Sunbury via Metro Tunnel Line
+      104:
+        routeIDRegex:
+          - "2-SYM"
+          - "2-SUY"
+
     stops:
       # TODO: TrainQuery cannot handle string IDs yet. :(
       13738: 1 # Aircraft
