@@ -32,3 +32,14 @@ exceptions:
       - filter: platform-4
         count: 3
     disableDirectionFiltering: true
+
+  - stops:
+      - 318 # Anzac
+      - 319 # Town Hall
+      - 320 # State Library
+      - 321 # Parkville
+      - 322 # Arden
+    feeds:
+      - filter: platform-1
+      - filter: platform-2
+    disableDirectionFiltering: true

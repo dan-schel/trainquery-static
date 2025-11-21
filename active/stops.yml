@@ -1642,3 +1642,28 @@ stops:
     platforms:
       - id: 1
       - id: 2
+  - id: 318
+    name: Anzac
+    platforms:
+      - id: 1
+      - id: 2
+  - id: 319
+    name: Town Hall
+    platforms:
+      - id: 1
+      - id: 2
+  - id: 320
+    name: State Library
+    platforms:
+      - id: 1
+      - id: 2
+  - id: 321
+    name: Parkville
+    platforms:
+      - id: 1
+      - id: 2
+  - id: 322
+    name: Arden
+    platforms:
+      - id: 1
+      - id: 2

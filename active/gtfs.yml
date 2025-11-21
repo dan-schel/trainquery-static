@@ -366,224 +366,224 @@ subfeeds:
       # TODO: TrainQuery cannot handle string IDs yet. :(
       13738: 1 # Aircraft
       13739: 1 # Aircraft
-      # "Parentvic:rail:ACF": 1 # Aircraft
+      # "vic:rail:ACF": 1 # Aircraft
       11197: 2 # Alamein
-      # "Parentvic:rail:ALM": 2 # Alamein
+      # "vic:rail:ALM": 2 # Alamein
       15364: 3 # Albion
       15365: 3 # Albion
-      # "Parentvic:rail:ALB": 3 # Albion
+      # "vic:rail:ALB": 3 # Albion
       13750: 5 # Alphington
       13751: 5 # Alphington
-      # "Parentvic:rail:ALP": 5 # Alphington
+      # "vic:rail:ALP": 5 # Alphington
       13742: 6 # Altona
-      # "Parentvic:rail:ALT": 6 # Altona
+      # "vic:rail:ALT": 6 # Altona
       14312: 7 # Anstey
       14313: 7 # Anstey
-      # "Parentvic:rail:ASY": 7 # Anstey
+      # "vic:rail:ASY": 7 # Anstey
       14259: 10 # Armadale
       14260: 10 # Armadale
-      # "Parentvic:rail:ARM": 10 # Armadale
+      # "vic:rail:ARM": 10 # Armadale
       15548: 11 # Ascot Vale
       15549: 11 # Ascot Vale
-      # "Parentvic:rail:ASV": 11 # Ascot Vale
+      # "vic:rail:ASV": 11 # Ascot Vale
       11198: 12 # Ashburton
-      # "Parentvic:rail:ASH": 12 # Ashburton
+      # "vic:rail:ASH": 12 # Ashburton
       11234: 13 # Aspendale
       11235: 13 # Aspendale
-      # "Parentvic:rail:ASP": 13 # Aspendale
+      # "vic:rail:ASP": 13 # Aspendale
       12238: 14 # Auburn
       12239: 14 # Auburn
       12240: 14 # Auburn
-      # "Parentvic:rail:AUB": 14 # Auburn
+      # "vic:rail:AUB": 14 # Auburn
       14287: 18 # Balaclava
       14288: 18 # Balaclava
-      # "Parentvic:rail:BCV": 18 # Balaclava
+      # "vic:rail:BCV": 18 # Balaclava
       14306: 21 # Batman
       14307: 21 # Batman
-      # "Parentvic:rail:BAT": 21 # Batman
+      # "vic:rail:BAT": 21 # Batman
       5701: 22 # Baxter
-      # "Parentvic:rail:BXR": 22 # Baxter
+      # "vic:rail:BXR": 22 # Baxter
       11410: 23 # Bayswater
       11411: 23 # Bayswater
-      # "Parentvic:rail:BAY": 23 # Bayswater
+      # "vic:rail:BAY": 23 # Bayswater
       12176: 24 # Beaconsfield
       12177: 24 # Beaconsfield
-      # "Parentvic:rail:BFD": 24 # Beaconsfield
+      # "vic:rail:BFD": 24 # Beaconsfield
       11119: 26 # Belgrave
       11120: 26 # Belgrave
-      # "Parentvic:rail:BEG": 26 # Belgrave
+      # "vic:rail:BEG": 26 # Belgrave
       15381: 27 # Bell
       15382: 27 # Bell
-      # "Parentvic:rail:BEL": 27 # Bell
+      # "vic:rail:BEL": 27 # Bell
       14239: 30 # Bentleigh
       14240: 30 # Bentleigh
       14241: 30 # Bentleigh
-      # "Parentvic:rail:BEN": 30 # Bentleigh
+      # "vic:rail:BEN": 30 # Bentleigh
       12178: 31 # Berwick
       12179: 31 # Berwick
-      # "Parentvic:rail:BEW": 31 # Berwick
+      # "vic:rail:BEW": 31 # Berwick
       3236: 33 # Bittern
-      # "Parentvic:rail:BIT": 33 # Bittern
+      # "vic:rail:BIT": 33 # Bittern
       12226: 34 # Blackburn
       12227: 34 # Blackburn
       12228: 34 # Blackburn
-      # "Parentvic:rail:BBN": 34 # Blackburn
+      # "vic:rail:BBN": 34 # Blackburn
       11228: 35 # Bonbeach
       11229: 35 # Bonbeach
-      # "Parentvic:rail:BON": 35 # Bonbeach
+      # "vic:rail:BON": 35 # Bonbeach
       11249: 36 # Boronia
       11409: 36 # Boronia
-      # "Parentvic:rail:BOR": 36 # Boronia
+      # "vic:rail:BOR": 36 # Boronia
       12221: 37 # Box Hill
       12222: 37 # Box Hill
       12223: 37 # Box Hill
-      # "Parentvic:rail:BOX": 37 # Box Hill
+      # "vic:rail:BOX": 37 # Box Hill
       14275: 38 # Brighton Beach
       14276: 38 # Brighton Beach
-      # "Parentvic:rail:BBH": 38 # Brighton Beach
+      # "vic:rail:BBH": 38 # Brighton Beach
       15529: 40 # Broadmeadows
       15530: 40 # Broadmeadows
-      # "Parentvic:rail:BMS": 40 # Broadmeadows
+      # "vic:rail:BMS": 40 # Broadmeadows
       14314: 41 # Brunswick
       14315: 41 # Brunswick
-      # "Parentvic:rail:BWK": 41 # Brunswick
+      # "vic:rail:BWK": 41 # Brunswick
       12247: 43 # Burnley
       12248: 43 # Burnley
       12249: 43 # Burnley
       12250: 43 # Burnley
-      # "Parentvic:rail:BLY": 43 # Burnley
+      # "vic:rail:BLY": 43 # Burnley
       11199: 44 # Burwood
       11200: 44 # Burwood
-      # "Parentvic:rail:BWD": 44 # Burwood
+      # "vic:rail:BWD": 44 # Burwood
       11207: 45 # Camberwell
       11208: 45 # Camberwell
       11209: 45 # Camberwell
-      # "Parentvic:rail:CAM": 45 # Camberwell
+      # "vic:rail:CAM": 45 # Camberwell
       12209: 47 # Canterbury
       12210: 47 # Canterbury
       12211: 47 # Canterbury
-      # "Parentvic:rail:CBY": 47 # Canterbury
+      # "vic:rail:CBY": 47 # Canterbury
       26501: 48 # Cardinia Road
       26502: 48 # Cardinia Road
-      # "Parentvic:rail:CDA": 48 # Cardinia Road
+      # "vic:rail:CDA": 48 # Cardinia Road
       13729: 49 # Carnegie
       13730: 49 # Carnegie
-      # "Parentvic:rail:CNE": 49 # Carnegie
+      # "vic:rail:CNE": 49 # Carnegie
       11226: 51 # Carrum
       11227: 51 # Carrum
-      # "Parentvic:rail:CAR": 51 # Carrum
+      # "vic:rail:CAR": 51 # Carrum
       14251: 53 # Caulfield
       14252: 53 # Caulfield
       14253: 53 # Caulfield
       14254: 53 # Caulfield
-      # "Parentvic:rail:CFD": 53 # Caulfield
+      # "vic:rail:CFD": 53 # Caulfield
       12212: 54 # Chatham
       12213: 54 # Chatham
       12214: 54 # Chatham
-      # "Parentvic:rail:CHM": 54 # Chatham
+      # "vic:rail:CHM": 54 # Chatham
       11230: 55 # Chelsea
       11231: 55 # Chelsea
-      # "Parentvic:rail:CSA": 55 # Chelsea
+      # "vic:rail:CSA": 55 # Chelsea
       11242: 56 # Cheltenham
       11243: 56 # Cheltenham
       11244: 56 # Cheltenham
-      # "Parentvic:rail:CTM": 56 # Cheltenham
+      # "vic:rail:CTM": 56 # Cheltenham
       13718: 59 # Clayton
       13719: 59 # Clayton
-      # "Parentvic:rail:CLA": 59 # Clayton
+      # "vic:rail:CLA": 59 # Clayton
       14330: 60 # Clifton Hill
       14331: 60 # Clifton Hill
-      # "Parentvic:rail:CHL": 60 # Clifton Hill
+      # "vic:rail:CHL": 60 # Clifton Hill
       14308: 63 # Coburg
       14309: 63 # Coburg
-      # "Parentvic:rail:COB": 63 # Coburg
+      # "vic:rail:COB": 63 # Coburg
       14334: 65 # Collingwood
       14335: 65 # Collingwood
-      # "Parentvic:rail:CWD": 65 # Collingwood
+      # "vic:rail:CWD": 65 # Collingwood
       26503: 66 # Coolaroo
       26504: 66 # Coolaroo
-      # "Parentvic:rail:CLO": 66 # Coolaroo
+      # "vic:rail:CLO": 66 # Coolaroo
       15527: 68 # Craigieburn
       15528: 68 # Craigieburn
-      # "Parentvic:rail:CGB": 68 # Craigieburn
+      # "vic:rail:CGB": 68 # Craigieburn
       12184: 69 # Cranbourne
       12185: 69 # Cranbourne
-      # "Parentvic:rail:CBE": 69 # Cranbourne
+      # "vic:rail:CBE": 69 # Cranbourne
       615: 71 # Crib Point
-      # "Parentvic:rail:CPT": 71 # Crib Point
+      # "vic:rail:CPT": 71 # Crib Point
       15385: 72 # Croxton
       15386: 72 # Croxton
-      # "Parentvic:rail:CXT": 72 # Croxton
+      # "vic:rail:CXT": 72 # Croxton
       12168: 73 # Croydon
       12169: 73 # Croydon
-      # "Parentvic:rail:CDN": 73 # Croydon
+      # "vic:rail:CDN": 73 # Croydon
       12187: 74 # Dandenong
       12188: 74 # Dandenong
       12189: 74 # Dandenong
-      # "Parentvic:rail:DNG": 74 # Dandenong
+      # "vic:rail:DNG": 74 # Dandenong
       13752: 75 # Darebin
       13753: 75 # Darebin
-      # "Parentvic:rail:DBN": 75 # Darebin
+      # "vic:rail:DBN": 75 # Darebin
       8272: 76 # Darling
       8691: 76 # Darling
-      # "Parentvic:rail:DLG": 76 # Darling
+      # "vic:rail:DLG": 76 # Darling
       13746: 78 # Dennis
       13747: 78 # Dennis
-      # "Parentvic:rail:DEN": 78 # Dennis
+      # "vic:rail:DEN": 78 # Dennis
       15334: 79 # Diamond Creek
       15335: 79 # Diamond Creek
-      # "Parentvic:rail:DCK": 79 # Diamond Creek
+      # "vic:rail:DCK": 79 # Diamond Creek
       15354: 80 # Diggers Rest
       26505: 80 # Diggers Rest
-      # "Parentvic:rail:DRT": 80 # Diggers Rest
+      # "vic:rail:DRT": 80 # Diggers Rest
       13756: 85 # Eaglemont
       13757: 85 # Eaglemont
-      # "Parentvic:rail:EAG": 85 # Eaglemont
+      # "vic:rail:EAG": 85 # Eaglemont
       12206: 86 # East Camberwell
       12207: 86 # East Camberwell
       12208: 86 # East Camberwell
-      # "Parentvic:rail:ECM": 86 # East Camberwell
+      # "vic:rail:ECM": 86 # East Camberwell
       8705: 87 # East Malvern
       8718: 87 # East Malvern
-      # "Parentvic:rail:EMV": 87 # East Malvern
+      # "vic:rail:EMV": 87 # East Malvern
       12251: 88 # East Richmond
       12252: 88 # East Richmond
-      # "Parentvic:rail:ERM": 88 # East Richmond
+      # "vic:rail:ERM": 88 # East Richmond
       11232: 90 # Edithvale
       11233: 90 # Edithvale
-      # "Parentvic:rail:EDI": 90 # Edithvale
+      # "vic:rail:EDI": 90 # Edithvale
       14283: 92 # Elsternwick
       14284: 92 # Elsternwick
-      # "Parentvic:rail:ELS": 92 # Elsternwick
+      # "vic:rail:ELS": 92 # Elsternwick
       15332: 93 # Eltham
       15333: 93 # Eltham
-      # "Parentvic:rail:ELT": 93 # Eltham
+      # "vic:rail:ELT": 93 # Eltham
       15366: 94 # Epping
       15367: 94 # Epping
-      # "Parentvic:rail:EPP": 94 # Epping
+      # "vic:rail:EPP": 94 # Epping
       15544: 96 # Essendon
       15545: 96 # Essendon
-      # "Parentvic:rail:ESD": 96 # Essendon
+      # "vic:rail:ESD": 96 # Essendon
       13748: 98 # Fairfield
       13749: 98 # Fairfield
-      # "Parentvic:rail:FFD": 98 # Fairfield
+      # "vic:rail:FFD": 98 # Fairfield
       14302: 99 # Fawkner
       14303: 99 # Fawkner
-      # "Parentvic:rail:FAK": 99 # Fawkner
+      # "vic:rail:FAK": 99 # Fawkner
       11247: 100 # Ferntree Gully
       11248: 100 # Ferntree Gully
-      # "Parentvic:rail:FTG": 100 # Ferntree Gully
+      # "vic:rail:FTG": 100 # Ferntree Gully
       10920: 101 # Flagstaff
       10921: 101 # Flagstaff
       12195: 101 # Flagstaff
       12196: 101 # Flagstaff
-      # "Parentvic:rail:FGS": 101 # Flagstaff
+      # "vic:rail:FGS": 101 # Flagstaff
       14320: 102 # Flemington Bridge
       14321: 102 # Flemington Bridge
-      # "Parentvic:rail:FBD": 102 # Flemington Bridge
+      # "vic:rail:FBD": 102 # Flemington Bridge
       15524: 103 # Flemington Racecourse
       15525: 103 # Flemington Racecourse
-      # "Parentvic:rail:RCE": 103 # Flemington Racecourse
+      # "vic:rail:RCE": 103 # Flemington Racecourse
       11212: 104 # Flinders Street
       11213: 104 # Flinders Street
       11214: 104 # Flinders Street
@@ -596,301 +596,301 @@ subfeeds:
       12203: 104 # Flinders Street
       12204: 104 # Flinders Street
       12205: 104 # Flinders Street
-      # "Parentvic:rail:FSS": 104 # Flinders Street
+      # "vic:rail:FSS": 104 # Flinders Street
       15518: 105 # Footscray
       15519: 105 # Footscray
       26508: 105 # Footscray
       26509: 105 # Footscray
-      # "Parentvic:rail:FSY": 105 # Footscray
+      # "vic:rail:FSY": 105 # Footscray
       11220: 106 # Frankston
       11221: 106 # Frankston
       26510: 106 # Frankston
-      # "Parentvic:rail:FKN": 106 # Frankston
+      # "vic:rail:FKN": 106 # Frankston
       14281: 107 # Gardenvale
       14282: 107 # Gardenvale
-      # "Parentvic:rail:GVE": 107 # Gardenvale
+      # "vic:rail:GVE": 107 # Gardenvale
       12269: 108 # Gardiner
       5804: 108 # Gardiner
-      # "Parentvic:rail:GAR": 108 # Gardiner
+      # "vic:rail:GAR": 108 # Gardiner
       15362: 111 # Ginifer
       15363: 111 # Ginifer
-      # "Parentvic:rail:GIN": 111 # Ginifer
+      # "vic:rail:GIN": 111 # Ginifer
       5966: 113 # Glen Iris
       8266: 113 # Glen Iris
-      # "Parentvic:rail:GIR": 113 # Glen Iris
+      # "vic:rail:GIR": 113 # Glen Iris
       12158: 114 # Glen Waverley
       12159: 114 # Glen Waverley
-      # "Parentvic:rail:GWY": 114 # Glen Waverley
+      # "vic:rail:GWY": 114 # Glen Waverley
       15541: 115 # Glenbervie
       15542: 115 # Glenbervie
-      # "Parentvic:rail:GBV": 115 # Glenbervie
+      # "vic:rail:GBV": 115 # Glenbervie
       12241: 116 # Glenferrie
       12242: 116 # Glenferrie
       12243: 116 # Glenferrie
-      # "Parentvic:rail:GFE": 116 # Glenferrie
+      # "vic:rail:GFE": 116 # Glenferrie
       14248: 117 # Glen Huntly
       14249: 117 # Glen Huntly
       14250: 117 # Glen Huntly
-      # "Parentvic:rail:GHY": 117 # Glen Huntly
+      # "vic:rail:GHY": 117 # Glen Huntly
       15533: 118 # Glenroy
       15534: 118 # Glenroy
-      # "Parentvic:rail:GRY": 118 # Glenroy
+      # "vic:rail:GRY": 118 # Glenroy
       14300: 120 # Gowrie
       14301: 120 # Gowrie
-      # "Parentvic:rail:GOW": 120 # Gowrie
+      # "vic:rail:GOW": 120 # Gowrie
       15329: 121 # Greensborough
       15330: 121 # Greensborough
-      # "Parentvic:rail:GRN": 121 # Greensborough
+      # "vic:rail:GRN": 121 # Greensborough
       12182: 122 # Hallam
       12183: 122 # Hallam
-      # "Parentvic:rail:HLM": 122 # Hallam
+      # "vic:rail:HLM": 122 # Hallam
       14272: 123 # Hampton
       14273: 123 # Hampton
-      # "Parentvic:rail:HAM": 123 # Hampton
+      # "vic:rail:HAM": 123 # Hampton
       11201: 124 # Hartwell
       11202: 124 # Hartwell
-      # "Parentvic:rail:HWL": 124 # Hartwell
+      # "vic:rail:HWL": 124 # Hartwell
       3580: 125 # Hastings
-      # "Parentvic:rail:HST": 125 # Hastings
+      # "vic:rail:HST": 125 # Hastings
       14267: 126 # Hawksburn
       14268: 126 # Hawksburn
-      # "Parentvic:rail:HKN": 126 # Hawksburn
+      # "vic:rail:HKN": 126 # Hawksburn
       26511: 127 # Hawkstowe
       26512: 127 # Hawkstowe
-      # "Parentvic:rail:HWS": 127 # Hawkstowe
+      # "vic:rail:HWS": 127 # Hawkstowe
       12244: 128 # Hawthorn
       12245: 128 # Hawthorn
       12246: 128 # Hawthorn
-      # "Parentvic:rail:HAW": 128 # Hawthorn
+      # "vic:rail:HAW": 128 # Hawthorn
       12233: 130 # Heatherdale
       12234: 130 # Heatherdale
-      # "Parentvic:rail:HTD": 130 # Heatherdale
+      # "vic:rail:HTD": 130 # Heatherdale
       11412: 131 # Heathmont
       11413: 131 # Heathmont
-      # "Parentvic:rail:HMT": 131 # Heathmont
+      # "vic:rail:HMT": 131 # Heathmont
       13758: 132 # Heidelberg
       13759: 132 # Heidelberg
-      # "Parentvic:rail:HDB": 132 # Heidelberg
+      # "vic:rail:HDB": 132 # Heidelberg
       12263: 133 # Heyington
       12264: 133 # Heyington
-      # "Parentvic:rail:HEY": 133 # Heyington
+      # "vic:rail:HEY": 133 # Heyington
       11471: 134 # Highett
       14232: 134 # Highett
-      # "Parentvic:rail:HIG": 134 # Highett
+      # "vic:rail:HIG": 134 # Highett
       8763: 135 # Holmesglen
       8766: 135 # Holmesglen
-      # "Parentvic:rail:HOL": 135 # Holmesglen
+      # "vic:rail:HOL": 135 # Holmesglen
       13734: 136 # Hoppers Crossing
       13735: 136 # Hoppers Crossing
-      # "Parentvic:rail:HCG": 136 # Hoppers Crossing
+      # "vic:rail:HCG": 136 # Hoppers Crossing
       13725: 137 # Hughesdale
       13726: 137 # Hughesdale
-      # "Parentvic:rail:HUG": 137 # Hughesdale
+      # "vic:rail:HUG": 137 # Hughesdale
       13720: 138 # Huntingdale
       13721: 138 # Huntingdale
-      # "Parentvic:rail:HUN": 138 # Huntingdale
+      # "vic:rail:HUN": 138 # Huntingdale
       15337: 139 # Hurstbridge
-      # "Parentvic:rail:HBE": 139 # Hurstbridge
+      # "vic:rail:HBE": 139 # Hurstbridge
       13754: 140 # Ivanhoe
       13755: 140 # Ivanhoe
-      # "Parentvic:rail:IVA": 140 # Ivanhoe
+      # "vic:rail:IVA": 140 # Ivanhoe
       15531: 141 # Jacana
       15532: 141 # Jacana
-      # "Parentvic:rail:JAC": 141 # Jacana
+      # "vic:rail:JAC": 141 # Jacana
       14316: 142 # Jewell
       14317: 142 # Jewell
-      # "Parentvic:rail:JWL": 142 # Jewell
+      # "vic:rail:JWL": 142 # Jewell
       14340: 143 # Jolimont
       14341: 143 # Jolimont
-      # "Parentvic:rail:JLI": 143 # Jolimont
+      # "vic:rail:JLI": 143 # Jolimont
       10117: 144 # Jordanville
       11219: 144 # Jordanville
-      # "Parentvic:rail:JOR": 144 # Jordanville
+      # "vic:rail:JOR": 144 # Jordanville
       11222: 145 # Kananook
       11223: 145 # Kananook
-      # "Parentvic:rail:KAN": 145 # Kananook
+      # "vic:rail:KAN": 145 # Kananook
       15358: 147 # Keilor Plains
       15359: 147 # Keilor Plains
-      # "Parentvic:rail:KPL": 147 # Keilor Plains
+      # "vic:rail:KPL": 147 # Keilor Plains
       15552: 148 # Kensington
       15553: 148 # Kensington
-      # "Parentvic:rail:KEN": 148 # Kensington
+      # "vic:rail:KEN": 148 # Kensington
       15371: 149 # Keon Park
       15372: 149 # Keon Park
-      # "Parentvic:rail:KPK": 149 # Keon Park
+      # "vic:rail:KPK": 149 # Keon Park
       12265: 152 # Kooyong
       12266: 152 # Kooyong
-      # "Parentvic:rail:KYG": 152 # Kooyong
+      # "vic:rail:KYG": 152 # Kooyong
       12224: 154 # Laburnum
       12225: 154 # Laburnum
-      # "Parentvic:rail:LAB": 154 # Laburnum
+      # "vic:rail:LAB": 154 # Laburnum
       15368: 155 # Lalor
       15369: 155 # Lalor
-      # "Parentvic:rail:LAL": 155 # Lalor
+      # "vic:rail:LAL": 155 # Lalor
       13736: 157 # Laverton
       13737: 157 # Laverton
       26513: 157 # Laverton
-      # "Parentvic:rail:LAV": 157 # Laverton
+      # "vic:rail:LAV": 157 # Laverton
       7878: 158 # Leawarra
-      # "Parentvic:rail:LWA": 158 # Leawarra
+      # "vic:rail:LWA": 158 # Leawarra
       12164: 159 # Lilydale
       12165: 159 # Lilydale
-      # "Parentvic:rail:LIL": 159 # Lilydale
+      # "vic:rail:LIL": 159 # Lilydale
       26514: 162 # Lynbrook
       26515: 162 # Lynbrook
-      # "Parentvic:rail:LBK": 162 # Lynbrook
+      # "vic:rail:LBK": 162 # Lynbrook
       14322: 163 # Macaulay
       14323: 163 # Macaulay
-      # "Parentvic:rail:MAC": 163 # Macaulay
+      # "vic:rail:MAC": 163 # Macaulay
       15324: 165 # Macleod
       15325: 165 # Macleod
       15326: 165 # Macleod
-      # "Parentvic:rail:MCD": 165 # Macleod
+      # "vic:rail:MCD": 165 # Macleod
       14255: 167 # Malvern
       14256: 167 # Malvern
       14257: 167 # Malvern
       14258: 167 # Malvern
-      # "Parentvic:rail:MAL": 167 # Malvern
+      # "vic:rail:MAL": 167 # Malvern
       14242: 170 # McKinnon
       14243: 170 # McKinnon
       14244: 170 # McKinnon
-      # "Parentvic:rail:MCK": 170 # McKinnon
+      # "vic:rail:MCK": 170 # McKinnon
       10922: 171 # Melbourne Central
       10923: 171 # Melbourne Central
       12197: 171 # Melbourne Central
       12198: 171 # Melbourne Central
-      # "Parentvic:rail:MCE": 171 # Melbourne Central
+      # "vic:rail:MCE": 171 # Melbourne Central
       11240: 173 # Mentone
       11241: 173 # Mentone
-      # "Parentvic:rail:MEN": 173 # Mentone
+      # "vic:rail:MEN": 173 # Mentone
       12186: 174 # Merinda Park
       26516: 174 # Merinda Park
-      # "Parentvic:rail:MPK": 174 # Merinda Park
+      # "vic:rail:MPK": 174 # Merinda Park
       14304: 175 # Merlynston
       14305: 175 # Merlynston
-      # "Parentvic:rail:MYN": 175 # Merlynston
+      # "vic:rail:MYN": 175 # Merlynston
       26517: 176 # Mernda
       26518: 176 # Mernda
-      # "Parentvic:rail:MDD": 176 # Mernda
+      # "vic:rail:MDD": 176 # Mernda
       15389: 177 # Merri
       15390: 177 # Merri
-      # "Parentvic:rail:MER": 177 # Merri
+      # "vic:rail:MER": 177 # Merri
       14277: 178 # Middle Brighton
       14278: 178 # Middle Brighton
-      # "Parentvic:rail:MBN": 178 # Middle Brighton
+      # "vic:rail:MBN": 178 # Middle Brighton
       15516: 179 # Middle Footscray
       15517: 179 # Middle Footscray
-      # "Parentvic:rail:MFY": 179 # Middle Footscray
+      # "vic:rail:MFY": 179 # Middle Footscray
       26519: 180 # Middle Gorge
       26520: 180 # Middle Gorge
-      # "Parentvic:rail:MMR": 180 # Middle Gorge
+      # "vic:rail:MMR": 180 # Middle Gorge
       12231: 181 # Mitcham
       12232: 181 # Mitcham
-      # "Parentvic:rail:MCH": 181 # Mitcham
+      # "vic:rail:MCH": 181 # Mitcham
       15331: 184 # Montmorency
       26521: 184 # Montmorency
-      # "Parentvic:rail:MMY": 184 # Montmorency
+      # "vic:rail:MMY": 184 # Montmorency
       15546: 185 # Moonee Ponds
       15547: 185 # Moonee Ponds
-      # "Parentvic:rail:MPD": 185 # Moonee Ponds
+      # "vic:rail:MPD": 185 # Moonee Ponds
       14233: 186 # Moorabbin
       14234: 186 # Moorabbin
       14235: 186 # Moorabbin
-      # "Parentvic:rail:MRN": 186 # Moorabbin
+      # "vic:rail:MRN": 186 # Moorabbin
       12166: 187 # Mooroolbark
       12167: 187 # Mooroolbark
-      # "Parentvic:rail:MLK": 187 # Mooroolbark
+      # "vic:rail:MLK": 187 # Mooroolbark
       11236: 189 # Mordialloc
       11237: 189 # Mordialloc
-      # "Parentvic:rail:MOR": 189 # Mordialloc
+      # "vic:rail:MOR": 189 # Mordialloc
       14310: 190 # Moreland
       14311: 190 # Moreland
-      # "Parentvic:rail:MLD": 190 # Moreland
+      # "vic:rail:MLD": 190 # Moreland
       2155: 191 # Morradoo
-      # "Parentvic:rail:MRO": 191 # Morradoo
+      # "vic:rail:MRO": 191 # Morradoo
       12162: 193 # Mount Waverley
       12163: 193 # Mount Waverley
-      # "Parentvic:rail:MWY": 193 # Mount Waverley
+      # "vic:rail:MWY": 193 # Mount Waverley
       13727: 195 # Murrumbeena
       13728: 195 # Murrumbeena
-      # "Parentvic:rail:MRB": 195 # Murrumbeena
+      # "vic:rail:MRB": 195 # Murrumbeena
       12180: 198 # Narre Warren
       12181: 198 # Narre Warren
-      # "Parentvic:rail:NWA": 198 # Narre Warren
+      # "vic:rail:NWA": 198 # Narre Warren
       15550: 199 # Newmarket
       15551: 199 # Newmarket
-      # "Parentvic:rail:NKT": 199 # Newmarket
+      # "vic:rail:NKT": 199 # Newmarket
       15343: 200 # Newport
       15344: 200 # Newport
-      # "Parentvic:rail:NPT": 200 # Newport
+      # "vic:rail:NPT": 200 # Newport
       12192: 201 # Noble Park
       12193: 201 # Noble Park
-      # "Parentvic:rail:NPK": 201 # Noble Park
+      # "vic:rail:NPK": 201 # Noble Park
       14279: 202 # North Brighton
       14280: 202 # North Brighton
-      # "Parentvic:rail:NBN": 202 # North Brighton
+      # "vic:rail:NBN": 202 # North Brighton
       14324: 204 # North Melbourne
       14325: 204 # North Melbourne
       14326: 204 # North Melbourne
       14327: 204 # North Melbourne
       14328: 204 # North Melbourne
       14329: 204 # North Melbourne
-      # "Parentvic:rail:NME": 204 # North Melbourne
+      # "vic:rail:NME": 204 # North Melbourne
       14336: 205 # North Richmond
       14337: 205 # North Richmond
-      # "Parentvic:rail:NRM": 205 # North Richmond
+      # "vic:rail:NRM": 205 # North Richmond
       15341: 207 # North Williamstown
       15342: 207 # North Williamstown
-      # "Parentvic:rail:NWN": 207 # North Williamstown
+      # "vic:rail:NWN": 207 # North Williamstown
       15387: 208 # Northcote
       15388: 208 # Northcote
-      # "Parentvic:rail:NCE": 208 # Northcote
+      # "vic:rail:NCE": 208 # Northcote
       12229: 209 # Nunawading
       12230: 209 # Nunawading
-      # "Parentvic:rail:NWG": 209 # Nunawading
+      # "vic:rail:NWG": 209 # Nunawading
       15535: 210 # Oak Park
       15536: 210 # Oak Park
-      # "Parentvic:rail:OKP": 210 # Oak Park
+      # "vic:rail:OKP": 210 # Oak Park
       13722: 211 # Oakleigh
       13723: 211 # Oakleigh
-      # "Parentvic:rail:OAK": 211 # Oakleigh
+      # "vic:rail:OAK": 211 # Oakleigh
       12174: 212 # Officer
       12175: 212 # Officer
-      # "Parentvic:rail:OFC": 212 # Officer
+      # "vic:rail:OFC": 212 # Officer
       14245: 213 # Ormond
       14246: 213 # Ormond
       14247: 213 # Ormond
-      # "Parentvic:rail:OMD": 213 # Ormond
+      # "vic:rail:OMD": 213 # Ormond
       12172: 214 # Pakenham
       12173: 214 # Pakenham
-      # "Parentvic:rail:PKM": 214 # Pakenham
+      # "vic:rail:PKM": 214 # Pakenham
       11238: 215 # Parkdale
       11239: 215 # Parkdale
-      # "Parentvic:rail:PKD": 215 # Parkdale
+      # "vic:rail:PKD": 215 # Parkdale
       10924: 216 # Parliament
       11210: 216 # Parliament
       12199: 216 # Parliament
       12200: 216 # Parliament
-      # "Parentvic:rail:PAR": 216 # Parliament
+      # "vic:rail:PAR": 216 # Parliament
       15537: 217 # Pascoe Vale
       15538: 217 # Pascoe Vale
-      # "Parentvic:rail:PVL": 217 # Pascoe Vale
+      # "vic:rail:PVL": 217 # Pascoe Vale
       14236: 218 # Patterson
       14237: 218 # Patterson
       14238: 218 # Patterson
-      # "Parentvic:rail:PAT": 218 # Patterson
+      # "vic:rail:PAT": 218 # Patterson
       14291: 219 # Prahran
       14292: 219 # Prahran
-      # "Parentvic:rail:PRA": 219 # Prahran
+      # "vic:rail:PRA": 219 # Prahran
       15379: 220 # Preston
       15380: 220 # Preston
-      # "Parentvic:rail:PRE": 220 # Preston
+      # "vic:rail:PRE": 220 # Preston
       15377: 222 # Regent
       15378: 222 # Regent
-      # "Parentvic:rail:REG": 222 # Regent
+      # "vic:rail:REG": 222 # Regent
       15375: 223 # Reservoir
       15376: 223 # Reservoir
-      # "Parentvic:rail:RES": 223 # Reservoir
+      # "vic:rail:RES": 223 # Reservoir
       12253: 224 # Richmond
       12254: 224 # Richmond
       12255: 224 # Richmond
@@ -901,64 +901,64 @@ subfeeds:
       12260: 224 # Richmond
       12261: 224 # Richmond
       12262: 224 # Richmond
-      # "Parentvic:rail:RMD": 224 # Richmond
+      # "vic:rail:RMD": 224 # Richmond
       12235: 226 # Ringwood
       12236: 226 # Ringwood
       12237: 226 # Ringwood
-      # "Parentvic:rail:RWD": 226 # Ringwood
+      # "vic:rail:RWD": 226 # Ringwood
       12170: 227 # Ringwood East
       12171: 227 # Ringwood East
-      # "Parentvic:rail:RWE": 227 # Ringwood East
+      # "vic:rail:RWE": 227 # Ringwood East
       14285: 228 # Ripponlea
       14286: 228 # Ripponlea
-      # "Parentvic:rail:RIP": 228 # Ripponlea
+      # "vic:rail:RIP": 228 # Ripponlea
       11205: 229 # Riversdale
       11206: 229 # Riversdale
-      # "Parentvic:rail:RIV": 229 # Riversdale
+      # "vic:rail:RIV": 229 # Riversdale
       13760: 232 # Rosanna
       15323: 232 # Rosanna
-      # "Parentvic:rail:ROS": 232 # Rosanna
+      # "vic:rail:ROS": 232 # Rosanna
       40218: 234 # Roxburgh Park
       40219: 234 # Roxburgh Park
-      # "Parentvic:rail:RXP": 234 # Roxburgh Park
+      # "vic:rail:RXP": 234 # Roxburgh Park
       14318: 235 # Royal Park
       14319: 235 # Royal Park
-      # "Parentvic:rail:RPK": 235 # Royal Park
+      # "vic:rail:RPK": 235 # Royal Park
       15391: 236 # Rushall
       15392: 236 # Rushall
-      # "Parentvic:rail:RUS": 236 # Rushall
+      # "vic:rail:RUS": 236 # Rushall
       15373: 237 # Ruthven
       15374: 237 # Ruthven
-      # "Parentvic:rail:RUT": 237 # Ruthven
+      # "vic:rail:RUT": 237 # Ruthven
       12194: 239 # Sandown Park
       13713: 239 # Sandown Park
-      # "Parentvic:rail:SNP": 239 # Sandown Park
+      # "vic:rail:SNP": 239 # Sandown Park
       14271: 240 # Sandringham
-      # "Parentvic:rail:SHM": 240 # Sandringham
+      # "vic:rail:SHM": 240 # Sandringham
       11224: 241 # Seaford
       11225: 241 # Seaford
-      # "Parentvic:rail:SEA": 241 # Seaford
+      # "vic:rail:SEA": 241 # Seaford
       13743: 242 # Seaholme
-      # "Parentvic:rail:SHE": 242 # Seaholme
+      # "vic:rail:SHE": 242 # Seaholme
       15349: 243 # Seddon
       15350: 243 # Seddon
-      # "Parentvic:rail:SEN": 243 # Seddon
+      # "vic:rail:SEN": 243 # Seddon
       20028: 247 # Showgrounds - TODO: This one has not been updated since the platform IDs came in.
       5082: 248 # Somerville
-      # "Parentvic:rail:SVE": 248 # Somerville
+      # "vic:rail:SVE": 248 # Somerville
       15522: 250 # South Kensington
       15523: 250 # South Kensington
-      # "Parentvic:rail:SKN": 250 # South Kensington
+      # "vic:rail:SKN": 250 # South Kensington
       26522: 251 # South Morang
       26523: 251 # South Morang
-      # "Parentvic:rail:SMG": 251 # South Morang
+      # "vic:rail:SMG": 251 # South Morang
       14293: 252 # South Yarra
       14294: 252 # South Yarra
       14295: 252 # South Yarra
       14296: 252 # South Yarra
       14297: 252 # South Yarra
       14298: 252 # South Yarra
-      # "Parentvic:rail:SYR": 252 # South Yarra
+      # "vic:rail:SYR": 252 # South Yarra
       22187: 253 # Southern Cross
       22188: 253 # Southern Cross
       22189: 253 # Southern Cross
@@ -966,116 +966,131 @@ subfeeds:
       22191: 253 # Southern Cross
       22192: 253 # Southern Cross
       22193: 253 # Southern Cross
-      # "Parentvic:rail:SSS": 253 # Southern Cross
+      # "vic:rail:SSS": 253 # Southern Cross
       26527: 254 # Southland
       26528: 254 # Southland
-      # "Parentvic:rail:SOU": 254 # Southland
+      # "vic:rail:SOU": 254 # Southland
       15345: 255 # Spotswood
       15346: 255 # Spotswood
-      # "Parentvic:rail:SPT": 255 # Spotswood
+      # "vic:rail:SPT": 255 # Spotswood
       13714: 257 # Springvale
       13715: 257 # Springvale
-      # "Parentvic:rail:SPG": 257 # Springvale
+      # "vic:rail:SPG": 257 # Springvale
       15360: 258 # St Albans
       15361: 258 # St Albans
-      # "Parentvic:rail:SAB": 258 # St Albans
+      # "vic:rail:SAB": 258 # St Albans
       88: 259 # Stony Point
-      # "Parentvic:rail:STY": 259 # Stony Point
+      # "vic:rail:STY": 259 # Stony Point
       15539: 261 # Strathmore
       15540: 261 # Strathmore
-      # "Parentvic:rail:SME": 261 # Strathmore
+      # "vic:rail:SME": 261 # Strathmore
       15352: 262 # Sunbury
       26529: 262 # Sunbury
-      # "Parentvic:rail:SUY": 262 # Sunbury
+      # "vic:rail:SUY": 262 # Sunbury
       26530: 263 # Sunshine
       26531: 263 # Sunshine
-      # "Parentvic:rail:SUN": 263 # Sunshine
+      # "vic:rail:SUN": 263 # Sunshine
       12160: 266 # Syndal
       12161: 266 # Syndal
-      # "Parentvic:rail:SYN": 266 # Syndal
+      # "vic:rail:SYN": 266 # Syndal
       11121: 270 # Tecoma
-      # "Parentvic:rail:TCM": 270 # Tecoma
+      # "vic:rail:TCM": 270 # Tecoma
       15370: 272 # Thomastown
       26534: 272 # Thomastown
-      # "Parentvic:rail:TSN": 272 # Thomastown
+      # "vic:rail:TSN": 272 # Thomastown
       15383: 273 # Thornbury
       15384: 273 # Thornbury
-      # "Parentvic:rail:TBY": 273 # Thornbury
+      # "vic:rail:TBY": 273 # Thornbury
       14263: 274 # Toorak
       14264: 274 # Toorak
-      # "Parentvic:rail:TOR": 274 # Toorak
+      # "vic:rail:TOR": 274 # Toorak
       12267: 275 # Tooronga
       12268: 275 # Tooronga
-      # "Parentvic:rail:TGA": 275 # Tooronga
+      # "vic:rail:TGA": 275 # Tooronga
       15512: 276 # Tottenham
       15513: 276 # Tottenham
-      # "Parentvic:rail:TOT": 276 # Tottenham
+      # "vic:rail:TOT": 276 # Tottenham
       4318: 279 # Tyabb
-      # "Parentvic:rail:TAB": 279 # Tyabb
+      # "vic:rail:TAB": 279 # Tyabb
       14299: 281 # Upfield
-      # "Parentvic:rail:UFD": 281 # Upfield
+      # "vic:rail:UFD": 281 # Upfield
       11245: 282 # Upper Ferntree Gully
       11246: 282 # Upper Ferntree Gully
-      # "Parentvic:rail:UFG": 282 # Upper Ferntree Gully
+      # "vic:rail:UFG": 282 # Upper Ferntree Gully
       11122: 283 # Upwey
       11123: 283 # Upwey
-      # "Parentvic:rail:UPW": 283 # Upwey
+      # "vic:rail:UPW": 283 # Upwey
       14332: 284 # Victoria Park
       14333: 284 # Victoria Park
-      # "Parentvic:rail:VPK": 284 # Victoria Park
+      # "vic:rail:VPK": 284 # Victoria Park
       15355: 291 # Watergardens
       15356: 291 # Watergardens
       15357: 291 # Watergardens
-      # "Parentvic:rail:WGS": 291 # Watergardens
+      # "vic:rail:WGS": 291 # Watergardens
       15327: 292 # Watsonia
       15328: 292 # Watsonia
-      # "Parentvic:rail:WAT": 292 # Watsonia
+      # "vic:rail:WAT": 292 # Watsonia
       15336: 293 # Wattle Glen
-      # "Parentvic:rail:WTT": 293 # Wattle Glen
+      # "vic:rail:WTT": 293 # Wattle Glen
       13731: 296 # Werribee
       13732: 296 # Werribee
       13733: 296 # Werribee
-      # "Parentvic:rail:WER": 296 # Werribee
+      # "vic:rail:WER": 296 # Werribee
       15514: 297 # West Footscray
       26538: 297 # West Footscray
-      # "Parentvic:rail:WFY": 297 # West Footscray
+      # "vic:rail:WFY": 297 # West Footscray
       14338: 298 # West Richmond
       14339: 298 # West Richmond
-      # "Parentvic:rail:WRM": 298 # West Richmond
+      # "vic:rail:WRM": 298 # West Richmond
       13716: 299 # Westall
       13717: 299 # Westall
       26539: 299 # Westall
-      # "Parentvic:rail:WTL": 299 # Westall
+      # "vic:rail:WTL": 299 # Westall
       13744: 300 # Westgarth
       13745: 300 # Westgarth
-      # "Parentvic:rail:WTG": 300 # Westgarth
+      # "vic:rail:WTG": 300 # Westgarth
       13740: 301 # Westona
       13741: 301 # Westona
-      # "Parentvic:rail:WTO": 301 # Westona
+      # "vic:rail:WTO": 301 # Westona
       26540: 302 # Williams Landing
       26541: 302 # Williams Landing
-      # "Parentvic:rail:WLD": 302 # Williams Landing
+      # "vic:rail:WLD": 302 # Williams Landing
       15338: 303 # Williamstown
-      # "Parentvic:rail:WIL": 303 # Williamstown
+      # "vic:rail:WIL": 303 # Williamstown
       15339: 304 # Williamstown Beach
       15340: 304 # Williamstown Beach
-      # "Parentvic:rail:WBH": 304 # Williamstown Beach
+      # "vic:rail:WBH": 304 # Williamstown Beach
       11203: 305 # Willison
       11204: 305 # Willison
-      # "Parentvic:rail:WSN": 305 # Willison
+      # "vic:rail:WSN": 305 # Willison
       14289: 307 # Windsor
       14290: 307 # Windsor
-      # "Parentvic:rail:WIN": 307 # Windsor
+      # "vic:rail:WIN": 307 # Windsor
       12190: 312 # Yarraman
       12191: 312 # Yarraman
-      # "Parentvic:rail:YMN": 312 # Yarraman
+      # "vic:rail:YMN": 312 # Yarraman
       15347: 313 # Yarraville
       15348: 313 # Yarraville
-      # "Parentvic:rail:YVE": 313 # Yarraville
+      # "vic:rail:YVE": 313 # Yarraville
       26535: 316 # Union
       26536: 316 # Union
       26537: 316 # Union
-      # "Parentvic:rail:UNN": 316 # Union
+      # "vic:rail:UNN": 316 # Union
       26506: 317 # East Pakenham
       26507: 317 # East Pakenham
-      # "Parentvic:rail:EPH": 317 # East Pakenham
+      # "vic:rail:EPH": 317 # East Pakenham
+      26556: 318 # Anzac
+      26557: 318 # Anzac
+      # "vic:rail:AZC": 318 # Anzac
+      26554: 319 # Town Hall
+      26555: 319 # Town Hall
+      # "vic:rail:THL": 318 # Town Hall
+      26552: 320 # State Library
+      26553: 320 # State Library
+      # "vic:rail:STL": 318 # State Library
+      26550: 321 # Parkville
+      26551: 321 # Parkville
+      # "vic:rail:PKV": 318 # Parkville
+      26548: 322 # Arden
+      26549: 322 # Arden
+      # "vic:rail:ARN": 318 # Arden

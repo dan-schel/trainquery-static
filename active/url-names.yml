@@ -24,6 +24,9 @@ lines:
   21: werribee
   22: williamstown
   101: citycircle
+  102: cranbournemetrotunnel
+  103: pakenhammetrotunnel
+  104: sunburymetrotunnel
 
 stops:
   1: aircraft
@@ -341,3 +344,8 @@ stops:
   315: raywood
   316: union
   317: eastpakenham
+  318: anzac
+  319: townhall
+  320: statelibrary
+  321: parkville
+  322: arden

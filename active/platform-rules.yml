@@ -1034,3 +1034,28 @@
   rules:
     1: direction-up
     2: direction-down
+318: # Anzac
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down
+319: # Town Hall
+  confidence: medium
+  rules:
+    1: direction-up line-102, direction-up line-103, direction-down line-104
+    2: direction-down line-102, direction-down line-103, direction-up line-104
+320: # State Library
+  confidence: medium
+  rules:
+    1: direction-down
+    2: direction-up
+321: # Parkville
+  confidence: medium
+  rules:
+    1: direction-down
+    2: direction-up
+322: # Arden
+  confidence: medium
+  rules:
+    1: direction-down
+    2: direction-up
