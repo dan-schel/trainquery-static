@@ -960,7 +960,8 @@ subfeeds:
       15349: 243 # Seddon
       15350: 243 # Seddon
       # "vic:rail:SEN": 243 # Seddon
-      20028: 247 # Showgrounds - TODO: This one has not been updated since the platform IDs came in.
+      15526: 247 # Showgrounds
+      # "vic:rail:SGS": 247 # Showgrounds
       5082: 248 # Somerville
       # "vic:rail:SVE": 248 # Somerville
       15522: 250 # South Kensington
@@ -1054,6 +1055,7 @@ subfeeds:
       13733: 296 # Werribee
       # "vic:rail:WER": 296 # Werribee
       15514: 297 # West Footscray
+      15515: 297 # West Footscray
       26538: 297 # West Footscray
       # "vic:rail:WFY": 297 # West Footscray
       14338: 298 # West Richmond
