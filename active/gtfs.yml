@@ -379,6 +379,11 @@ subfeeds:
           - "2-SYM"
           - "2-SUY"
 
+      # Frankston via City Loop Line
+      105:
+        routeIDRegex:
+          - "2-FKN"
+
     stops:
       # TODO: TrainQuery cannot handle string IDs yet. :(
       13738: 1 # Aircraft

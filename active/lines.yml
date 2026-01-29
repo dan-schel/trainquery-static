@@ -1020,3 +1020,51 @@ lines:
         - stops: 321 # Parkville
         - stops: 320 # State Library
         - stops: 319 # Town Hall
+
+  # Remove this and replace line 2 after Feb 1.
+  - id: 105
+    name: Frankston via City Loop
+    color: green
+    serviceType: suburban
+    route:
+      type: hook
+      forward:
+        id: up
+      reverse:
+        id: down
+      stops:
+        - stops: 106 # Frankston
+        - stops: 145 # Kananook
+        - stops: 241 # Seaford
+        - stops: 51 # Carrum
+        - stops: 35 # Bonbeach
+        - stops: 55 # Chelsea
+        - stops: 90 # Edithvale
+        - stops: 13 # Aspendale
+        - stops: 189 # Mordialloc
+        - stops: 215 # Parkdale
+        - stops: 173 # Mentone
+        - stops: 56 # Cheltenham
+        - stops: 254 # Southland
+        - stops: 134 # Highett
+        - stops: 186 # Moorabbin
+        - stops: 218 # Patterson
+        - stops: 30 # Bentleigh
+        - stops: 170 # McKinnon
+        - stops: 213 # Ormond
+        - stops: 117 # Glen Huntly
+        - stops: 53 # Caulfield
+        - stops: 167 # Malvern
+        - stops: 10 # Armadale
+        - stops: 274 # Toorak
+        - stops: 126 # Hawksburn
+        - stops: 252 # South Yarra
+        - stops: 224 # Richmond
+      hooked:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
+        - stops: 104 # Flinders Street

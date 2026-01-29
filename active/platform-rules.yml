@@ -305,7 +305,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan
+    2: color-cyan, color-green
     3: color-yellow
     4: color-blue
 102: # Flemington Bridge
@@ -535,7 +535,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan
+    2: color-cyan, color-green
     3: color-yellow
     4: color-blue
 172: # Melton
@@ -711,7 +711,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan
+    2: color-cyan, color-green
     3: color-yellow
     4: color-blue
 217: # Pascoe Vale
@@ -853,7 +853,7 @@
     9: color-red
     10: color-blue
     11: color-yellow
-    12: color-cyan
+    12: color-cyan, line-105
     13: direction-up color-green
     14: direction-down color-green
     15a: color-purple
