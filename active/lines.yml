@@ -32,7 +32,7 @@ lines:
     color: green
     serviceType: suburban
     route:
-      type: linear
+      type: hook
       forward:
         id: up
       reverse:
@@ -65,6 +65,13 @@ lines:
         - stops: 126 # Hawksburn
         - stops: 252 # South Yarra
         - stops: 224 # Richmond
+      hooked:
+        - stops: 216 # Parliament
+        - stops: 171 # Melbourne Central
+        - stops: 101 # Flagstaff
+        - stops: 253 # Southern Cross
+        - stops: 104 # Flinders Street
+      direct:
         - stops: 104 # Flinders Street
 
   - id: 3
@@ -94,7 +101,7 @@ lines:
     color: cyan
     serviceType: suburban
     route:
-      type: hook
+      type: linear
       forward:
         id: up
       reverse:
@@ -120,23 +127,15 @@ lines:
         - stops: 10 # Armadale
         - stops: 274 # Toorak
         - stops: 126 # Hawksburn
-        - stops: 252 # South Yarra
-        - stops: 224 # Richmond
-      hooked:
-        - stops: 216 # Parliament
-        - stops: 171 # Melbourne Central
-        - stops: 101 # Flagstaff
-        - stops: 253 # Southern Cross
-        - stops: 104 # Flinders Street
-      direct:
-        - stops: 104 # Flinders Street
+        - stops: 318 # Anzac
+        - stops: 319 # Town Hall
 
   - id: 5
     name: Pakenham
     color: cyan
     serviceType: suburban
     route:
-      type: hook
+      type: linear
       forward:
         id: up
       reverse:
@@ -167,16 +166,8 @@ lines:
         - stops: 10 # Armadale
         - stops: 274 # Toorak
         - stops: 126 # Hawksburn
-        - stops: 252 # South Yarra
-        - stops: 224 # Richmond
-      hooked:
-        - stops: 216 # Parliament
-        - stops: 171 # Melbourne Central
-        - stops: 101 # Flagstaff
-        - stops: 253 # Southern Cross
-        - stops: 104 # Flinders Street
-      direct:
-        - stops: 104 # Flinders Street
+        - stops: 318 # Anzac
+        - stops: 319 # Town Hall
 
   - id: 6
     name: Gippsland
@@ -656,10 +647,10 @@ lines:
 
   - id: 17
     name: Sunbury
-    color: yellow
+    color: cyan
     serviceType: suburban
     route:
-      type: hook
+      type: linear
       forward:
         id: up
       reverse:
@@ -677,16 +668,10 @@ lines:
         - stops: 297 # West Footscray
         - stops: 179 # Middle Footscray
         - stops: 105 # Footscray
-        - stops: 250 # South Kensington
-        - stops: 204 # North Melbourne
-      hooked:
-        - stops: 101 # Flagstaff
-        - stops: 171 # Melbourne Central
-        - stops: 216 # Parliament
-        - stops: 104 # Flinders Street
-      direct:
-        - stops: 253 # Southern Cross
-        - stops: 104 # Flinders Street
+        - stops: 322 # Arden
+        - stops: 321 # Parkville
+        - stops: 320 # State Library
+        - stops: 319 # Town Hall
 
   - id: 18
     name: Bendigo
@@ -847,7 +832,7 @@ lines:
 
   - id: 21
     name: Werribee
-    color: green
+    color: pink
     serviceType: suburban
     route:
       type: linear
@@ -876,7 +861,7 @@ lines:
 
   - id: 22
     name: Williamstown
-    color: green
+    color: pink
     serviceType: suburban
     route:
       type: linear
@@ -915,156 +900,4 @@ lines:
         - stops: 101 # Flagstaff
         - stops: 171 # Melbourne Central
         - stops: 216 # Parliament
-        - stops: 104 # Flinders Street
-
-  # Remove this and replace line 4 after Feb 1.
-  - id: 102
-    name: Cranbourne via Metro Tunnel
-    color: cyan
-    serviceType: suburban
-    route:
-      type: linear
-      forward:
-        id: up
-      reverse:
-        id: down
-      stops:
-        - stops: 69 # Cranbourne
-        - stops: 174 # Merinda Park
-        - stops: 162 # Lynbrook
-        - stops: 74 # Dandenong
-        - stops: 312 # Yarraman
-        - stops: 201 # Noble Park
-        - stops: 239 # Sandown Park
-        - stops: 257 # Springvale
-        - stops: 299 # Westall
-        - stops: 59 # Clayton
-        - stops: 138 # Huntingdale
-        - stops: 211 # Oakleigh
-        - stops: 137 # Hughesdale
-        - stops: 195 # Murrumbeena
-        - stops: 49 # Carnegie
-        - stops: 53 # Caulfield
-        - stops: 167 # Malvern
-        - stops: 10 # Armadale
-        - stops: 274 # Toorak
-        - stops: 126 # Hawksburn
-        - stops: 318 # Anzac
-        - stops: 319 # Town Hall
-
-  # Remove this and replace line 5 after Feb 1.
-  - id: 103
-    name: Pakenham via Metro Tunnel
-    color: cyan
-    serviceType: suburban
-    route:
-      type: linear
-      forward:
-        id: up
-      reverse:
-        id: down
-      stops:
-        - stops: 317 # East Pakenham
-        - stops: 214 # Pakenham
-        - stops: 48 # Cardinia Road
-        - stops: 212 # Officer
-        - stops: 24 # Beaconsfield
-        - stops: 31 # Berwick
-        - stops: 198 # Narre Warren
-        - stops: 122 # Hallam
-        - stops: 74 # Dandenong
-        - stops: 312 # Yarraman
-        - stops: 201 # Noble Park
-        - stops: 239 # Sandown Park
-        - stops: 257 # Springvale
-        - stops: 299 # Westall
-        - stops: 59 # Clayton
-        - stops: 138 # Huntingdale
-        - stops: 211 # Oakleigh
-        - stops: 137 # Hughesdale
-        - stops: 195 # Murrumbeena
-        - stops: 49 # Carnegie
-        - stops: 53 # Caulfield
-        - stops: 167 # Malvern
-        - stops: 10 # Armadale
-        - stops: 274 # Toorak
-        - stops: 126 # Hawksburn
-        - stops: 318 # Anzac
-        - stops: 319 # Town Hall
-
-  # Remove this and replace line 17 after Feb 1.
-  - id: 104
-    name: Sunbury via Metro Tunnel
-    color: cyan
-    serviceType: suburban
-    route:
-      type: linear
-      forward:
-        id: up
-      reverse:
-        id: down
-      stops:
-        - stops: 262 # Sunbury
-        - stops: 80 # Diggers Rest
-        - stops: 291 # Watergardens
-        - stops: 147 # Keilor Plains
-        - stops: 258 # St Albans
-        - stops: 111 # Ginifer
-        - stops: 3 # Albion
-        - stops: 263 # Sunshine
-        - stops: 276 # Tottenham
-        - stops: 297 # West Footscray
-        - stops: 179 # Middle Footscray
-        - stops: 105 # Footscray
-        - stops: 322 # Arden
-        - stops: 321 # Parkville
-        - stops: 320 # State Library
-        - stops: 319 # Town Hall
-
-  # Remove this and replace line 2 after Feb 1.
-  - id: 105
-    name: Frankston via City Loop
-    color: green
-    serviceType: suburban
-    route:
-      type: hook
-      forward:
-        id: up
-      reverse:
-        id: down
-      stops:
-        - stops: 106 # Frankston
-        - stops: 145 # Kananook
-        - stops: 241 # Seaford
-        - stops: 51 # Carrum
-        - stops: 35 # Bonbeach
-        - stops: 55 # Chelsea
-        - stops: 90 # Edithvale
-        - stops: 13 # Aspendale
-        - stops: 189 # Mordialloc
-        - stops: 215 # Parkdale
-        - stops: 173 # Mentone
-        - stops: 56 # Cheltenham
-        - stops: 254 # Southland
-        - stops: 134 # Highett
-        - stops: 186 # Moorabbin
-        - stops: 218 # Patterson
-        - stops: 30 # Bentleigh
-        - stops: 170 # McKinnon
-        - stops: 213 # Ormond
-        - stops: 117 # Glen Huntly
-        - stops: 53 # Caulfield
-        - stops: 167 # Malvern
-        - stops: 10 # Armadale
-        - stops: 274 # Toorak
-        - stops: 126 # Hawksburn
-        - stops: 252 # South Yarra
-        - stops: 224 # Richmond
-      hooked:
-        - stops: 216 # Parliament
-        - stops: 171 # Melbourne Central
-        - stops: 101 # Flagstaff
-        - stops: 253 # Southern Cross
-        - stops: 104 # Flinders Street
-      direct:
         - stops: 104 # Flinders Street

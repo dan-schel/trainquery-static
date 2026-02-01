@@ -4,7 +4,7 @@ rules:
   - method: linear
     from: 104 # Flinders Street
     sideA:
-      - 2 # Frankston
+      - 1 # Sandringham
     sideB:
       - 21 # Werribee
       - 22 # Williamstown
@@ -26,7 +26,6 @@ rules:
     lines:
       - 13 # Upfield
       - 14 # Craigieburn
-      - 17 # Sunbury
     layoverMins: 2..6
 
   - method: hook

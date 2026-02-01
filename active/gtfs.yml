@@ -221,9 +221,6 @@ subfeeds:
       2:
         routeIDRegex:
           - "2-FKN"
-        canDedupeWith:
-          - 21 # Werribee Line
-          - 22 # Williamstown Line
 
       # Stony Point Line
       3:
@@ -236,19 +233,11 @@ subfeeds:
         routeIDRegex:
           - "2-CRB"
           - "2-CBE"
-        ignoreStops:
-          - 43 # Burnley
-        canDedupeWith:
-          - 5 # Pakenham Line
 
       # Pakenham Line
       5:
         routeIDRegex:
           - "2-PKM"
-        ignoreStops:
-          - 43 # Burnley
-        canDedupeWith:
-          - 4 # Cranbourne Line
 
       # Glen Waverley Line
       7:
@@ -332,28 +321,27 @@ subfeeds:
         routeIDRegex:
           - "2-SYM"
           - "2-SUY"
-        canDedupeWith:
-          - 13 # Upfield Line
-          - 14 # Craigieburn Line
 
       # Werribee Line
       21:
         routeIDRegex:
           - "2-WBE"
-          - "2-FKN" # Some "Frankston" trains start from Southern Cross.
           - "2-WER"
+          - "2-SDM" # Some "Sandringham" trains start from Southern Cross.
+          - "2-SHM" # Some "Sandringham" trains start from Southern Cross.
         canDedupeWith:
-          - 2 # Frankston Line
+          - 1 # Sandringham Line
           - 22 # Williamstown Line
 
       # Williamstown Line
       22:
         routeIDRegex:
           - "2-WMN"
-          - "2-FKN" # Some "Frankston" trains start from Southern Cross.
           - "2-WIL"
+          - "2-SDM" # Some "Sandringham" trains start from Southern Cross.
+          - "2-SHM" # Some "Sandringham" trains start from Southern Cross.
         canDedupeWith:
-          - 2 # Frankston Line
+          - 1 # Sandringham Line
           - 21 # Werribee Line
 
       # City Circle Line
@@ -361,28 +349,6 @@ subfeeds:
         routeIDRegex:
           - "2-ccl"
           - "2-CCL"
-
-      # Cranbourne via Metro Tunnel Line
-      102:
-        routeIDRegex:
-          - "2-CRB"
-          - "2-CBE"
-
-      # Pakenham via Metro Tunnel Line
-      103:
-        routeIDRegex:
-          - "2-PKM"
-
-      # Sunbury via Metro Tunnel Line
-      104:
-        routeIDRegex:
-          - "2-SYM"
-          - "2-SUY"
-
-      # Frankston via City Loop Line
-      105:
-        routeIDRegex:
-          - "2-FKN"
 
     stops:
       # TODO: TrainQuery cannot handle string IDs yet. :(

@@ -305,7 +305,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan, color-green
+    2: color-green
     3: color-yellow
     4: color-blue
 102: # Flemington Bridge
@@ -316,12 +316,12 @@
 105: # Footscray
   confidence: medium
   rules:
-    1: direction-up color-yellow
-    2: direction-down color-yellow
+    1: direction-up color-cyan
+    2: direction-down color-cyan
     3: direction-up color-purple
     4: direction-down color-purple
-    5: direction-up color-green
-    6: direction-down color-green
+    5: direction-up color-pink
+    6: direction-down color-pink
 107: # Gardenvale
   confidence: medium
   rules:
@@ -535,7 +535,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan, color-green
+    2: color-green
     3: color-yellow
     4: color-blue
 172: # Melton
@@ -651,12 +651,12 @@
 204: # North Melbourne
   confidence: medium
   rules:
-    1: direction-up line-14, direction-up line-13
-    2: direction-down line-14, direction-down line-13
-    3: direction-up line-17
-    4: direction-down line-17
-    5: direction-up line-14, direction-up color-green
-    6: direction-down line-14, direction-down color-green
+    1: direction-up line-13
+    2: direction-down line-13
+    3: direction-up line-14
+    4: direction-down line-14
+    5: direction-up color-pink
+    6: direction-down color-pink
 205: # North Richmond
   confidence: medium
   rules:
@@ -711,7 +711,7 @@
   confidence: medium
   rules:
     1: color-red
-    2: color-cyan, color-green
+    2: color-green
     3: color-yellow
     4: color-blue
 217: # Pascoe Vale
@@ -746,8 +746,8 @@
     2: direction-down color-pink
     3: direction-up color-green
     4: direction-down color-green
-    5: direction-up color-cyan, direction-up color-purple
-    6: direction-down color-cyan, direction-down color-purple
+    5: direction-up color-purple
+    6: direction-down color-purple
     7: direction-up route-variant-direct color-blue
     8: direction-up color-blue
     9: direction-down color-blue
@@ -829,8 +829,8 @@
     2: direction-down color-pink
     3: direction-up color-green
     4: direction-down color-green
-    5: direction-up color-cyan
-    6: direction-down color-cyan
+    5: none
+    6: none
 253: # Southern Cross
   confidence: medium
   rules:
@@ -853,9 +853,9 @@
     9: color-red
     10: color-blue
     11: color-yellow
-    12: color-cyan, line-105
-    13: direction-up color-green
-    14: direction-down color-green
+    12: color-green
+    13: direction-up color-pink
+    14: direction-down color-pink
     15a: color-purple
     15b: color-purple
     16a: color-purple
@@ -893,8 +893,8 @@
 263: # Sunshine
   confidence: medium
   rules:
-    1: direction-up color-yellow
-    2: direction-down color-yellow
+    1: direction-up color-cyan
+    2: direction-down color-cyan
     3: direction-up color-purple
     4: direction-down color-purple
 266: # Syndal
