@@ -1042,8 +1042,8 @@
 319: # Town Hall
   confidence: medium
   rules:
-    1: direction-up line-102, direction-up line-103, direction-down line-104
-    2: direction-down line-102, direction-down line-103, direction-up line-104
+    1: direction-up line-4, direction-up line-5, direction-down line-17
+    2: direction-down line-4, direction-down line-5, direction-up line-17
 320: # State Library
   confidence: medium
   rules:
