@@ -127,6 +127,7 @@ lines:
         - stops: 10 # Armadale
         - stops: 274 # Toorak
         - stops: 126 # Hawksburn
+        - stops: 252 # South Yarra (eugh)
         - stops: 318 # Anzac
         - stops: 319 # Town Hall
 
@@ -166,6 +167,7 @@ lines:
         - stops: 10 # Armadale
         - stops: 274 # Toorak
         - stops: 126 # Hawksburn
+        - stops: 252 # South Yarra (eugh)
         - stops: 318 # Anzac
         - stops: 319 # Town Hall
 
