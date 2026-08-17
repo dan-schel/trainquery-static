@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=https://schemas.trainquery.com/data.schema.json
 
 v2:
-  latest: "https://static.trainquery.com/data/2026-02-27.zip"
+  latest: "https://static.trainquery.com/data/2026-08-17.zip"
