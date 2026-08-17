@@ -18,7 +18,7 @@ subfeeds:
 
     realtime:
       api:
-        - https://vtar.trainquery.com/gtfs-realtime.json
+        - https://vtar.trainquery.com/gtfs-realtime-regional.json
 
       apiAuth: relay
 
@@ -198,7 +198,7 @@ subfeeds:
 
     realtime:
       api:
-        - https://vtar.trainquery.com/gtfs-realtime.json
+        - https://vtar.trainquery.com/gtfs-realtime-suburban.json
 
       apiAuth: relay
 
