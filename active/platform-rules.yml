@@ -1059,3 +1059,8 @@
   rules:
     1: direction-down
     2: direction-up
+323: # West Tarneit
+  confidence: medium
+  rules:
+    1: direction-up
+    2: direction-down

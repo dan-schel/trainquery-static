@@ -192,6 +192,7 @@ subfeeds:
       49296: 314 # Huntly
       49295: 315 # Raywood
       49848: 317 # East Pakenham
+      49937: 323 # West Tarneit
 
   - name: suburban
     path: suburban.zip

@@ -295,7 +295,7 @@ stops:
   1181: 253 # Southern Cross
   1001: 254 # Southland
   1182: 255 # Spotswood
-  1557: 256 # Springhurst
+  1620: 256 # Springhurst
   1183: 257 # Springvale
   1184: 258 # St Albans
   1185: 259 # Stony Point
@@ -361,3 +361,4 @@ stops:
   1234: 320 # State Library
   1233: 321 # Parkville
   1232: 322 # Arden
+  1557: 323 # West Tarneit
