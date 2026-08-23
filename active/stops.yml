@@ -1667,3 +1667,8 @@ stops:
     platforms:
       - id: 1
       - id: 2
+  - id: 323
+    name: West Tarneit
+    platforms:
+      - id: 1
+      - id: 2

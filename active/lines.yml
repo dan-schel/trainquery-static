@@ -814,6 +814,7 @@ lines:
         - stops: 156 # Lara
         - stops: 160 # Little River
         - stops: 310 # Wyndham Vale
+        - stops: 323 # West Tarneit
         - stops: 269 # Tarneit
         - stops: 77 # Deer Park
         - stops: 9 # Ardeer
